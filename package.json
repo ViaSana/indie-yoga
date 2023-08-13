@@ -1,7 +1,7 @@
 {
-  "name": "ioc-jekyll-tailwind",
+  "name": "indie-yoga",
   "version": "1.0.0",
-  "description": "",
+  "description": "Indie Yoga is a yoga studio in Ocean Beach, San Digeo. This is there website designed and produced by ViaSana.co",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

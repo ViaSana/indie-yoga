@@ -9,8 +9,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Figtree', 'sans-serif'],
-        serif: ['Playfair Display', 'serif'],
+        sans: ['Lato', 'sans-serif'],
+        body: ['Ubuntu', 'sans-serif']
       },
       spacing: {
         '5p': '5%',
@@ -31,6 +31,11 @@ module.exports = {
         '50': '50vh',
       },
       colors:{
+        'd-blue': '#27476E',
+        'aqua': '#65D8D2',
+        'blue': '#C6F9F6',
+        'yellow': '#E5B02B',
+        'light': '#EEE8EC',
       }
     },
   },
