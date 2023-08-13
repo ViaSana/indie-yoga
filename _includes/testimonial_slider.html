@@ -1,0 +1,8 @@
+<div class="testimonial-slider-container">
+    {% for item in site.data.testimonial.classpass %}
+    <div class="slider-item text-light"> 
+        <p> {{item.review}} </p>
+        <p class="author">{{item.class}} </p>  
+    </div> 
+    {% endfor %}
+</div> 

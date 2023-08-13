@@ -8,6 +8,22 @@ seo:
     twitter_card:
     keywords:
     hide-from-google: false
+hero:
+    image: assets/images/waffl-knot.png
+    heading: Where the Soul Meets the Sea, in Ocean Beach
+    p1: Welcome to Indie Yoga, the first hot yoga studio of the Ocean Beach community in San Diego. Proud of our roots and committed to our mission, we offer a serene sanctuary amidst the vibrant buzz of the neighborhood.
+    p2: Heat transforms — and in our hot yoga studio, it becomes an integral part of your journey. It intensifies each asana, elevates your practice, and amplifies the sense of calm and release.  At Indie Yoga, you're not stepping into a mere studio, but a home where every individual is cherished, every class is a collective journey, and every session brings you closer to your authentic self.
+    link: about
+    color: bg-blue
+    text_color: text-d-blue
+    button_text: Learn More
+insta:
+    heading: "Beyond the Mat: Connect with us on Instagram"
+    i-1: assets/images/waffl-knot.png
+    i-2: assets/images/waffl-knot.png
+    i-3: assets/images/waffl-knot.png
+    i-4: assets/images/waffl-knot.png
+    i-5: assets/images/waffl-knot.png
 ---
 
 {% include hero_home.html %}
@@ -22,5 +38,13 @@ seo:
         {% include indie-squares_loop.html %}
     </div>
 </section>
+
+{% include hero.html %}
+
+{% include testimonial.html %}
+
+<!-- Includes insta_post_loop.html that pulls and formats the images from social plugins -->
+{% include insta.html %}
+
 
 

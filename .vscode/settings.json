@@ -7,6 +7,10 @@
         {
             "filePath": "_layouts/default.html",
             "group": "Default"
+        },
+        {
+            "filePath": "index.html",
+            "group": "Default"
         }
     ]
 }

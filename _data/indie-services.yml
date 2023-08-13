@@ -11,4 +11,7 @@ services:
   description: "Ignite Your Yoga Potential: 200-Hour Teacher Training Journey."
   image: assets/images/waffl-knot.png
   link: teachertraining
-
+address: >-
+  1857 Bacon Street<br>
+  San Diego, CA 92107
+email: info@indieyogasd.com
