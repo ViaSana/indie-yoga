@@ -1,0 +1,14 @@
+services:
+- title: Classes
+  description: "Heat Up Your Practice: From Gentle Vinyasa to Intense Hot Yoga."
+  image: assets/images/waffl-knot.png
+  link: classes
+- title: Workshops
+  description: "Unearth New Skills: Immerse in Sound Healing, Breathwork, and Beyond."
+  image: assets/images/waffl-knot.png
+  link: enrollments
+- title: Teacher Training
+  description: "Ignite Your Yoga Potential: 200-Hour Teacher Training Journey."
+  image: assets/images/waffl-knot.png
+  link: teachertraining
+

@@ -10,11 +10,17 @@ seo:
     hide-from-google: false
 ---
 
+{% include hero_home.html %}
+
+{% include cta-1.html %}
+
 <section>
-    <div class="mx-scrn">
-        <h1>Hello World</h1>
-        <p>Body</p>
+    <div class="text-center mx-scrn">
+        <h2>Find Your Flow</h2>
+
+        <!-- Creates a Loop though "Indie-Services" to create square links to the rest of the pages -->
+        {% include indie-squares_loop.html %}
     </div>
-</section> 
+</section>
 
 

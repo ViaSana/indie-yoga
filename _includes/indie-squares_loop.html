@@ -1,0 +1,13 @@
+<div class="grid grid-cols-3 gap-4">
+    {% for item in site.data.indie-services.services %}
+    <div class="bg-image aspect-square" style="background-image: url({{item.image}});">
+        <div class="grid gap-4 px-8 m-4 text-center grid-col services-overlay p-5p aspect-square">
+            <div class="self-end">
+                <h4>{{item.title}}</h4>
+                <p class="text-d-blue">{{item.description}}</p>
+            </div>
+            <div class="self-start w-32 mx-auto button"><a href={{item.link}}>Learn More</a></div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

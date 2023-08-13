@@ -12,7 +12,7 @@
     }
 
     body {
-        @apply font-body;
+        @apply font-body bg-light text-light;
     }
 
     section {
@@ -20,31 +20,54 @@
     }
 
     h1, h2, h3, h4, header a  {
-        @apply font-sans;
+        @apply font-sans text-d-blue;
+    }
+
+    header a  {
+        @apply font-bold;
     }
 
     h1 {
-        @apply text-2xl;
+        @apply pb-4 text-5xl;
     }
 
-    h2, h3 {
-        @apply text-xl;
+    h2 {
+        font-size: 55px;
+    } 
+    
+    h3 {
+        @apply text-3xl font-light;
     }
 
     h4 {
-        @apply text-lg;
+        @apply text-3xl font-light font-body;
     }
 }
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 @layer components {
     .button {
-        @apply inline-block p-2 px-4;
+        @apply inline-block p-2 px-4 border bg-yellow text-d-blue border-yellow;
+    }
+    .button:hover {
+        @apply inline-block p-2 px-4 border bg-d-blue text-yellow border-yellow;
+    }
+
+    .services-overlay {
+        position: relative;
+        background-color: rgba(190, 190, 190, 0.5);
     }
 }
 
 @layer utilities {
     .mx-scrn {
         @apply mx-auto max-w-screen-2xl;
+    }
+    
+    .bg-image {
+        background-color:rgb(240,240,240); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
     }
 }
