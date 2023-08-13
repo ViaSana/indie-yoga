@@ -1,0 +1,46 @@
+
+/* ----------- Import Tailwind -----*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ----------- Default Styles --------- */
+@layer base {
+    html, body {
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+
+    section {
+        @apply p-5p;
+    }
+
+    h1, h2, h3, h4, header a  {
+        @apply font-serif;
+    }
+
+    h1 {
+        @apply text-2xl;
+    }
+
+    h2, h3 {
+        @apply text-xl;
+    }
+
+    h4 {
+        @apply text-lg;
+    }
+}
+
+/* ----------- ADDITIONAL COMPONENTS  --------- */
+@layer components {
+    .button {
+        @apply inline-block p-2 px-4;
+    }
+}
+
+@layer utilities {
+    .mx-scrn {
+        @apply mx-auto max-w-screen-2xl;
+    }
+}

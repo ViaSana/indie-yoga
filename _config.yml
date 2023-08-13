@@ -1,0 +1,7 @@
+collections:
+  posts:
+    output: true
+    permalink: /posts/:year/:slug
+
+data_config:
+  site-settings:
