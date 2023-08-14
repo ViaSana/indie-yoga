@@ -1,4 +1,4 @@
-<div class="grid grid-cols-6 gap-4 mx-scrn"> 
+<div class="grid grid-cols-6 gap-4 mx-scrn min-h-50"> 
     
     <div class="col-span-4">
         <div class="h-full bg-image" style="background-image: url({{page.hero.image}});"></div>
@@ -14,7 +14,9 @@
             {% if page.hero.p2 %}            
                 <p class="pb-4">{{page.hero.p2}}</p>
             {% endif %}
+            {% if page.hero.link %} 
             <div class="button"><a href="{{page.hero.link}}">{{page.hero.button_text}}</a></div>
+            {% endif %}
         </div>
     </div>
     

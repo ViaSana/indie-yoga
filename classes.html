@@ -1,6 +1,30 @@
 ---
 layout: default
-title: Classes
+title: Class Descriptions
+main_image: assets/images/waffl-knot.png
+text-placement: mr-auto
+insta:
+    heading: "Beyond the Mat: Connect with us on Instagram"
+    i-1: assets/images/waffl-knot.png
+    i-2: assets/images/waffl-knot.png
+    i-3: assets/images/waffl-knot.png
+    i-4: assets/images/waffl-knot.png
+    i-5: assets/images/waffl-knot.png
 ---
 
-<h1>Classes</h1>
+{% include hero_page.html %}
+
+<section>
+    {% include class_loop.html %}
+</section>
+
+{% include cta-4.html %}
+
+<section class="text-center text-d-blue">
+    <h3>Things to Know</h3>
+    <div class="px-8">
+        {% include faq.html %}
+    </div>
+</section>
+
+{% include insta.html %}

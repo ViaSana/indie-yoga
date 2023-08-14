@@ -1,6 +1,50 @@
 ---
 layout: default
 title: About
+hero:
+    heading: "Welcom to Indie"
+    p1: Building Heat & Community through Practice
+    color: bg-yellow
+    text_color: text-d-blue
+    image: assets/images/waffl-knot.png
+insta:
+    heading: "Beyond the Mat: Connect with us on Instagram"
+    i-1: assets/images/waffl-knot.png
+    i-2: assets/images/waffl-knot.png
+    i-3: assets/images/waffl-knot.png
+    i-4: assets/images/waffl-knot.png
+    i-5: assets/images/waffl-knot.png
 ---
 
-<h1>About</h1>
+{% include hero.html %}
+
+{% include cta-3.html %}
+
+<!-- About Video -->
+<div class="grid grid-cols-8 gap-4 mx-scrn min-h-50">     
+    <div class="flex col-span-3 bg-d-blue">
+        <div class="self-center p-5p">
+            <h3>OB’s OG Hot Yoga Studio</h3>
+            <p class="pb-4">Heat transforms — and in our hot yoga studio, it becomes an integral part of your journey.  At Indie Yoga, you’re not stepping into a mere studio, but a home where every individual is cherished, every class is a collective journey, and every session brings you closer to your authentic self.</p>
+            <ul class="pb-4 pl-3 list-disc">
+                <li><b>We Welcome All Levels:</b> Our classes cater to both the novice and the experienced. Adjust your practice based on how you feel on any given day – challenge yourself or take it slow and steady.</li>
+                <li><b>All Our Classes are Heated:</b> We heat our sessions with precision. While the intensity varies across classes, the warmth aids in muscle flexibility, enhances your practice, and ensures a revitalizing experience.</li>
+                <li><b>We Start and End Class on Time:</b> Classes begin exactly as scheduled. We appreciate punctuality – ensure you're early to get the full Indie Yoga experience.</li>
+                <li><b>Our Studio Offers Mat Rentals and Shower Facilities:</b> Need a mat? We’ve got you covered for a minimal fee. Plus, our shower facilities are available on a first-come basis.</li>
+            </ul>
+            
+            <div class="button"><a href="/enrollments">Sign Me Up!</a></div>
+        </div>
+    </div>
+
+    <div class="col-span-5">
+        <div class="h-full bg-image" style="background-image: url(assets/images/waffl-knot.png);"></div>
+    </div>
+</div>
+
+<!-- Hero Map -->
+{% include hero_map.html %}
+
+{% include insta.html %}
+
+

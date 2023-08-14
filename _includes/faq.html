@@ -1,0 +1,22 @@
+<div x-data="{ selected: null }">
+
+    {% for item in site.data.faqs.things-to-know %}
+        <div class="relative text-left">
+            <button type="button" class="block w-full pt-6" 
+                    @click="selected !== {{ forloop.index }} ? selected = {{ forloop.index }} : selected = null">
+                <div class="flex items-center justify-between px-3 bg-yellow">
+                    <h5 class="py-2 font-bold">{{ item.question }}</h5>
+                    <span> <b>V</b> </span>
+                </div>
+            </button>
+
+            <div class="relative overflow-hidden transition-all duration-700 max-h-0" 
+                    style="" x-ref="container{{ forloop.index }}" 
+                    x-bind:style="selected == {{ forloop.index }} ? 'max-height: ' + $refs.container{{ forloop.index }}.scrollHeight + 'px' : ''">
+                <div class="bg-yellow">
+                    <p class="p-4">{{ item.answer }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

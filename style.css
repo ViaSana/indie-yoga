@@ -137,6 +137,24 @@
     @media(max-width: 36em){
         .slider-item p { font-size: 1.1rem;}
     }
+
+    /* Find Us Info Style */
+    .find-us_info span {
+        @apply block py-2;
+    }
+    .find-us_info a:hover {
+        @apply text-aqua;
+    }
+
+    /* Show More Toggle */
+    
+    .show-toggle .show-toggle-btn {
+        font-weight: 500;
+        border: 0;
+        background: transparent;
+        cursor: pointer;
+        padding: 0;
+    }
 }
 
 @layer utilities {

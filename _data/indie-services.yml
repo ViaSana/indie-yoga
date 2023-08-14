@@ -11,7 +11,35 @@ services:
   description: "Ignite Your Yoga Potential: 200-Hour Teacher Training Journey."
   image: assets/images/waffl-knot.png
   link: teachertraining
-address: >-
+
+address: |
   1857 Bacon Street<br>
   San Diego, CA 92107
 email: info@indieyogasd.com
+phone: +1 619-302-7601
+
+classes:
+- title: "Vinyasa 1: Beginner Vinyasa"
+  description: "(90-95 degrees) Appropriate for all levels. This class is gentle enough for beginners while still feeling challenged. The room is heated enough to aid muscular flexibility and prevent injury, leaving you cleansed, exhilarated and balance. Great music complements all of our classes!"
+  image: assets/images/waffl-knot.png
+- title: "Vinyasa 2: Surfer’s Flow"
+  description: "(95-100 degrees) Features dynamic flowing sequences combined with controlled breathing to create a moving meditation. This class emphasizes core strength, balance, and stamina, in addition to giving you, as the practitioner an opportunity, to dive deeper into your inner universe. Perfect for surfers and non-surfers alike, this class will give you the tools to make riding the waves of life (and the ocean) a little sweeter! We strongly recommend taking the beginner vinyasa class if you are a less experienced yoga practitioner."
+  image: assets/images/indie_map.png
+- title: Hatha/Vinyasa
+  description: "(100-105 degrees) This class is a fusion that gracefully unites the hatha (slow paced, holding postures) and vinyasa styles of yoga. This fusion is open to ALL levels. This calss systematically works the entire body from head to toe, focusing on healing and improving the function of every organ, muscle, and joint. When the body is nourished and well taken care of, so is the mind. As above, so below!"
+  image: assets/images/waffl-knot.png
+- title: Hot Yoga
+  description: "(105+ degrees) This class follows the prescribed 26 postures that are practiced in Bikram studios. It is great for people who have any wrist or shoulder injuries, as there are minimal weight-bearing postures. This class is also great for people who enjoy spending time in each posture rather than flowing from one to the next. These postures are meant to gradually open the body to move into the depths of the more advanced postures. This class uses the same sequence each time, so it’s a great way to gauge your practice’s development from week to week, day to day."
+  image: assets/images/waffl-knot.png
+- title: Yoga Sculpt
+  description: "Heated (90 degrees), 60 minutes. This strength-training class adds free weights to a vinyasa flow. Adding this resistance to the postures intensifies the routine and speeds up the lean muscle mass building-process. This class will help promote visible results in the glutes, hamstrings, quads, biceps, triceps, and other key muscle groups."
+  image: assets/images/waffl-knot.png
+- title: Yin Yoga
+  description: "Yin yoga consists mostly of seated, deep stretch. It targets the “yin tissues” in the body, the connective tissues—ligaments, bones, and even joints—by holding poses for longer periods of time (3-5 mins). While yang styles of yoga are very popular in our society, our bodies are constantly striving to restore balance, which yin yoga does. Incredibly conducive to a meditative state, the stillness of the practice teaches the mind and body two valuable lessons: receptivity and acceptance. This practice is unheated, suitable for all levels of students, and serves as sweet nectar for the soul."
+  image: assets/images/waffl-knot.png
+- title: Sound Healing
+  description: "Sound Healing is a 1 hour class that is based on slowing the body down, restoring and receiving. With the combination of different crystal alchemy bowls, the vibration and sound of the bowls being played together harmonize and create binaural tones. These tones can balance out the right and left side of our brain hemispheres resulting in a deep sense of relaxation and rest for the body, mind and soul."
+  image: assets/images/waffl-knot.png
+- title: Mixed Yoga Arts
+  description: Jenn's special sauce
+  image: assets/images/waffl-knot.png
