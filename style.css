@@ -38,6 +38,7 @@
     h4 {
         @apply text-3xl font-light font-body;
     }
+    
     h5 {
         @apply pb-4 font-sans;
         font-size: 1.6rem;
@@ -45,12 +46,12 @@
     }
 
     footer h5 {
-        @apply pb-4 font-sans text-aqua;
+        @apply text-aqua;
         font-weight: 700;
     }
 
     header a  {
-        @apply font-bold text-d-blue;
+        @apply font-bold text-d-blue hover:text-aqua;
     }
 
     footer nav a  {
@@ -60,8 +61,6 @@
     .social-row_item {
         @apply inline-block py-2 pr-2 stroke-light hover:stroke-aqua;
     }
-
-
 }
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
@@ -70,14 +69,16 @@
         @apply inline-block p-2 px-4 border bg-yellow text-d-blue border-yellow;
     }
     .button:hover {
-        @apply inline-block p-2 px-4 border bg-d-blue text-yellow border-yellow;
+        @apply border bg-d-blue text-yellow border-yellow;
+    }
+    .button:active {
+        @apply text-aqua;
     }
 
     .services-overlay {
         position: relative;
         background-color: rgba(190, 190, 190, 0.5);
     }
-
 
     /* Slider */
     .testimonial-slider-container {
@@ -98,6 +99,7 @@
         display: block;
     }
 
+    /* Controls the slick slider arrow positions */
     .slick-next {
         right: 10px;
     }
@@ -112,8 +114,7 @@
         line-height: 1;
         opacity: .75;
     }
-
-                            /*------------ !!!CURRENT BUG WITH TAILWIND FOR STYLE ORDER OF APPLICATION!!!!  ---------*/
+            /*------------ !!!CURRENT BUG WITH TAILWIND FOR STYLE ORDER OF APPLICATION!!!!  ------------*/
     .slick-dots {
         left: 0;
         bottom: 10px;
