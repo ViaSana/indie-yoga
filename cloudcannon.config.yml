@@ -7,36 +7,67 @@ collections_config:
   data:
     path: _data
     output: false
+    filter:
+      exclude:
+        - socials.yml
     icon: notes
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-    filter:
-      exclude:
-        - socials.yml
   packages:
     path: _packages
     output: false
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  class-pack:
+    path: /
+    output: false
+    name: Class Packages
+    icon: album
+    _editables: {}
+    _inputs: {}
+    _select_data: {}
+    _structures: {}
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas: {}
 _inputs:
   layout:
+    type: auto
     hidden: true
+    cascade: true
   hero:
+    type: auto
     hidden: true
+    cascade: true
   hero-r:
+    type: auto
     hidden: true
+    cascade: true
   price:
+    type: auto
     hidden: true
+    cascade: true
   cta-color:
+    type: auto
     hidden: true
+    cascade: true
   wkshop-background:
-    label: Color Scheme
     type: select
     options:
+      allow_empty: true
       values:
         - dark blue
         - light blue
+    label: Color Scheme
+    cascade: true
   text-placement:
+    type: auto
     hidden: true
+    cascade: true
   categories:
     type: multiselect
     options:
