@@ -11,26 +11,28 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  pages:
-    output: true
-    filter: strict
-    icon: notes
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
+    socials:
+      hidden: true
+  posts:
+    output: false
 _inputs:
-  background:
+  layout:
+    hidden: true
+  hero:
+    hidden: true
+  hero-r:
+    hidden: true
+  price:
+    hidden: true
+  wkshop-background:
+    label: Color Scheme
     type: select
     options:
       values:
         - dark blue
         - light blue
   text-placement:
-    type: select
-    options:
-      values:
-        - ml-auto: "right"
-        - mr-auto: "left"
+    hidden: true
   categories:
     type: multiselect
     options:

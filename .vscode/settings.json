@@ -11,6 +11,10 @@
         {
             "filePath": "index.html",
             "group": "Default"
+        },
+        {
+            "filePath": "cloudcannon.config.yml",
+            "group": "Default"
         }
     ]
 }
