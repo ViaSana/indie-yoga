@@ -13,6 +13,8 @@ collections_config:
     disable_file_actions: false
   socials:
     hidden: true
+  posts:
+    hidden: true
 _inputs:
   layout:
     hidden: true
