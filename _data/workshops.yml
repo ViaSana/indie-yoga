@@ -12,10 +12,14 @@
     before. Not only this but when you reprogram your body and mind to
     experience the stretching of your vessel as pleasure instead of pain, the
     whole world of yoga and possibility opens to you. xo, <3, M
-  datetime: Sat, Aug 19 10AM - 12PM
+  datetime: "Sat, Aug 19 10AM - 12PM"
   image: assets/images/waffl-knot.png
   price: $35 Member / $40 Non-Member
   background: "dark blue"
+  _select_data:
+    background:
+      - "dark blue"
+      - "light blue"
 
 - title: Moan & Ohm Tantric Vocal Activation
   description: >-
@@ -25,7 +29,11 @@
     regulate our nervous systems. This practice is intended for
     female-identifying individuals who are willing to bring an open heart and
     mind.
-  datetime: Sat, Aug 26 7:30 - 9:00PM
+  datetime: "Sat, Aug 26 7:30 - 9:00PM"
   image: assets/images/waffl-knot.png
   price: $30
   background: "light blue"
+  _select_data:
+    background:
+      - "dark blue"
+      - "light blue"
