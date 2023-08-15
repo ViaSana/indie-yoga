@@ -18,7 +18,8 @@ _inputs:
   layout:
     hidden: true
   hero:
-    hidden: true
+    heading:
+      hidden: true
   hero-r:
     hidden: true
   price:
