@@ -1,5 +1,5 @@
 paths:
-  uploads: uploads
+  uploads: assets/uploads
   data: _data
   layouts: _layouts
   includes: _includes
@@ -37,4 +37,4 @@ _select_data:
 _structures: {}
 _editables: {}
 data_config: {}
-timezone: Etc/UTC
+timezone: America/Los_Angeles

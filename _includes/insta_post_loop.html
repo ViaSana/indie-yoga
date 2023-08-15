@@ -1,19 +1,5 @@
-<!-- Loops through every md file in /posts and creates a square link of the post.image -->
-
-<div class="h-full aspect-square bg-image" style="background-image: url({{page.insta.i-1}});">
-</div>
-<div class="h-full aspect-square bg-image" style="background-image: url({{page.insta.i-2}});">
-</div>
-<div class="h-full aspect-square bg-image" style="background-image: url({{page.insta.i-5}});">
-</div>
-<div class="h-full aspect-square bg-image" style="background-image: url({{page.insta.i-4}});">
-</div>
-<div class="h-full aspect-square bg-image" style="background-image: url({{page.insta.i-3}});">
-</div>
-
-<!-- 
-{% for post in site.posts%}
-<div class=" aspect-square h-36 w-36" style="background-image: url({{post.image}});">
-    <console class="log">does this work?</console>
-</div>
-{% endfor %} -->
+<div class="h-full aspect-square bg-image" style="background-image: url({{site.data.insta.i-1}});"></div>
+<div class="h-full aspect-square bg-image" style="background-image: url({{site.data.insta.i-2}});"></div>
+<div class="h-full aspect-square bg-image" style="background-image: url({{site.data.insta.i-5}});"></div>
+<div class="h-full aspect-square bg-image" style="background-image: url({{site.data.insta.i-4}});"></div>
+<div class="h-full aspect-square bg-image" style="background-image: url({{site.data.insta.i-3}});"></div>
