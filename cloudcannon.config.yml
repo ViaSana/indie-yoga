@@ -19,6 +19,12 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
 _inputs:
+  background:
+    type: select
+    options:
+      values:
+        - dark blue
+        - light blue
   categories:
     type: multiselect
     options:
