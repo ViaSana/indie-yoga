@@ -32,6 +32,9 @@ _inputs:
       empty_type: array
     cascade: true
 _select_data:
+  background:
+    - dark blue
+    - light blue
   data_config:
     site-settings:
 _structures: {}
