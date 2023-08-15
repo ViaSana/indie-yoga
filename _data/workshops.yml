@@ -1,16 +1,19 @@
--   heading: "Indie Rockstar: Studio Membership"
-    p: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, necessitatibus incidunt. Laudantium, id temporibus delectus quam error voluptas! Quo architecto molestias odio dolore! Labore, ab nemo. Voluptatibus ipsa facere consectetur.
+-   heading: "Moan & Ohm Tantric Vocal Activation"
+    p: Why Moan & Ohm? Often we try to fight the poses and our body, attempting to force ourselves into asana and deeper postures. When we do this 'trying' we create tension in the body and mind. - If we can start to experience pleasure while in the midst of bodily discomfort then our bodies will soften, relax and simply melt into the pose! From my experience there is about 30% more depth that can be gained by almost everyone simply by tapping into a mindset and bodyset of pleasure and relaxation. This is why moaning, chanting, and singing 'YES' while going deep into hip openers will allow you to access new planes of existence within your body and soul than ever before. Not only this but when you reprogram your body and mind to experience the stretching of your vessel as pleasure instead of pain, the whole world of yoga and possibility opens to you. xo, <3, M
     color: bg-d-blue
     text_color: text-light
     image: assets/images/waffl-knot.png
-    button_text: Buy Now
-    price: $108
+    button_text: Register Now
+    price: $35 Member / $40 Non-Member
     link: /enrollments.html
-    hero-r:
--   heading: "New Student Special: One Month Unlimited"
-    p: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, necessitatibus incidunt. Laudantium, id temporibus delectus quam error voluptas! Quo architecto molestias odio dolore! Labore, ab nemo. Voluptatibus ipsa facere consectetur.
-    color: bg-yellow
+    date-time: Sat, Aug 19 10AM - 12PM
+-   heading: "Shake Rising"
+    p: Shake Rising is a spiritual movement practice that uses dance, fitness, and energy work as its modalities and the chakra body as its guide. We aim to activate our life force energies, reprogram our subconscious minds, and regulate our nervous systems. This practice is intended for female-identifying individuals who are willing to bring an open heart and mind.
+    color: bg-blue
     text_color: text-d-blue
     image: assets/images/waffl-knot.png
-    button_color: bg-light
-    price: $39
+    button_color: bg-d-blue
+    price: $30
+    button_text: Register Now
+    date-time: Sat, Aug 26 7:30 - 9:00PM
+
