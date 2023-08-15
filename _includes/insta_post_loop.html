@@ -1,5 +1,3 @@
-<div class="h-full aspect-square bg-image" style="background-image: url({{site.data.insta.i-1}});"></div>
-<div class="h-full aspect-square bg-image" style="background-image: url({{site.data.insta.i-2}});"></div>
-<div class="h-full aspect-square bg-image" style="background-image: url({{site.data.insta.i-5}});"></div>
-<div class="h-full aspect-square bg-image" style="background-image: url({{site.data.insta.i-4}});"></div>
-<div class="h-full aspect-square bg-image" style="background-image: url({{site.data.insta.i-3}});"></div>
+{% for i in (1..5) %}
+    <div class="h-full aspect-square bg-image" style="background-image: url({{site.data.socials.i-1}});"></div>
+{% endfor %}

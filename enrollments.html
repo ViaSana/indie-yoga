@@ -3,15 +3,14 @@ layout: default
 title: Workshops & Events
 main_image: assets/images/waffl-knot.png
 text-placement: mr-auto
+cta-color: bg-aqua
 ---
 
 {% include hero_page.html %}
 
-{% include hero_workshops.html %}
+{% include hero-wrkshop_loop.html %}
 
-<div class="my-4">
-{% include cta-4.html %}
-</div>
+{% include cta.html action=4 %}
 
 {% include insta.html %}
 

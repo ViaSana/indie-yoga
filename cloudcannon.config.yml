@@ -14,15 +14,19 @@ collections_config:
     filter:
       exclude:
         - socials.yml
+  packages:
+    path: _packages
+    output: false
 _inputs:
   layout:
     hidden: true
   hero:
-    heading:
-      hidden: true
+    hidden: true
   hero-r:
     hidden: true
   price:
+    hidden: true
+  cta-color:
     hidden: true
   wkshop-background:
     label: Color Scheme

@@ -1,7 +1,10 @@
 ---
 layout: default
 title: About
+hero-image: assets/images/waffl-knot.png
+cta-color: bg-blue
 hero:
+    case: main
     heading: "Welcom to Indie"
     p1: Building Heat & Community through Practice
     color: bg-yellow
@@ -11,7 +14,7 @@ hero:
 
 {% include hero.html %}
 
-{% include cta-3.html %}
+{% include cta.html action=3 %}
 
 <!-- About Video -->
 <div class="grid grid-cols-8 gap-4 mx-scrn min-h-50">     
@@ -36,8 +39,6 @@ hero:
 </div>
 
 <!-- Hero Map -->
-{% include hero_map.html %}
+{% include hero.html case="map" %}
 
 {% include insta.html %}
-
-

@@ -10,7 +10,6 @@ hero:
   color: bg-d-blue
   text_color: text-light
   image: assets/images/waffl-knot.png
-  button_text: Buy Now
   price: $108
   link: /enrollments.html
 hero-r:
@@ -21,65 +20,18 @@ hero-r:
   image: assets/images/waffl-knot.png
   button_color: bg-light
   price: $39
-price:
-  cost1: $150
-  heading1: "1 Month Unlimited"
-  p1: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, necessitatibus incidunt. Laudantium, id temporibus delectus quam error voluptas! Quo architecto molestias odio dolore! Labore, ab nemo. Voluptatibus ipsa facere consectetur.
-  color1: bg-blue
-  text_color1: text-d-blue
-  cost2: $325
-  heading2: "20 Class Samadhi Pack"
-  p2: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, necessitatibus incidunt. Laudantium, id temporibus delectus quam error voluptas! Quo architecto molestias odio dolore! Labore, ab nemo. Voluptatibus ipsa facere consectetur.
-  color2: bg-d-blue
-  text_color2: text-light
-  cost3: $195
-  heading3: "10 Class Card"
-  p3: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, necessitatibus incidunt. Laudantium, id temporibus delectus quam error voluptas! Quo architecto molestias odio dolore! Labore, ab nemo. Voluptatibus ipsa facere consectetur.
-
+cta-color: bg-aqua
 ---
 
 {% include hero_page.html %}
 
-<div class="mt-4">
-  {% include hero_reverse.html %}
-</div>
+{% include hero.html case="reverse" button="Buy Now" %}
 
-<div class="my-4">
-  {% include hero.html %}
-</div>
+{% include hero.html case="main" button="Buy Now" %}
 
-{% include cta-2.html %}
+{% include cta.html action=2 %}
 
-<div class="grid grid-cols-7 gap-4 my-4">
-  
-  <!-- Class Pack 1 -->
-  <div class="col-span-2 flex {{page.price.color1}}">
-    <div class="self-center p-5p {{page.price.text_color1}}">
-      <h3 class="text-yellow">{{page.price.cost1}}</h3>
-      <h3>{{page.price.heading1}}</h3>
-      <p class="pb-4">{{page.price.p1}}</p>
-      <div class="button"><a href="{{page.hero.link}}">{{page.hero.button_text}}</a></div>
-    </div>
-  </div>
-
-  <!-- Class Pack 1 -->
-  <div class="col-span-3 flex {{page.price.color2}}">
-    <div class="self-center p-5p {{page.price.text_color2}}">
-      <h3 class="text-yellow">{{page.price.cost2}}</h3>
-      <h3>{{page.price.heading2}}</h3>
-      <p class="pb-4">{{page.price.p2}}</p>
-      <div class="button"><a href="{{page.hero.link}}">{{page.hero.button_text}}</a></div>
-    </div>
-  </div>
-
-  <div class="col-span-2 flex {{page.price.color1}}">
-    <div class="self-center p-5p {{page.price.text_color1}}">
-      <h3 class="text-yellow">{{page.price.cost3}}</h3>
-      <h3>{{page.price.heading4}}</h3>
-      <p class="pb-4">{{page.price.p3}}</p>
-      <div class="button"><a href="{{page.hero.link}}">{{page.hero.button_text}}</a></div>
-    </div>
-  </div>
-</div>
+<!-- Pulls data from package collection -->
+{% include package_loop.html %}
 
 {% include insta.html %}
