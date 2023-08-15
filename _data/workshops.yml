@@ -1,0 +1,16 @@
+-   heading: "Indie Rockstar: Studio Membership"
+    p: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, necessitatibus incidunt. Laudantium, id temporibus delectus quam error voluptas! Quo architecto molestias odio dolore! Labore, ab nemo. Voluptatibus ipsa facere consectetur.
+    color: bg-d-blue
+    text_color: text-light
+    image: assets/images/waffl-knot.png
+    button_text: Buy Now
+    price: $108
+    link: /enrollments.html
+    hero-r:
+-   heading: "New Student Special: One Month Unlimited"
+    p: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, necessitatibus incidunt. Laudantium, id temporibus delectus quam error voluptas! Quo architecto molestias odio dolore! Labore, ab nemo. Voluptatibus ipsa facere consectetur.
+    color: bg-yellow
+    text_color: text-d-blue
+    image: assets/images/waffl-knot.png
+    button_color: bg-light
+    price: $39
