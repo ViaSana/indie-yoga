@@ -16,10 +16,6 @@
   image: assets/images/waffl-knot.png
   price: $35 Member / $40 Non-Member
   background: dark blue
-  _select_data:
-    background:
-      - "dark blue"
-      - "light blue"
 
 - title: Moan & Ohm Tantric Vocal Activation
   description: >-
@@ -33,7 +29,11 @@
   image: assets/images/waffl-knot.png
   price: $30
   background: light blue
-  _select_data:
-    background:
-      - "dark blue"
-      - "light blue"
+
+_inputs:
+  background:
+    type: select
+    options:
+      values:
+        - dark blue
+        - light blue
