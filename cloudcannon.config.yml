@@ -29,8 +29,8 @@ _inputs:
     type: select
     options:
       values:
-        - 'right': 'ml-auto'
-        - 'left': 'mr-auto' 
+        - right: ml-auto
+        - left: mr-auto 
   categories:
     type: multiselect
     options:
