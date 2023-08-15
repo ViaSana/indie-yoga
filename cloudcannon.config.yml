@@ -33,9 +33,6 @@ _inputs:
     cascade: true
 _select_data:
   data_config:
-    background:
-      - "dark blue"
-      - "light blue"
     site-settings:
 _structures: {}
 _editables: {}
