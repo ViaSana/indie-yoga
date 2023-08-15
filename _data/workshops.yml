@@ -29,11 +29,3 @@
   image: assets/images/waffl-knot.png
   price: $30
   background: light blue
-
-_inputs:
-  background:
-    type: select
-    options:
-      values:
-        - dark blue
-        - light blue
