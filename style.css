@@ -69,9 +69,15 @@
         @apply inline-block p-2 px-4 border bg-yellow text-d-blue border-yellow;
     }
     .button:hover {
-        @apply border bg-d-blue text-yellow border-yellow;
+        @apply bg-d-blue text-yellow;
     }
-    .button:active {
+    .button-d {
+        @apply inline-block p-2 px-4 border bg-d-blue text-yellow border-d-blue;
+    }
+    .button-d:hover {
+        @apply  bg-yellow text-d-blue;
+    }
+    .button:active, .button-d:active{
         @apply text-aqua;
     }
 
