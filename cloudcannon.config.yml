@@ -11,10 +11,8 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-    socials:
-      hidden: true
-  posts:
-    output: false
+  socials:
+    hidden: true
 _inputs:
   layout:
     hidden: true
