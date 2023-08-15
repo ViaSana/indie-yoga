@@ -25,6 +25,12 @@ _inputs:
       values:
         - dark blue
         - light blue
+  text-placement:
+    type: select
+    options:
+      values:
+        - 'right' : 'ml-auto' 
+        - 'left' : 'mr-auto' 
   categories:
     type: multiselect
     options:
