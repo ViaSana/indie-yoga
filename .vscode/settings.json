@@ -55,6 +55,18 @@
         {
             "filePath": "_includes/hero.html",
             "group": "includes"
+        },
+        {
+            "filePath": "_includes/faq.html",
+            "group": "includes"
+        },
+        {
+            "filePath": "_includes/walla_widget.html",
+            "group": "includes"
+        },
+        {
+            "filePath": "_includes/insta.html",
+            "group": "includes"
         }
     ],
     "favorites.groups": [

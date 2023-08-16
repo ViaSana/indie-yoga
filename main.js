@@ -22,3 +22,15 @@ $(".testimonial-slider-container").slick({
         }
     }]
 });
+
+// WALLA WIDGET Function
+(function (w, a, l, la, j, s) {
+    const t = a.getElementById('walla-widget-script')
+    if (t) return;
+    j = a.createElement(l);
+    j.async = 1;
+    j.src = la;
+    j.id = 'walla-widget-script';
+    s = a.getElementsByTagName(l)[0];
+    s.parentNode.insertBefore(j, s);
+})(window, document, 'script', 'https://widget.hellowalla.com/loader/v1/walla-widget-loader.js');

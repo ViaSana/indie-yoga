@@ -3,13 +3,36 @@ layout: default
 title: Workshops & Events
 page-image: /assets/uploads/workshops-hero.jpg
 text-placement: mr-auto
-cta-color: bg-aqua
 ---
 {% include hero.html case="page" %}
 
-{% include hero-wrkshop_loop.html %}
+{% include wrkshop_loop.html %}
 
-{% include cta.html action=4 %}
+<div class="my-4">
+    <div x-data="{ selected: null }">
+        <div class="relative">
+            <button type="button" class="block w-full mx-scrn text-d-blue" 
+                    @click="selected !== 1 ? selected = 1 : selected = null">
+                <div class="text-center bg-aqua">
+                    <h2 class="pb-0">Calendar</h2>
+                    <!-- Down Arrow SVG -->
+                    <div class="w-12 pb-2 mx-auto">
+                        <svg width="48px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M6 9l6 6 6-6" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+                </div>
+            </button>
+
+            <div class="relative overflow-hidden transition-all duration-700 max-h-0" 
+                    style="" x-ref="container1" 
+                    x-bind:style="selected == 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+                <section>
+                    {% include walla_widget.html case="enrollments" %}
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+</div>
 
 {% include insta.html %}
 

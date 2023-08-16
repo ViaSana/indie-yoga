@@ -15,7 +15,7 @@ hero:
 {% include cta.html action=3 %}
 
 <!-- About Video -->
-<div class="grid grid-cols-8 gap-4 mx-scrn min-h-50">     
+<div class="grid items-center grid-cols-8 gap-4 mx-scrn">     
     <div class="flex col-span-3 bg-d-blue">
         <div class="self-center p-5p">
             <h3>OB’s OG Hot Yoga Studio</h3>
@@ -32,8 +32,7 @@ hero:
     </div>
 
     <div class="col-span-5">
-        <!-- ****REPLACE WITH ABOUT VIDEO**** -->
-        <div class="h-full bg-image" style="background-image: url(assets/images/waffl-knot.png);"></div>
+        {% include yt_video.html %}
     </div>
 </div>
 
