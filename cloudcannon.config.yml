@@ -18,27 +18,7 @@ collections_config:
     path: _packages
     output: false
     icon: notes
-    _editables: {}
-    _inputs: {}
-    _select_data: {}
-    _structures: {}
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-    schemas: {}
-  class-pack:
-    path: _class-packs
-    output: false
-    name: Class Packages
-    icon: album
-    _editables: {}
-    _inputs: {}
-    _select_data: {}
-    _structures: {}
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-    schemas: {}
+
 _inputs:
   layout:
     type: auto
