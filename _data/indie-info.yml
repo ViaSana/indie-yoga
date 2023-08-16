@@ -6,15 +6,15 @@ phone: +1 619-302-7601
 services:
   - title: Classes
     description: 'Heat Up Your Practice: From Gentle Vinyasa to Intense Hot Yoga.'
-    image: assets/images/waffl-knot.png
+    image: assets/uploads/vin1.png
     link: classes
   - title: Workshops
     description: 'Unearth New Skills: Immerse in Sound Healing, Breathwork, and Beyond.'
-    image: assets/images/waffl-knot.png
+    image: assets/uploads/sound-healing.png
     link: enrollments
   - title: Teacher Training
     description: 'Ignite Your Yoga Potential: 200-Hour Teacher Training Journey.'
-    image: assets/images/waffl-knot.png
+    image: assets/uploads/tt_service.png
     link: teachertraining
 classes:
   - title: 'Vinyasa 1: Beginner Vinyasa'

@@ -5,11 +5,11 @@ page-image: /assets/uploads/classes-hero.jpg
 text-placement: mr-auto
 cta-color: bg-aqua
 ---
-{% include hero_page.html %}
+{% include hero.html case="page" %}
 
-<section>
+<div class="pt-4 px-5p">
     {% include class_loop.html %}
-</section>
+</div>
 
 {% include cta.html action=4 %}
 

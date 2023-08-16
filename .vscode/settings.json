@@ -15,6 +15,53 @@
         {
             "filePath": "cloudcannon.config.yml",
             "group": "Default"
+        },
+        {
+            "filePath": "about.html",
+            "group": "pages"
+        },
+        {
+            "filePath": "classes.html",
+            "group": "pages"
+        },
+        {
+            "filePath": "enrollments.html",
+            "group": "pages"
+        },
+        {
+            "filePath": "index.html",
+            "group": "pages"
+        },
+        {
+            "filePath": "people.html",
+            "group": "pages"
+        },
+        {
+            "filePath": "pricing.html",
+            "group": "pages"
+        },
+        {
+            "filePath": "schedule.html",
+            "group": "pages"
+        },
+        {
+            "filePath": "teachertraining.html",
+            "group": "pages"
+        },
+        {
+            "filePath": "_includes/hero_page.html",
+            "group": "includes"
+        },
+        {
+            "filePath": "_includes/hero.html",
+            "group": "includes"
         }
-    ]
+    ],
+    "favorites.groups": [
+        "Default",
+        "pages",
+        "includes"
+    ],
+    "favorites.currentGroup": "pages",
+    "favorites.sortOrder": "ASC"
 }

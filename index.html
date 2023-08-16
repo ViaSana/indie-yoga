@@ -5,7 +5,6 @@ home-image: /assets/uploads/home.png
 cta-color: bg-yellow
 main-image: /assets/uploads/about-indie.png
 hero:
-    image: assets/images/waffl-knot.png
     heading: Where the Soul Meets the Sea, in Ocean Beach
     p1: >-
         Welcome to Indie Yoga, the first hot yoga studio of the Ocean Beach
@@ -39,19 +38,16 @@ hero:
 
 <section>
     <div class="text-center mx-scrn text-d-blue">
-        <h2 class="editable">Find Your Flow</h2>
+        <h2 class="pb-12 editable">Find Your Flow</h2>
 
         <!-- Creates a Loop though 'Indie-Info.yml' to create square links to the rest of the pages -->
-        {% include indie-squares_loop.html %}
+        {% include service-squares_loop.html %}
     </div>
 </section>
 
-{% include hero.html case="main" %}
+{% include hero.html case="main" style="height: 55vh"%}
 
 {% include hero.html case="testimonial" %}
 
 <!-- Includes insta_post_loop.html that pulls and formats the images from social plugins -->
 {% include insta.html %}
-
-
-

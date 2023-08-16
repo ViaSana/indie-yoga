@@ -5,7 +5,7 @@
     in enim. Enim sit id enim enim deserunt mollit fugiat aliqua. Duis velit
     elit reprehenderit officia officia fugiat ipsum ad nostrud ullamco cillum
     sunt cillum. Aute consectetur consequat elit do laboris Lorem.
-  image: /assets/uploads/charity.jpg
+  image: assets/uploads/charity.jpg
 - name: John Jay
   bio: >-
     John Jay discovered the benefits of a regular yoga practice while playing
@@ -19,7 +19,7 @@
     and co-leader of Indie's Teacher Training Program. Look out for his
     Breathwork & Ice Bath Workshops, as well as Wellness Retreats and 1-on-1
     training.
-  image: /assets/uploads/pricing-hero.jpg
+  image: assets/uploads/pricing-hero.jpg
 - name: Abigail
   bio: >-
     Laborum eu elit sint ullamco incididunt enim eiusmod veniam quis labore.

@@ -1,18 +1,18 @@
-<header class="flex text-center p-5p mx-scrn">
+<header class="flex pt-4 text-center px-5p mx-scrn">
     <div class="basis-1/5 text-d-blue">
-        <h1><a href="/">INDIE YOGA</a></h1>
+        <a href="/"><div class="h-[15vw] bg-image bg-transparent" style="background-image: url(assets/images/Indie_logo.png);"></div></a>
     </div>
 
     <nav class="self-center text-right basis-4/5">
-        <a class="px-2" href="/about">About</a>
-        <a class="px-2" href="/people">Our People</a>
+        <a class="px-8" href="/about">About</a>
+        <a class="px-8" href="/people">Our People</a>
 
         <!-- Apline Dropdown to for Classes -->
         <div x-data="{ open: false }" class="relative inline-block text-center" @mouseleave="open = false">
-            <div @mouseover="open = true" class="px-2 pb-2">
+            <div @mouseover="open = true" class="px-8 pb-2">
                 <a href="/classes">Classes</a>
             </div>
-            <div x-show="open" class="absolute pt-2 left-2 top-6">
+            <div x-show="open" class="absolute pt-2 left-8 top-6">
                 <a href="/pricing" class="block p-2 hover:text-yellow bg-blue hover:bg-d-blue">
                     Pricing
                 </a>
@@ -21,10 +21,10 @@
 
         <!-- Apline Dropdown to for Enrollments -->
         <div x-data="{ open: false }" class="relative inline-block text-center" @mouseleave="open = false">
-            <div @mouseover="open = true" class="px-2 pb-2">
+            <div @mouseover="open = true" class="px-8 pb-2">
                 <a href="/enrollments">Workshops & Trainings</a>
             </div>
-            <div x-show="open" class="absolute pt-2 left-2 top-6">
+            <div x-show="open" class="absolute pt-2 left-8 top-6">
                 <a href="/teachertraining" class="block p-2 hover:text-yellow bg-blue hover:bg-d-blue">
                     Teacher Training
                 </a>
@@ -32,7 +32,7 @@
         </div>
         
         <a href="/schedule">
-            <div class="button">Schedule</div>
+            <div class="ml-8 button">Schedule</div>
         </a>
 
     </nav>

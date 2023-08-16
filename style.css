@@ -24,7 +24,10 @@
     }
 
     h1 {
-        @apply text-5xl;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 
     h2 {
@@ -32,11 +35,12 @@
     } 
     
     h3 {
-        @apply text-4xl;
+        font-size: 2.8125rem;
+        font-weight: 400;
     }
 
     h4 {
-        @apply text-3xl font-light font-body;
+        @apply text-4xl font-body;
     }
     
     h5 {
@@ -66,13 +70,13 @@
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 @layer components {
     .button {
-        @apply inline-block p-2 px-4 border bg-yellow text-d-blue border-yellow;
+        @apply inline-block px-4 py-3 font-bold border bg-yellow text-d-blue border-yellow;
     }
     .button:hover {
         @apply bg-d-blue text-yellow;
     }
     .button-d {
-        @apply inline-block p-2 px-4 border bg-d-blue text-yellow border-d-blue;
+        @apply inline-block px-4 py-3 font-bold border bg-d-blue text-yellow border-d-blue;
     }
     .button-d:hover {
         @apply  bg-yellow text-d-blue;
@@ -83,7 +87,11 @@
 
     .services-overlay {
         position: relative;
-        background-color: rgba(190, 190, 190, 0.5);
+        background-color: rgba(190, 190, 190, 0.7);
+    }
+    .page-overlay {
+        position: relative;
+        background-color: rgba(25, 25, 25, 0.4);
     }
 
     /* Slider */
@@ -161,6 +169,21 @@
         cursor: pointer;
         padding: 0;
     }
+
+    .map-responsive{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+    }
+    
+    .map-responsive iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
 }
 
 @layer utilities {
@@ -169,7 +192,6 @@
     }
     
     .bg-image {
-        background-color:white; 
         background-size: cover; 
         background-position: center; 
         background-repeat: no-repeat;

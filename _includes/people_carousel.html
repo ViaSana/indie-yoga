@@ -1,9 +1,9 @@
 <div class="grid grid-cols-3 gap-3 mx-scrn">
 
-    {% for people in site.data.teachers limit:6 %}
+    {% for people in site.data.teachers %}
         <div>
-            <div class="bg-image aspect-square" style="background-image: url(assets/images/waffl-knot.png);"></div>
-            <div class="bg-d-blue">
+            <div class="bg-image aspect-square" style="background-image: url({{people.image}});"></div>
+            <div class="p-8 bg-d-blue">
                 <h4 class="text-yellow">{{people.name}}</h4>
                 <p>{{people.bio}}</p>
             </div>

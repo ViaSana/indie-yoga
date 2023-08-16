@@ -8,35 +8,39 @@
 
     <!-- The cycle class allows the layout to flip each time it runs through the loop -->
     <div class="col-span-2 {% cycle 'order-1', 'order-3' %}">
-        <div class="h-full bg-image" style="background-image: url({{item.image}});"></div>
+        <div class="h-full bg-image aspect-portrait" style="background-image: url({{item.image}});"></div>
     </div>
 
     <!-- Makes the choice for which color scheme will be picked -->
-    {% case {{item.background}} %}
+    {% case {{item.wkshop-background}} %}
         {% when "dark blue" %}
-        <div class="order-2 col-span-4 p-4 bg-d-blue text-light">
-            <div class="grid grid-cols-4">
-                <div class="col-span-3"><h3>{{item.title}}</h3></div>
-                <div class="text-yellow">{{item.datetime | date:"%a, %b %e %l:%M%P"}}</div>
+        <div class="flex items-center order-2 col-span-4 align-middle p-5p bg-d-blue text-light">
+            <div>
+                <div class="grid grid-cols-4">
+                    <h3 class="col-span-3">{{item.title}}</h3>
+                    <h5 class="text-yellow">{{item.datetime | date:"%a, %b %e %l:%M%P"}}</h5>
+                </div>
+                
+                <p class="pb-4">{{item.description}}</p>
+                
+                <h3 class="text-yellow">{{item.price}}</h3>
+                <a href="/enrollments.html" class="button">Register Now</a>
             </div>
-            
-            <p class="pb-4">{{item.description}}</p>
-            
-            <h3 class="text-yellow">{{item.price}}</h3>
-            <a href="/enrollments.html" class="button">Register Now</a>
         </div>
 
         {% when "light blue" %}
-        <div class="order-2 col-span-4 p-4 bg-blue text-d-blue">
-            <div class="grid grid-cols-4">
-                <div class="col-span-3"><h3>{{item.title}}</h3></div>
-                <div class="text-yellow">{{item.datetime | date:"%a, %b %e %l:%M%P"}}</div>
+        <div class="flex items-center order-2 col-span-4 p-5p bg-blue text-d-blue">
+            <div class="">
+                <div class="grid grid-cols-4">
+                    <h3 class="col-span-3">{{item.title}}</h3>
+                    <h5 class="text-yellow">{{item.datetime | date:"%a, %b %e %l:%M%P"}}</h5>
+                </div>
+                
+                <p class="pb-4">{{item.description}}</p>
+                
+                <h3 class="text-yellow">{{item.price}}</h3>
+                <a href="/enrollments.html" class="button-d">Register Now</a>
             </div>
-            
-            <p class="pb-4">{{item.description}}</p>
-            
-            <h3 class="text-yellow">{{item.price}}</h3>
-            <a href="/enrollments.html" class="button-d">Register Now</a>
         </div>
     {% endcase %}
 </div>
