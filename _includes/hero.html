@@ -4,7 +4,7 @@
 {% case {{include.case}} %}
     {% when "main" %}
         <div class="col-span-4">
-                <div class="h-full bg-image" style="background-image: url({{page.hero.image}});"></div>
+                <div class="h-full bg-image" style="background-image: url({{page.main-image}});"></div>
         </div> 
         <div class="flex col-span-2 {{page.hero.color}}">
             <div class="self-center p-5p {{page.hero.text_color}}">
@@ -41,7 +41,7 @@
     </div>
 
     <div class="col-span-4">
-        <div class="h-full bg-image" style="background-image: url({{page.hero-r.image}});"></div>
+        <div class="h-full bg-image" style="background-image: url({{page.reverse-image}});"></div>
     </div>
 
     {% when "map" %}
