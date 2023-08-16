@@ -1,3 +1,6 @@
+<!-- 
+    Pulls all the class info and images from site.data.indie-info
+-->
 {% for class in site.data.indie-info.classes %}
 <div class="relative flex p-6 {% cycle '', 'flex-row-reverse' %}">
     <div class="w-[60vw] bg-image aspect-[3/2] -z-10" style="background-image: url({{class.image}});"></div>
