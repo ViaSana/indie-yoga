@@ -1,21 +1,152 @@
 - name: Charity Rahmer
-  bio: Laborum eu elit sint ullamco incididunt enim eiusmod veniam quis labore. Aliqua consequat consectetur ullamco qui laborum elit do in. Minim est irure in enim. Enim sit id enim enim deserunt mollit fugiat aliqua. Duis velit elit reprehenderit officia officia fugiat ipsum ad nostrud ullamco cillum sunt cillum. Aute consectetur consequat elit do laboris Lorem.
-  image: assets/images/waffl-knot.png
+  bio: >-
+    Laborum eu elit sint ullamco incididunt enim eiusmod veniam quis labore.
+    Aliqua consequat consectetur ullamco qui laborum elit do in. Minim est irure
+    in enim. Enim sit id enim enim deserunt mollit fugiat aliqua. Duis velit
+    elit reprehenderit officia officia fugiat ipsum ad nostrud ullamco cillum
+    sunt cillum. Aute consectetur consequat elit do laboris Lorem.
+  image: /assets/uploads/charity.jpg
 - name: John Jay
-  bio: Laborum eu elit sint ullamco incididunt enim eiusmod veniam quis labore. Aliqua consequat consectetur ullamco qui laborum elit do in. Minim est irure in enim. Enim sit id enim enim deserunt mollit fugiat aliqua. Duis velit elit reprehenderit officia officia fugiat ipsum ad nostrud ullamco cillum sunt cillum. Aute consectetur consequat elit do laboris Lorem.
-  image: assets/images/waffl-knot.png
+  bio: >-
+    John Jay discovered the benefits of a regular yoga practice while playing
+    football at the University of San Diego. After completing trainings in both
+    Hatha and Power Vinyasa styles, John Jay began instructing in 2010. Yoga’s
+    vast array of traditions, schools and teachers allows each Yogi to blaze
+    their own path organically; something that continues to excite him as both a
+    student and teacher. As Lao Tzu said, “A good traveler has no fixed plans,
+    and is not intent on arriving." Currently, John Jay is helping both novice
+    and experienced Yogis evolve their practice, as both Manager of Indie Yoga
+    and co-leader of Indie's Teacher Training Program. Look out for his
+    Breathwork & Ice Bath Workshops, as well as Wellness Retreats and 1-on-1
+    training.
+  image: /assets/uploads/pricing-hero.jpg
 - name: Abigail
-  bio: Laborum eu elit sint ullamco incididunt enim eiusmod veniam quis labore. Aliqua consequat consectetur ullamco qui laborum elit do in. Minim est irure in enim. Enim sit id enim enim deserunt mollit fugiat aliqua. Duis velit elit reprehenderit officia officia fugiat ipsum ad nostrud ullamco cillum sunt cillum. Aute consectetur consequat elit do laboris Lorem.
-  image: assets/images/waffl-knot.png
-- name: Lauren
-  bio: Laborum eu elit sint ullamco incididunt enim eiusmod veniam quis labore. Aliqua consequat consectetur ullamco qui laborum elit do in. Minim est irure in enim. Enim sit id enim enim deserunt mollit fugiat aliqua. Duis velit elit reprehenderit officia officia fugiat ipsum ad nostrud ullamco cillum sunt cillum. Aute consectetur consequat elit do laboris Lorem.
+  bio: >-
+    Laborum eu elit sint ullamco incididunt enim eiusmod veniam quis labore.
+    Aliqua consequat consectetur ullamco qui laborum elit do in. Minim est irure
+    in enim. Enim sit id enim enim deserunt mollit fugiat aliqua. Duis velit
+    elit reprehenderit officia officia fugiat ipsum ad nostrud ullamco cillum
+    sunt cillum. Aute consectetur consequat elit do laboris Lorem.
+  image: /assets/uploads/yoga-scultp.jpg
+- name: Lauren Gibson
+  bio: >-
+    Laborum eu elit sint ullamco incididunt enim eiusmod veniam quis labore.
+    Aliqua consequat consectetur ullamco qui laborum elit do in. Minim est irure
+    in enim. Enim sit id enim enim deserunt mollit fugiat aliqua. Duis velit
+    elit reprehenderit officia officia fugiat ipsum ad nostrud ullamco cillum
+    sunt cillum. Aute consectetur consequat elit do laboris Lorem.
   image: assets/images/waffl-knot.png
 - name: Summer
-  bio: Laborum eu elit sint ullamco incididunt enim eiusmod veniam quis labore. Aliqua consequat consectetur ullamco qui laborum elit do in. Minim est irure in enim. Enim sit id enim enim deserunt mollit fugiat aliqua. Duis velit elit reprehenderit officia officia fugiat ipsum ad nostrud ullamco cillum sunt cillum. Aute consectetur consequat elit do laboris Lorem.
+  bio: >-
+    Laborum eu elit sint ullamco incididunt enim eiusmod veniam quis labore.
+    Aliqua consequat consectetur ullamco qui laborum elit do in. Minim est irure
+    in enim. Enim sit id enim enim deserunt mollit fugiat aliqua. Duis velit
+    elit reprehenderit officia officia fugiat ipsum ad nostrud ullamco cillum
+    sunt cillum. Aute consectetur consequat elit do laboris Lorem.
   image: assets/images/waffl-knot.png
-- name: Chase
-  bio: Laborum eu elit sint ullamco incididunt enim eiusmod veniam quis labore. Aliqua consequat consectetur ullamco qui laborum elit do in. Minim est irure in enim. Enim sit id enim enim deserunt mollit fugiat aliqua. Duis velit elit reprehenderit officia officia fugiat ipsum ad nostrud ullamco cillum sunt cillum. Aute consectetur consequat elit do laboris Lorem.
-  image: assets/images/waffl-knot.png
-- name: Joseph
-  bio: Laborum eu elit sint ullamco incididunt enim eiusmod veniam quis labore. Aliqua consequat consectetur ullamco qui laborum elit do in. Minim est irure in enim. Enim sit id enim enim deserunt mollit fugiat aliqua. Duis velit elit reprehenderit officia officia fugiat ipsum ad nostrud ullamco cillum sunt cillum. Aute consectetur consequat elit do laboris Lorem.
-  image: assets/images/waffl-knot.png
+- name: Colby Crispeno
+  bio: >-
+    Hey everybody! I'm originally from Seattle, Washington but moved down to San
+    Diego to get some more vitamin D. I love to surf, hike with my dog, climb,
+    camp, and cook with friends. I am passionate about the mind/ body/soul
+    connection, as well as trauma-informed yoga. I want everyone to feel
+    comfortable in their own skin and work to facilitate everybody's ability to
+    tap into their own strength through the power of mindful movement and
+    presence of breath. Yoga and other embodied practices have been instrumental
+    in my own healing and wholeness and I wish to invite others into this
+    spacious place.
+  image: /assets/uploads/colby.jpeg
+- name: Gianna
+  bio: >-
+    Laborum eu elit sint ullamco incididunt enim eiusmod veniam quis labore.
+    Aliqua consequat consectetur ullamco qui laborum elit do in. Minim est irure
+    in enim. Enim sit id enim enim deserunt mollit fugiat aliqua. Duis velit
+    elit reprehenderit officia officia fugiat ipsum ad nostrud ullamco cillum
+    sunt cillum. Aute consectetur consequat elit do laboris Lorem.
+  image: /assets/uploads/gianna.jpeg
+- name: Jess Ghanma
+  bio: >-
+    Yoga provides the luxury of discovering a safe place within yourself. In my
+    class you will be encouraged to tune in, to breathe deeply, BE consciously,
+    and move in a strategic way. My goal as a guide is to provide you the space
+    and confidence to move freely and openly, with your own authenticity. In
+    class students have the opportunity for lots of freedom to further move
+    through their own unique needs, wants, and cravings. Come to class for the
+    vibes under a low light room and flowy playlist, but stay for what you
+    discover about yourself each and every time.
+  image: /assets/uploads/jess.jpeg
+- name: Megan Singh
+  bio: >-
+    "Megan has been readily and steadily riding the wave of yoga since 2012.
+    Since 2012, she has moved up and down the vibrant West Coast, currently
+    enjoying the sun-filled, salty breeze embrace of San Diego. Through her
+    moves, Megan has gotten a chance to try a kaleidoscope of yoga styles and
+    practice with some really awesome teachers, absorbing their wisdom like
+    sunbeams. Although very influenced by some of her teachers, Megan walks in
+    her own footprints on the sands of yoga, and brings her own unique way of
+    teaching to the mat. Megan likes to teach a well-rounded class that blends
+    creativity, dynamic energy, and a nice splash of challenge. She's all about
+    those surf-y flows and playful transitions - but also with every practice a
+    chance to give you a ride on the currents of empowerment and a chance to
+    help you surf the seas of your own potential.  Hang loose, dive in, and hope
+    to see you on your mat!   RYT 200 (Bird Rock Yoga, 2019)  RYT 200 (Indie
+    Yoga OB, 2022) "
+  image: /assets/uploads/megan.jpg
+- name: Monica
+  bio: >-
+    "I believe that the simple action of showing up on your mat creates a ripple
+    effect of positivity to many other seemingly unrelated aspects of your
+    life.  I love to create an atmosphere filled with great music, unity in
+    breath, equal parts ferocity and gentleness, and of course lots of
+    deliciously sweet & sweaty detoxification! In 2017 I completed YTT at Indie
+    Yoga and consider it one of the is best places on the planet. "
+  image: /assets/uploads/monica.jpeg
+- name: Sara Lev
+  bio: >-
+    "Sara's yoga journey began in 2012 during her travels in Tel Aviv, Israel.
+    As someone with a dance background, she immediately felt drawn to the
+    physical practice, recognizing the discipline and release it offered for not
+    only mental and emotional well-being but also spiritual growth. In 2013,
+    while pursuing a degree in speech-language pathology, she completed her
+    first YTT, discovering the profound connection between language and creative
+    expression in the context of yoga. This realization motivated her to explore
+    further, leading her to embrace Ashtanga Yoga and undertake a second YTT in
+    2017, deepening her understanding of yoga's traditions and honing her
+    teaching skills. Despite her full-time role as a speech-language
+    pathologist, Sara continues to share her passion for Yoga. Her teaching
+    style is a harmonious fusion of diverse and challenging elements, anchored
+    in yoga's foundations while fostering innovation and inspiration.  As she
+    blends the ancient traditions with modern innovation, Sara's classes are a
+    beautiful reflection of her passion and dedication to yoga and its
+    transformative potential. Whether she is guiding newcomers or experienced
+    practitioners, Sara's classes provide a safe and welcoming space where all
+    can explore, evolve, and discover the profound beauty of yoga."
+  image: /assets/uploads/sara.jpg
+- name: Caroline
+  bio: >-
+    Caroline is passionate about guiding beings towards their remembrance of
+    their own inner healer through the path of yoga. In her classes she
+    integrates the physical, mental and spiritual aspects of yoga as tools to
+    guide her students in the realization that "you are your own medicine". Her
+    classes are a safe and sacred space for you to tune into your inner
+    awareness and learn something new about yourself each time.
+  image: /assets/uploads/pricing.jpg
+- name: Dani C
+  bio: >-
+    Dani Coleman is a 200hr Registered Yoga Teacher with a passion for creative
+    expression through movement and exploring the truest form of herself. After
+    living life with an impending need for self-discovery and searching for
+    resilience from trauma, Dani's teachings are centered around bold expression
+    and healing through spiritual guidance. It is her passion help others feel
+    and express their most energetic self; space is always held for creativity
+    and exploration to honor our most vibrant forms.
+  image: /assets/images/waffl-knot.png
+- name: Victoria
+  bio: Lorem Ipsum
+  image: /assets/images/waffl-knot.png
+- name: Alex Calahan
+  bio: ''
+  image: /assets/images/waffl-knot.png
+- name: Asia Casebolt
+  bio: ''
+  image: /assets/images/waffl-knot.png
