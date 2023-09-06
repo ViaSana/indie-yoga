@@ -11,7 +11,7 @@ services:
   - title: Workshops
     description: 'Unearth New Skills: Immerse in Sound Healing, Breathwork, and Beyond.'
     image: assets/uploads/sound-healing.png
-    link: enrollments
+    link: trainings
   - title: Teacher Training
     description: 'Ignite Your Yoga Potential: 200-Hour Teacher Training Journey.'
     image: assets/uploads/tt_service.png
@@ -85,5 +85,5 @@ classes:
       relaxation and rest for the body, mind and soul.
     image: /assets/uploads/sound-healing.png
   - title: Mixed Yoga Arts
-    description: Jenn's special sauce
-    image: assets/images/waffl-knot.png
+    description: Labore laborum proident anim aliquip nisi commodo consectetur reprehenderit eu eu. Non incididunt esse officia duis. Adipisicing nisi voluptate commodo Lorem incididunt voluptate fugiat occaecat.
+    image: assets/images/mya.jpg

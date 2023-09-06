@@ -1,6 +1,6 @@
 <header class="flex pt-4 text-center px-5p mx-scrn">
     <div class="basis-1/5 text-d-blue">
-        <a href="/"><div class="h-[15vw] bg-image bg-transparent" style="background-image: url(assets/images/Indie_logo.png);"></div></a>
+        <a href="/"><div class="h-[5vw] bg-transparent bg-image" style="background-image: url(assets/images/Indie_logo.png);"></div></a>
     </div>
 
     <nav class="self-center text-right basis-4/5">
@@ -13,8 +13,11 @@
                 <a href="/classes">Classes</a>
             </div>
             <div x-show="open" class="absolute pt-2 left-8 top-6">
-                <a href="/pricing" class="block p-2 hover:text-yellow bg-blue hover:bg-d-blue">
+                <a href="/pricing" class="block p-2 text-left bg-light">
                     Pricing
+                </a>
+                <a href="/classes" class="block p-2 text-left bg-light">
+                    Descriptions
                 </a>
             </div>
         </div>
@@ -22,10 +25,10 @@
         <!-- Apline Dropdown to for Enrollments -->
         <div x-data="{ open: false }" class="relative inline-block text-center" @mouseleave="open = false">
             <div @mouseover="open = true" class="px-8 pb-2">
-                <a href="/enrollments">Workshops & Trainings</a>
+                <a href="/trainings">Workshops & Trainings</a>
             </div>
             <div x-show="open" class="absolute pt-2 left-8 top-6">
-                <a href="/teachertraining" class="block p-2 hover:text-yellow bg-blue hover:bg-d-blue">
+                <a href="/teachertraining" class="block p-2 text-left bg-light">
                     Teacher Training
                 </a>
             </div>

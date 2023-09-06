@@ -1,9 +1,9 @@
 
 $(".testimonial-slider-container").slick({
     autoplay: true,
-    autoplaySpeed: 2e3,
-    speed: 500,
-    arrows: false,
+    autoplaySpeed: 2e4,
+    speed: 600,
+    arrows: true,
     accessibility: true,
     dots: true,
     fade: false,

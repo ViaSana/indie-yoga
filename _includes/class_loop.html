@@ -3,9 +3,10 @@
 -->
 {% for class in site.data.indie-info.classes %}
 <div class="relative flex p-6 {% cycle '', 'flex-row-reverse' %}">
-    <div class="w-[60vw] bg-image aspect-[3/2] -z-10" style="background-image: url({{class.image}});"></div>
-    <div class="absolute p-4 top-24 text-d-blue w-[40vw] {% cycle 'right-6 bg-yellow', 'left-6 bg-blue' %}">
+    <div class="w-[60vw] bg-image aspect-[3/2]" style="background-image: url({{class.image}});"></div>
+    <div class="absolute z-10 p-4 top-24 text-d-blue w-[40vw] {% cycle 'right-6 bg-yellow', 'left-6 bg-blue' %}">
         <h3>{{class.title}}</h3>
+
         <!-- Fancy Apline to use a show more toggle -->
         <p
             class="show-toggle"

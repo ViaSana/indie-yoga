@@ -67,6 +67,14 @@
         {
             "filePath": "_includes/insta.html",
             "group": "includes"
+        },
+        {
+            "filePath": "_includes/cta.html",
+            "group": "includes"
+        },
+        {
+            "filePath": "_includes/wrkshop_loop.html",
+            "group": "includes"
         }
     ],
     "favorites.groups": [
@@ -74,6 +82,6 @@
         "pages",
         "includes"
     ],
-    "favorites.currentGroup": "pages",
+    "favorites.currentGroup": "includes",
     "favorites.sortOrder": "ASC"
 }
