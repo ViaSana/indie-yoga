@@ -184,6 +184,33 @@
         width:100%;
         position:absolute;
     }
+
+    /* Hover Image */
+    .hover-container {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hover-overlay {
+        position: relative;
+        padding-bottom: 100%;
+        color: rgba(255, 255, 255, 0);
+        /* you only need to use relative + absolute if you want to determine the exact aspect ratio of the container */
+        transition: all 0.3s;
+    }
+    
+    .hover-overlay:hover {
+        background-color: rgba(60, 60, 60, 0.7);
+        @apply text-light;
+    }
+    
+    .hover-inner {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
 }
 
 @layer utilities {

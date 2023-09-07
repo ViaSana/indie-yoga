@@ -1,0 +1,40 @@
+<div class="p-4 mx-4 mb-4 space-x-4 max-w-[96.5vw] bg-blue carousel carousel-center rounded-box">
+    {% for people in site.data.teachers %}
+    <div class="grid content-start max-w-xs carousel-item bg-d-blue">
+
+        {% if {{people.quote}} %}
+            <div class="hover-container bg-image aspect-square" style="background-image: url({{people.image}});">
+                <div class="hover-overlay">
+                    <div class="p-4 text-center hover-inner">
+                        <p>{{people.quote}}</p>
+                    </div>
+                </div>
+            </div>
+        {% else %}
+            <div class="bg-image aspect-square" style="background-image: url({{people.image}});"></div>
+        {% endif %}
+
+        <div class="p-4 bg-d-blue">
+            <h4 class="text-yellow">{{people.name}}</h4>
+            <!-- Fancy Apline to use a show more toggle -->
+            <p
+                class="show-toggle"
+                x-data="{ show: false, maxLength: 150, text: '', content: '' }"
+                x-init="text = $el.firstElementChild.textContent.trim(); content = text.slice(0, maxLength)" 
+                >
+                <span x-text="show ? text : content">{{people.bio}}</span>
+                <button
+                    class="show-toggle-btn"
+                    @click="show = !show"
+                    x-show="text.length > maxLength"
+                    x-text="show ? 'show less' : '...read more'"
+                ></button>
+            </p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
+
+

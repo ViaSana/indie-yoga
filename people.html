@@ -9,8 +9,7 @@ hero:
 ---
 {% include hero.html case="main" style="height: 30vw; background-position-y: -8rem;" %}
 
-<section>
-    {% include people_carousel.html %}
-</section>
+<!-- People Loop Include Pulls [Image, Quote, Name, Bio] from Teacher.yml -->
+{% include people_loop.html %}
 
 {% include insta.html %}
