@@ -7,6 +7,7 @@
     elit reprehenderit officia officia fugiat ipsum ad nostrud ullamco cillum
     sunt cillum. Aute consectetur consequat elit do laboris Lorem.
   image: assets/uploads/charity.jpg
+  id: 2
 - name: John Jay
   quote: Eiusmod veniam anim aute occaecat ea non elit excepteur est voluptate esse deserunt irure voluptate.
   bio: >-
@@ -22,6 +23,7 @@
     Breathwork & Ice Bath Workshops, as well as Wellness Retreats and 1-on-1
     training.
   image: assets/uploads/pricing-hero.jpg
+  id: 3
 - name: Abigail
   quote:
   bio: >-
@@ -31,6 +33,7 @@
     elit reprehenderit officia officia fugiat ipsum ad nostrud ullamco cillum
     sunt cillum. Aute consectetur consequat elit do laboris Lorem.
   image: /assets/uploads/yoga-scultp.jpg
+  id: 4
 - name: Lauren Gibson
   quote: "Do you have the patience to wait until your mud settles, and the water is clear; can you remain unmoving until the right action arises by itself? - Lao Tzu"
   bio: >-
@@ -38,6 +41,7 @@
     
     I obtained my 200hr YTT certificate in 2018 at Indie, and nothing brings me more joy than facilitating growth and healing within others. I strive to offer classes that are accessible to students of all levels and abilities, with a focus on finding one's inner strength and connecting to one's inner voice. Outside of the studio, you can find me trying out a new recipe, cuddling with a friend's pet, or getting down to some funky techno."
   image: assets/uploads/laura.jpg
+  id: 5
 - name: Summer
   quote: Eiusmod veniam anim aute occaecat ea non elit excepteur est voluptate esse deserunt irure voluptate.
   bio: >-
@@ -47,6 +51,7 @@
     elit reprehenderit officia officia fugiat ipsum ad nostrud ullamco cillum
     sunt cillum. Aute consectetur consequat elit do laboris Lorem.
   image: assets/images/Indie_logo.png
+  id: 6
 - name: Colby Crispeno
   quote:
   bio: >-
@@ -60,11 +65,13 @@
     in my own healing and wholeness and I wish to invite others into this
     spacious place.
   image: /assets/uploads/colby.jpeg
+  id: 7
 - name: Gianna
   quote: "The past is unchangeable. The future hasn’t happened yet. So be in this moment now!"
   bio: >-
     Gianna Mauceri is a sound healer, spiritual counselor, integrative healer, Author, and has completed three different yoga teacher trainings. She believes that inner healing is the medicine the world needs, and is passionate about sharing this message in her classes.
   image: /assets/uploads/gianna.jpeg
+  id: 8
 - name: Jess Ghanma
   quote: Be happy for this moment, this moment is your life.
   bio: >-
@@ -77,12 +84,14 @@
     vibes under a low light room and flowy playlist, but stay for what you
     discover about yourself each and every time.
   image: /assets/uploads/jess.jpeg
+  id: 9
 - name: Mae
   quote:
   bio: >-
     Mae's teaching style is deep and intuitive. As a teacher, her joy lies in co-creating a space with others to explore their own unique expressions and bring greater awareness to the body and mind, subsequently influencing life beyond the mat. Her classes are heavily influenced by her work as a massage therapist; combining elements of yoga, meditation, and massage.
     Mae's love for yoga began as a teenager in New York. A seed was planted upon realizing the transformational benefits of yoga, and she began teaching in 2013. Mae completed her second YTT in 2017, and has taught and led workshops at studios, festivals, Stanford University, events, and fitness centers throughout the years."
   image: assets/uploads/mae.jpg
+  id: 10
 - name: Megan Singh
   quote: "Look deep into nature and you will understand everything better. - Albert Einstein"
   bio: >-
@@ -101,6 +110,7 @@
     to see you on your mat!   RYT 200 (Bird Rock Yoga, 2019)  RYT 200 (Indie
     Yoga OB, 2022)
   image: /assets/uploads/megan.jpg
+  id: 11
 - name: Monica
   quote: "Life is completely a mystery, or better yet magic. For me, it comes down to trusting life & acting as if that trust was real, & believing if we approach each day without fear & just listen, seemingly insignificant things can change everything. -James T. Hubble, Artist"
   bio: >-
@@ -111,6 +121,7 @@
     deliciously sweet & sweaty detoxification! In 2017 I completed YTT at Indie
     Yoga and consider it one of the is best places on the planet.
   image: /assets/uploads/monica.jpeg
+  id: 12
 - name: Sara Lev
   quote: "The best way to know who you are, is to distinguish from who and what you are not - inspired by Yoga Sutra 2.26"
   bio: >-
@@ -133,6 +144,7 @@
     practitioners, Sara's classes provide a safe and welcoming space where all
     can explore, evolve, and discover the profound beauty of yoga.
   image: /assets/uploads/sara.jpg
+  id: 13
 - name: Caroline
   quote:
   bio: >-
@@ -143,6 +155,7 @@
     classes are a safe and sacred space for you to tune into your inner
     awareness and learn something new about yourself each time.
   image: /assets/uploads/pricing.jpg
+  id: 14
 - name: Dani C  
   quote: Eiusmod veniam anim aute occaecat ea non elit excepteur est voluptate esse deserunt irure voluptate.
   bio: >-
@@ -154,16 +167,20 @@
     and express their most energetic self; space is always held for creativity
     and exploration to honor our most vibrant forms.
   image: assets/images/Indie_logo.png
+  id: 15
 - name: Victoria
   quote: Eiusmod veniam anim aute occaecat ea non elit excepteur est voluptate esse deserunt irure voluptate.
   bio: >-
     Hey everyone!! I’m Victoria. My yoga journey started 10 years ago when I was looking for a new way to move my body. After a few years of practice it became something that transformed my overall well-being. One reason I practice yoga is because it makes me a better person. My mat is a place where I have a moment of silence to nourish myself mentally and physically, so that I am able to show up for others in a way that feels loving and complete. In my class we will move, grow, and play as we recharge our souls to bring light into our lives off the mat. Come flow with me to quiet your mind and let your body do the talking :-)
   image: assets/images/Indie_logo.png
+  id: 16
 - name: Alex Calahan
   quote: Eiusmod veniam anim aute occaecat ea non elit excepteur est voluptate esse deserunt irure voluptate.
   bio: Magna culpa labore qui ea proident do qui cillum id tempor. Magna ullamco ea cupidatat aliquip Lorem esse. Do sint consectetur eu laboris. Excepteur velit dolor labore ut excepteur nisi qui. Excepteur nostrud sunt adipisicing nulla do sunt magna reprehenderit excepteur consequat eu veniam qui. Laboris sint officia ut nulla excepteur. Fugiat anim cillum aliquip aute aliqua anim labore veniam do cillum Lorem consequat id.
   image: assets/images/Indie_logo.png
+  id: 17
 - name: Asia Casebolt
   quote: Eiusmod veniam anim aute occaecat ea non elit excepteur est voluptate esse deserunt irure voluptate.
   bio: Dolor excepteur in Lorem sint dolor do ex ut. Ut elit ullamco tempor ullamco officia exercitation eu reprehenderit ullamco occaecat id velit labore. Velit quis velit nisi est. Laboris incididunt et ut in et sit ex ex incididunt exercitation. Ad ut sit cillum reprehenderit do eiusmod nostrud.
   image: assets/images/Indie_logo.png
+  id: 18

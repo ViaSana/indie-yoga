@@ -211,6 +211,33 @@
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
+
+    /* Hamburger Style */
+    .hamburger-button {
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    /* Styles when the hamburger button is active  */
+    .hamburger-button.active{
+        @apply bg-blue
+    }
+
+    .mobile-menu {
+        @apply hidden bg-blue;
+        
+        text-align: center;
+        padding: 55% 60% 25% 50%;
+        position: absolute;
+        top: -6px;
+        right: 0;
+    }
+
+    .mobile-menu a {
+        text-decoration: none; 
+        padding: 1vh 0;
+        display: block;
+    }
 }
 
 @layer utilities {

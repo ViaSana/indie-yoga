@@ -79,6 +79,10 @@
         {
             "filePath": "_includes/people_loop.html",
             "group": "includes"
+        },
+        {
+            "filePath": "trainings.html",
+            "group": "pages"
         }
     ],
     "favorites.groups": [

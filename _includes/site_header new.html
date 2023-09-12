@@ -1,0 +1,66 @@
+<header class="pt-4">
+
+    <div class="flex w-full text-center max-md:hidden mx-scrn">
+        <div class="basis-3/5 text-d-blue">
+            <a href="/"><div class="h-[120px] bg-transparent bg-image" style="background-image: url(assets/images/Indie_logo-long.png);"></div></a>
+        </div>
+
+        <nav class="self-center text-right basis-2/5">
+            <a class="px-8" href="/about">About</a>
+            <a class="px-8" href="/people">Our People</a>
+
+            <!-- Apline Dropdown to for Classes -->
+            <div x-data="{ open: false }" class="relative inline-block text-center" @mouseleave="open = false">
+                <div @mouseover="open = true" class="px-8 pb-2">
+                    <a href="/classes">Classes</a>
+                </div>
+                <div x-show="open" class="absolute pt-2 left-8 top-6">
+                    <a href="/pricing" class="block p-2 text-left bg-light">
+                        Pricing
+                    </a>
+                    <a href="/classes" class="block p-2 text-left bg-light">
+                        Descriptions
+                    </a>
+                </div>
+            </div>
+
+            <!-- Apline Dropdown to for Enrollments -->
+            <div x-data="{ open: false }" class="relative inline-block text-center" @mouseleave="open = false">
+                <div @mouseover="open = true" class="px-8 pb-2">
+                    <a href="/trainings">Workshops & Trainings</a>
+                </div>
+                <div x-show="open" class="absolute pt-2 left-8 top-6">
+                    <a href="/teachertraining" class="block p-2 text-left bg-light">
+                        Teacher Training
+                    </a>
+                </div>
+            </div>
+            
+            <a href="/schedule">
+                <div class="ml-8 button">Schedule</div>
+            </a>
+
+        </nav>
+    </div>
+
+    <!-- This with max-md:hidden on the above div is what handles the menu -->
+    <div class="md:hidden"></div>
+        <div class="flex w-1/3 md:hidden"> <a href="/index"> <img src="assets/images/indie_logo-long.png"></img> </a> </div>
+        <div class="flex items-center justify-end w-1/3 md:hidden">
+            <div class="relative mr-4 space-y-2 hamburger-button">
+                <div class="w-8 h-0.5 bg-aqua"></div>
+                <div class="w-8 h-0.5 bg-aqua"></div>
+                <div class="w-8 h-0.5 bg-aqua"></div>
+                
+                <div class="shadow-lg mobile-menu">
+                    <ul class="w-56 menu rounded-box">
+                        <li><a>Item 1</a></li>
+                        <li><a>Item 2</a></li>
+                        <li><a>Item 3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <div></div>
+</header>
+

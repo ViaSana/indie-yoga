@@ -23,6 +23,12 @@ $(".testimonial-slider-container").slick({
     }]
 });
 
+// Hamburger Menu
+$('.hamburger-button').click(function(){
+    $('.mobile-menu').fadeToggle(100);
+    $(this).toggleClass('active');
+});
+
 // WALLA WIDGET Function
 (function (w, a, l, la, j, s) {
     const t = a.getElementById('walla-widget-script')
