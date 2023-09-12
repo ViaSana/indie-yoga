@@ -1,10 +1,12 @@
 <div class="text-center mx-scrn bg-gradient-to-b from-yellow from-50% to-light via-light via-50% min-h-[40vh]">
-    <div class="grid grid-cols-5 space-x-4 p-5p">
+    <div class="p-5p">
 
-        <h3 class="pb-12 col-span-full text-light">{{site.data.socials.insta.heading}}</h3>
+        <h3 class="w-full pb-12 text-light">{{site.data.socials.insta.heading}}</h3>
 
-        {% for i in (1..5) %}
-            <div class="h-full border-2 aspect-square bg-image border-aqua" style="background-image: url({{site.data.socials.i-1}});"></div>
-        {% endfor %}
+        <!-- Curator.io Powered IG feed -->
+        <div id="curator-feed-default-feed-layout">
+            <a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a>
+        </div>
     </div>
 </div>
+

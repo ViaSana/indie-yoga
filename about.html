@@ -10,13 +10,13 @@ hero:
     text_color: text-d-blue
     text_color-2: text-blue
 ---
-{% include hero.html case="info" style="height: 45vw" %}
+{% include hero.html case="info" %}
 
 {% include cta.html action=3 %}
 
 <!-- About Video -->
-<div class="grid items-center grid-cols-8 gap-4 mx-scrn">     
-    <div class="flex h-full col-span-3 bg-d-blue">
+<div class="grid items-center gap-4 md:grid-cols-8 mx-scrn">     
+    <div class="flex h-full md:col-span-3 bg-d-blue">
         <div class="self-center p-5p">
             <h3>OB’s OG Hot Yoga Studio</h3>
             <p class="pb-4">Heat transforms — and in our hot yoga studio, it becomes an integral part of your journey.  At Indie Yoga, you’re not stepping into a mere studio, but a home where every individual is cherished, every class is a collective journey, and every session brings you closer to your authentic self.</p>
@@ -39,7 +39,7 @@ hero:
         </div>
     </div>
 
-    <div class="col-span-5">
+    <div class="md:col-span-5">
         {% include yt_video.html %}
     </div>
 </div>
