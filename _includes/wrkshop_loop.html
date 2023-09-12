@@ -4,42 +4,39 @@
 -->
 {% for item in site.data.workshops %}
 
-<div class="grid grid-cols-6 gap-4 mt-4 mx-scrn">
+<div class="grid grid-cols-2 mt-4 lg:gap-4 lg:grid-cols-6 mx-scrn">
 
     <!-- The cycle class allows the layout to flip each time it runs through the loop -->
-    <div class="col-span-2 {% cycle 'order-1', 'order-3' %}">
-        <div class="h-full bg-image aspect-portrait" style="background-image: url({{item.image}});"></div>
+    <div class="col-span-2 {% cycle 'order-2', 'order-4' %} max-lg:px-4">
+        <div class="bg-image aspect-portrait" style="background-image: url({{item.image}});"></div>
     </div>
 
     <!-- Makes the choice for which color scheme will be picked -->
     {% case {{item.wkshop-background}} %}
         {% when "dark blue" %}
-        <div class="flex items-center order-2 col-span-4 align-middle p-5p bg-d-blue text-light">
+        <div class="flex items-center order-1 col-span-4 align-middle lg:order-3 p-5p bg-d-blue text-light">
             <div>
-                <div class="grid grid-cols-4">
-                    <h3 class="col-span-3">{{item.title}}</h3>
-                    <h5 class="text-yellow">{{item.datetime | date:"%a, %b %e %l:%M%P"}}</h5>
-                </div>
+                <h5 class="text-yellow">{{item.datetime | date:"%a, %b %e %l:%M%P"}}</h5>
+
+                <h3 class="col-span-3">{{item.title}}</h3>
                 
                 <p class="pb-4">{{item.description}}</p>
                 
                 <h3 class="text-yellow">{{item.price}}</h3>
-                <a href="/trainings.html" class="button">Register Now</a>
+                <a href="{{item.walla_link}}" class="button">Register Now</a>
             </div>
         </div>
 
         {% when "light blue" %}
-        <div class="flex items-center order-2 col-span-4 p-5p bg-blue text-d-blue">
+        <div class="flex items-center order-1 col-span-4 align-middle lg:order-3 p-5p bg-blue text-d-blue">
             <div class="">
-                <div class="grid grid-cols-4">
-                    <h3 class="col-span-3">{{item.title}}</h3>
-                    <h5 class="text-yellow">{{item.datetime | date:"%a, %b %e %l:%M%P"}}</h5>
-                </div>
+                <h5 class="text-yellow">{{item.datetime | date:"%a, %b %e %l:%M%P"}}</h5>
+                <h3 class="col-span-3">{{item.title}}</h3>
                 
                 <p class="pb-4">{{item.description}}</p>
                 
                 <h3 class="text-yellow">{{item.price}}</h3>
-                <a href="/trainings.html" class="button-d">Register Now</a>
+                <a href="{{item.walla_link}}" class="button-d">Register Now</a>
             </div>
         </div>
     {% endcase %}

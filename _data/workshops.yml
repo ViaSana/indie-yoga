@@ -16,6 +16,7 @@
   image: assets/uploads/wrkshp-2.png
   price: $35 Member / $40 Non-Member
   wkshop-background: dark blue
+  walla_link:
 - title: Shake Rising
   description: >-
     Shake Rising is a spiritual movement practice that uses dance, fitness, and
@@ -28,3 +29,4 @@
   image: assets/uploads/wrkshp-1.png
   price: $30
   wkshop-background: light blue
+  walla_link:

@@ -3,10 +3,12 @@
 <!-- Main, Map, Testimonial cases that fit into a 6 Column grid -->
 {% case {{include.case}} %}
     {% when "main" %}
-        <div class="col-span-4">
-                <div class="h-full bg-image" style="background-image: url({{page.main-image}}); {{include.style}}"></div>
+        <div class="md:col-span-4 col-span-full">
+            <img src="{{page.main-image}}">
+
+            <!-- <div class="h-full bg-image" style="background-image: url({{page.main-image}}); {{include.style}}"></div> -->
         </div> 
-        <div class="flex col-span-2 {{page.hero.color}}">
+        <div class="flex col-span-full md:col-span-2 {{page.hero.color}}">
             <div class="self-center p-5p {{page.hero.text_color}}">
                 <!-- IF statements control what data is shown on the text field -->
                 {% if page.hero.price %}
@@ -75,13 +77,13 @@
         </div>
     
     {% when "testimonial" %}
-        <div class="col-span-4 bg-d-blue">
+        <div class="col-span-full md:col-span-4 bg-d-blue">
             <div class="self-center p-5p px-10p">
                 {% include testimonial_slider.html %}
             </div>    
         </div>   
-        <div class="col-span-2">
-            <div class="h-full bg-image" style="background-image: url({{site.data.testimonials.image}});"></div>
+        <div class="col-span-full md:col-span-2">
+            <div class="max-md:aspect-[3/2] md:h-full bg-image" style="background-image: url({{site.data.testimonials.image}});"></div>
         </div>
 
     {% when "page" %}

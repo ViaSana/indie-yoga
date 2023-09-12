@@ -85,6 +85,7 @@
         @apply text-aqua;
     }
 
+    /* Overlay Styles */
     .services-overlay {
         position: relative;
         background-color: rgba(190, 190, 190, 0.7);
@@ -161,7 +162,6 @@
     }
 
     /* Show More Toggle */
-    
     .show-toggle .show-toggle-btn {
         font-weight: 500;
         border: 0;
@@ -224,13 +224,11 @@
     }
 
     .mobile-menu {
-        @apply hidden bg-blue;
+        @apply absolute right-0 hidden text-center bg-blue;
         
-        text-align: center;
+        /* This precisely positions the drop down */
         padding: 55% 60% 25% 50%;
-        position: absolute;
         top: -6px;
-        right: 0;
     }
 
     .mobile-menu a {
@@ -245,6 +243,12 @@
         @apply mx-auto max-w-screen-2xl;
     }
     
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
     .bg-image {
         background-size: cover; 
         background-position: center; 

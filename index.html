@@ -21,16 +21,16 @@ hero:
     text_color: text-d-blue
     link: about
 ---
-<div class="grid grid-cols-12 gap-4 my-4 mx-scrn">
-    <div class="flex col-span-4 bg-blue">
+<div class="grid gap-4 my-4 md:grid-cols-12 mx-scrn">
+    <div class="flex order-2 md:col-span-4 bg-blue">
         <div class="self-center px-5p text-d-blue">
             <h1 class="editable">Ride Life's Waves with Yoga's Flow</h1>
             <h4 class="editable">The Original Hot Yoga Studio in Ocean Beach</h4>
         </div>
     </div>
     
-    <div class="col-span-8">
-        <div class="bg-image pb-[100%]" style="background-image: url({{page.home-image}}); background-position-x: -35rem;"></div>
+    <div class="md:col-span-8 md:order-3">
+        <img src="{{page.home-image}}">
     </div>
 </div>
 
@@ -45,7 +45,7 @@ hero:
     </div>
 </section>
 
-{% include hero.html case="main" style="height: 55vh"%}
+{% include hero.html case="main" %}
 
 {% include hero.html case="testimonial" %}
 

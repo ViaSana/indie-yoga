@@ -1,7 +1,7 @@
 <div class="grid gap-4 lg:grid-cols-3">
     {% for item in site.data.indie-info.services %}
     <div class="m-8 bg-image aspect-square lg:m-0" style="background-image: url({{item.image}});">
-        <div class="grid gap-4 px-8 m-8 text-center grid-col services-overlay p-5p aspect-square">
+        <div class="grid gap-4 px-8 text-center sm:m-8 grid-col services-overlay p-5p aspect-square">
             <div class="self-end">
                 <h3 class="line-clamp-1">{{item.title}}</h3>
                 <p class="text-d-blue max-lg:text-4xl">{{item.description}}</p>
