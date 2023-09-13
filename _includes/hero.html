@@ -3,45 +3,58 @@
 <!-- Hero that fits into a 6 Column grid -->
 {% case {{include.case}} %}
     {% when "main" %}
-        <div class="md:col-span-4 col-span-full">
-            <img src="{{page.main-image}}">
+    <!-- Main Hero -->
+        <div class="md:col-span-4 col-span-full bg-image min-h-[60vh]" style="background-image: url({{page.main-image}});">
         </div> 
         <div class="flex col-span-full md:col-span-2 {{page.hero.color}}">
             <div class="self-center p-5p {{page.hero.text_color}}">
                 <!-- IF statements control what data is shown on the text field -->
                 {% if page.hero.price %}
-                    <h3 class="text-yellow">{{page.hero.price}}</h3>
+                <h3 class="text-yellow">{{page.hero.price}}</h3>
                 {% endif %}
 
-                <h3>{{page.hero.heading}}</h3>
+                <h1>{{page.hero.heading}}</h1>
                 
                 <p class="pb-4">{{page.hero.p1}}</p>
                 
                 {% if page.hero.p2 %}            
-                    <p class="pb-4">{{page.hero.p2}}</p>
+                <p class="pb-4">{{page.hero.p2}}</p>
                 {% endif %}
                 
                 <!-- Add a button if there is a link in the front matter && overwrite 'Learn More' if there is text on the include -->
                 {% if page.hero.link %} 
-                    <a href="{{page.hero.link}}" class="button">{% if include.button %}{{include.button}}{%else%}Learn More{%endif%}</a>
+                <a href="{{page.hero.link}}" class="button">{% if include.button %}{{include.button}}{%else%}Learn More{%endif%}</a>
                 {% endif %}
             </div>
         </div>
 
+    {% when "page" %}
+    <!-- Page Hero -->
+    <div class="col-span-full bg-image" style="background-image: url({{page.page-image}});"> 
+        <div class="flex page-overlay md:h-[60vh]">
+            <div class="flex basis-7/11 {{page.text-placement}} p-5p">
+                <div class="self-center">
+                    <h1 class="text-light">{{page.title}}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
     {% when "info" %}
-        <div class="md:col-span-4 col-span-full">
+    <!-- Info Hero -->
+        <div class="md:h-[60vh] md:col-span-4 col-span-full">
             <img src="{{page.main-image}}">
         </div>  
-        <div class="flex col-span-full md:col-span-2 {{page.hero.color}}">
+        <div class="flex md:h-[60vh] col-span-full md:col-span-2 {{page.hero.color}}">
             <div class="self-center p-5p">
-
                 <h4 class="pb-4 {{page.hero.text_color-2}}">{{page.hero.p1}}</h4>
 
-                <h2 class="{{page.hero.text_color}}">{{page.hero.heading}}</h2>
+                <h3 class="{{page.hero.text_color}}">{{page.hero.heading}}</h3>
             </div>
         </div>
 
     {% when "reverse" %}
+    <!-- Reverse Hero -->
     <div class="flex md:col-span-2 col-span-full {{page.hero-r.color}}">
         <div class="self-center p-5p {{page.hero-r.text_color}}">
             <h3 class="text-blue">{{page.hero-r.price}}</h3>
@@ -58,41 +71,32 @@
     </div>
 
     {% when "map" %}
-        <div class="order-1 md:col-span-4 col-span-full md:-order-1">
-                {% include g_map.html %}
-        </div>
-        <div class="flex md:col-span-2 col-span-full bg-blue">
-            <div class="self-center p-5p text-d-blue">
-                <h3>Where to Find Us</h3>
-                <p class="pb-4 max-lg:hidden">You will find our heated studio in the heart of ocean beach. We offer an inviting environment for all levels to grow and learn through yoga practice. Drop in to feed off the music, movement and energy that will surround you. </p>
-                
-                <div class="find-us_info">
-                    <a href="#"><span><b>Email: </b>{{site.data.indie-info.email}}</span></a>
-                    <a href="#"><span><b>Phone: </b>{{site.data.indie-info.phone}}</span></a>
-                    <a href="#"><span><b>Address: </b>{{site.data.indie-info.address}}</span></a>
-                </div>
+    <!-- Map Hero -->
+    <div class="order-1 md:col-span-4 col-span-full md:-order-1">
+        {% include g_map.html %}
+    </div>
+    <div class="flex md:col-span-2 col-span-full bg-blue">
+        <div class="self-center p-5p text-d-blue">
+            <h3>Where to Find Us</h3>
+            <p class="pb-4 max-lg:hidden">You will find our heated studio in the heart of ocean beach. We offer an inviting environment for all levels to grow and learn through yoga practice. Drop in to feed off the music, movement and energy that will surround you. </p>
+            
+            <div class="find-us_info">
+                <a href="#"><span><b>Email: </b>{{site.data.indie-info.email}}</span></a>
+                <a href="#"><span><b>Phone: </b>{{site.data.indie-info.phone}}</span></a>
+                <a href="#"><span><b>Address: </b>{{site.data.indie-info.address}}</span></a>
             </div>
         </div>
+    </div>
     
     {% when "testimonial" %}
-        <div class="col-span-full md:col-span-4 bg-d-blue">
-            <div class="self-center p-5p px-10p">
-                {% include testimonial_slider.html %}
-            </div>    
-        </div>   
-        <div class="col-span-full md:col-span-2">
-            <div class="max-md:aspect-[3/2] md:h-full bg-image" style="background-image: url({{site.data.testimonials.image}});"></div>
-        </div>
-
-    {% when "page" %}
-    <div class="col-span-full bg-image" style="background-image: url({{page.page-image}});"> 
-        <div class="flex page-overlay min-h-[36vw]">
-            <div class="flex basis-7/11 {{page.text-placement}} p-5p">
-                <div class="self-center">
-                    <h1 class="text-light">{{page.title}}</h1>
-                </div>
-            </div>
-        </div>
+    <!-- Testimonial Hero -->
+    <div class="col-span-full md:col-span-4 bg-d-blue">
+        <div class="self-center p-5p px-10p">
+            {% include testimonial_slider.html %}
+        </div>    
+    </div>   
+    <div class="col-span-full md:col-span-2 max-md:hidden">
+        <div class="max-md:aspect-[3/2] md:h-full bg-image" style="background-image: url({{site.data.testimonials.image}});"></div>
     </div>
 
 {% endcase %}

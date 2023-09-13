@@ -236,6 +236,10 @@
         padding: 1vh 0;
         display: block;
     }
+
+    #curator-feed-default-feed-layout {
+        @apply text-light
+    }
 }
 
 @layer utilities {
@@ -254,6 +258,7 @@
         background-position: center; 
         background-repeat: no-repeat;
     }
+    
     .embed-container {
         position: relative;
         padding-bottom: 56.25%;
