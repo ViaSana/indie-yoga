@@ -23,8 +23,8 @@ hero:
 ---
 <div class="grid gap-4 my-4 md:grid-cols-12 mx-scrn">
     <div class="flex order-2 md:col-span-4 bg-blue">
-        <div class="self-center px-5p text-d-blue">
-            <h1 class="editable">Ride Life's Waves with Yoga's Flow</h1>
+        <div class="self-center p-5p text-d-blue">
+            <h1 class="editable font-bold">Ride Life's Waves with Yoga's Flow</h1>
             <h4 class="editable">The Original Hot Yoga Studio in Ocean Beach</h4>
         </div>
     </div>
@@ -38,16 +38,19 @@ hero:
 
 <section>
     <div class="text-center mx-scrn text-d-blue">
-        <h2 class="pb-12 editable">Find Your Flow</h2>
+        <h2 class="pb-4 md:pb-12 editable font-bold">Find Your Flow</h2>
 
         <!-- Creates a Loop though 'Indie-Info.yml' to create square links to the rest of the pages -->
         {% include service-squares_loop.html %}
     </div>
 </section>
 
+{% include cta.html action=4 %}
+
 {% include hero.html case="main" %}
 
 {% include hero.html case="testimonial" %}
+
 
 <!-- Includes insta_post_loop.html that pulls and formats the images from social plugins -->
 {% include insta.html %}

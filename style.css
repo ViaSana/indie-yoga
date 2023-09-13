@@ -24,23 +24,23 @@
     }
 
     h1 {
-        font-size: 4rem;
+        @apply text-3xl md:text-5xl; 
         font-style: normal;
         font-weight: 400;
         line-height: normal;
     }
 
     h2 {
-        font-size: 55px;
+        @apply text-2xl md:text-5xl;
     } 
     
     h3 {
-        font-size: 2.8125rem;
+        @apply text-2xl md:text-4xl;
         font-weight: 400;
     }
 
     h4 {
-        @apply text-4xl font-body;
+        @apply text-lg md:text-2xl font-body;
     }
     
     h5 {
