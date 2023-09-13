@@ -1701,6 +1701,10 @@ footer nav a:hover {
         padding: 1vh 0;
         display: block;
     }
+#curator-feed-default-feed-layout {
+  --tw-text-opacity: 1;
+  color: rgb(238 232 236 / var(--tw-text-opacity));
+}
 .visible {
   visibility: visible;
 }
@@ -1766,6 +1770,10 @@ footer nav a:hover {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+.mx-40 {
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 .-mr-2 {
   margin-right: -0.5rem;
@@ -1851,11 +1859,11 @@ footer nav a:hover {
 .max-h-32 {
   max-height: 8rem;
 }
-.min-h-\[36vw\] {
-  min-height: 36vw;
-}
 .min-h-\[40vh\] {
   min-height: 40vh;
+}
+.min-h-\[60vh\] {
+  min-height: 60vh;
 }
 .w-12 {
   width: 3rem;
@@ -1874,6 +1882,12 @@ footer nav a:hover {
 }
 .w-\[82vw\] {
   width: 82vw;
+}
+.w-full {
+  width: 100%;
+}
+.w-\[70vw\] {
+  width: 70vw;
 }
 .w-full {
   width: 100%;
@@ -2148,6 +2162,11 @@ footer nav a:hover {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
 .duration-700 {
   transition-duration: 700ms;
 }
@@ -2263,6 +2282,9 @@ img {
   .md\:col-span-4 {
     grid-column: span 4 / span 4;
   }
+  .md\:col-span-4 {
+    grid-column: span 4 / span 4;
+  }
   .md\:col-span-5 {
     grid-column: span 5 / span 5;
   }
@@ -2277,6 +2299,9 @@ img {
   }
   .md\:hidden {
     display: none;
+  }
+  .md\:h-\[60vh\] {
+    height: 60vh;
   }
   .md\:h-full {
     height: 100%;
@@ -2312,6 +2337,10 @@ img {
   }
   .lg\:m-0 {
     margin: 0px;
+  }
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
