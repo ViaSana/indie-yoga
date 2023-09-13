@@ -1775,6 +1775,10 @@ footer nav a:hover {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 .-mr-2 {
   margin-right: -0.5rem;
 }
@@ -1807,6 +1811,9 @@ footer nav a:hover {
 }
 .mt-4 {
   margin-top: 1rem;
+}
+.mr-6 {
+  margin-right: 1.5rem;
 }
 .line-clamp-1 {
   overflow: hidden;
@@ -2251,6 +2258,10 @@ img {
   .sm\:m-8 {
     margin: 2rem;
   }
+  .sm\:mx-28 {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -2280,6 +2291,10 @@ img {
   }
   .md\:col-span-8 {
     grid-column: span 8 / span 8;
+  }
+  .md\:mx-40 {
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
   .md\:mr-4 {
     margin-right: 1rem;

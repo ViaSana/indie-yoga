@@ -21,19 +21,16 @@ hero:
     text_color: text-d-blue
     link: about
 ---
-<div class="grid gap-4 my-4 md:grid-cols-12 mx-scrn">
-    <div class="flex order-2 md:col-span-4 bg-blue">
-        <div class="self-center p-5p text-d-blue">
-            <h1 class="editable font-bold">Ride Life's Waves with Yoga's Flow</h1>
+<!-- Home Hero w/ special responsiveness -->
 <div class="grid gap-4 my-4 md:grid-cols-6 mx-scrn">
-
+        
     <div class="flex order-2 max-md:hidden md:col-span-2 bg-blue">
-        <div class="self-center px-5p text-d-blue">
-            <h1 class="editable">Ride Life's Waves with Yoga's Flow</h1>
+        <div class="self-center p-5p text-d-blue">
+            <h1 class="font-bold editable">Ride Life's Waves with Yoga's Flow</h1>
             <h4 class="editable">The Original Hot Yoga Studio in Ocean Beach</h4>
         </div>
     </div>
-    
+
     <div class="max-md:hidden md:col-span-4 md:order-3">
         <img src="{{page.home-image}}">
     </div>
@@ -53,7 +50,7 @@ hero:
 
 <section>
     <div class="text-center mx-scrn text-d-blue">
-        <h2 class="pb-4 md:pb-12 editable font-bold">Find Your Flow</h2>
+        <h2 class="pb-4 font-bold md:pb-12 editable">Find Your Flow</h2>
 
         <!-- Creates a Loop though 'Indie-Info.yml' to create square links to the rest of the pages -->
         {% include service-squares_loop.html %}
@@ -65,7 +62,6 @@ hero:
 {% include hero.html case="main" %}
 
 {% include hero.html case="testimonial" %}
-
 
 <!-- Includes insta_post_loop.html that pulls and formats the images from social plugins -->
 {% include insta.html %}
