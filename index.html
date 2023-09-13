@@ -5,6 +5,8 @@ home-image: assets/images/home_hero-2.jpg
 cta-color: bg-yellow
 main-image: /assets/uploads/about-indie.png
 hero:
+    color: bg-blue
+    text_color: text-d-blue
     heading: Where the Soul Meets the Sea, in Ocean Beach
     p1: >-
         Welcome to Indie Yoga, the first hot yoga studio of the Ocean Beach
@@ -17,8 +19,6 @@ hero:
         stepping into a mere studio, but a home where every individual is
         cherished, every class is a collective journey, and every session brings
         you closer to your authentic self.
-    color: bg-blue
-    text_color: text-d-blue
     link: about
 ---
 <!-- Home Hero w/ special responsiveness -->
@@ -36,7 +36,7 @@ hero:
     </div>
 
     <!-- for small screens -->
-    <div class="block col-span-full bg-image md:hidden" style="background-image: url({{page.home-image}});"> 
+    <div class="block col-span-full bg-image md:hidden h-[63vh]" style="background-image: url({{page.home-image}});"> 
         <div class="flex text-left page-overlay">
             <div class="self-center p-5p w-[70vw]">
                 <h1 class="editable">Ride Life's Waves with Yoga's Flow</h1>
@@ -59,7 +59,7 @@ hero:
 
 {% include cta.html action=4 %}
 
-{% include hero.html case="main" %}
+{% include hero.html case="home" %}
 
 {% include hero.html case="testimonial" %}
 

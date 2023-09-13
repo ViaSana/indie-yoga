@@ -5,18 +5,7 @@ page-image: /assets/uploads/pricing-hero.jpg
 text-placement: ml-auto
 main-image: /assets/uploads/schedule-hero.jpg
 reverse-image: /assets/uploads/pricing.jpg
-hero:
-  heading: 'Indie Rockstar: Studio Membership'
-  p1: |-
-    Join the community with unlimited classes and amazing IndieCentives with discounts at other businesses in OB.
-    <br>- First month is just $88
-    <br>- Free towel rental
-    <br>- One guest pass per month
-    <br>- Minimum 2 month commitment  
-  color: bg-d-blue
-  text_color: text-light
-  price: $108
-  link: /trainings.html
+
 hero-r:
   heading: 'New Student Special: One Month Unlimited'
   p1: >-
@@ -25,13 +14,27 @@ hero-r:
   text_color: text-d-blue
   button_color: bg-blue
   price: $39
+
+hero:
+  color: bg-d-blue
+  text_color: text-light
+  price: $108
+  heading: 'Indie Rockstar: Studio Membership'
+  p1: |-
+    Join the community with unlimited classes and amazing IndieCentives with discounts at other businesses in OB.
+    <br>- First month is just $88
+    <br>- Free towel rental
+    <br>- One guest pass per month
+    <br>- Minimum 2 month commitment
+  link: /trainings.html
+
 cta-color: bg-aqua
 ---
-{% include hero.html case="page" %}
+{% include hero.html case="full" %}
 
-{% include hero.html case="reverse" button="Buy Now" %}
+{% include hero.html case="reverse" %}
 
-{% include hero.html case="main" button="Buy Now" %}
+{% include hero.html case="pricing" %}
 
 {% include cta.html action=2 %}
 

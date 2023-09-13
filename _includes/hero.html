@@ -2,67 +2,70 @@
     
 <!-- Hero that fits into a 6 Column grid -->
 {% case {{include.case}} %}
-    {% when "main" %}
-    <!-- Main Hero -->
-        <div class="md:col-span-4 col-span-full bg-image min-h-[60vh]" style="background-image: url({{page.main-image}});">
-        </div> 
-        <div class="flex col-span-full md:col-span-2 {{page.hero.color}}">
-            <div class="self-center p-5p {{page.hero.text_color}}">
-                <!-- IF statements control what data is shown on the text field -->
-                {% if page.hero.price %}
-                <h3 class="text-yellow">{{page.hero.price}}</h3>
-                {% endif %}
-
-                <h3 class="font-bold">{{page.hero.heading}}</h3>
-                
-                <p class="pb-4">{{page.hero.p1}}</p>
-                
-                {% if page.hero.p2 %}            
-                <p class="pb-4">{{page.hero.p2}}</p>
-                {% endif %}
-                
-                <!-- Add a button if there is a link in the front matter && overwrite 'Learn More' if there is text on the include -->
-                {% if page.hero.link %} 
-                <a href="{{page.hero.link}}" class="button">{% if include.button %}{{include.button}}{%else%}Learn More{%endif%}</a>
-                {% endif %}
-            </div>
-        </div>
-
-    {% when "page" %}
-    <!-- Page Hero -->
-    <div class="col-span-full bg-image" style="background-image: url({{page.page-image}});"> 
-        <div class="flex page-overlay md:h-[60vh]">
-            <div class="flex basis-7/11 {{page.text-placement}} p-5p">
-                <div class="self-center">
-                    <h1 class="text-light">{{page.title}}</h1>
-                </div>
-            </div>
+    {% when "home" %}
+    <!-- Home Hero -->
+    <div class="md:col-span-4 col-span-full bg-image min-h-[60vh]" style="background-image: url({{page.main-image}});"></div> 
+    <div class="flex col-span-full md:col-span-2 {{page.hero.color}}">
+        <div class="self-center p-5p {{page.hero.text_color}}">
+            <h3 class="font-bold">{{page.hero.heading}}</h3>
+            
+            <p class="pb-4">{{page.hero.p1}}</p>
+            <p class="pb-4">{{page.hero.p2}}</p>
+            
+            <!-- Add a button if there is a 'link' in the front matter && overwrite 'Learn More' if there is text passed from include.button -->
+            {% if page.hero.link %} 
+            <a href="{{page.hero.link}}" class="button">{% if include.button %}{{include.button}}{%else%}Learn More{%endif%}</a>
+            {% endif %}
         </div>
     </div>
 
     {% when "info" %}
     <!-- Info Hero -->
-        <div class="md:h-[60vh] md:col-span-4 col-span-full">
-            <img src="{{page.main-image}}">
-        </div>  
-        <div class="flex md:h-[60vh] col-span-full md:col-span-2 {{page.hero.color}}">
-            <div class="self-center p-5p">
-                <h4 class="pb-4 {{page.hero.text_color-2}}">{{page.hero.p1}}</h4>
+    <div class="md:h-[60vh] md:col-span-4 col-span-full">
+        <img src="{{page.main-image}}">
+    </div>  
+    <div class="flex md:h-[60vh] col-span-full md:col-span-2 {{page.hero.color}}">
+        <div class="self-center p-5p">
+            <h4 class="pb-4 {{page.hero.text_color-2}}">{{page.hero.p1}}</h4>
 
-                <h3 class="{{page.hero.text_color}}">{{page.hero.heading}}</h3>
+            <h3 class="{{page.hero.text_color}} font-bold">{{page.hero.heading}}</h3>
+        </div>
+    </div>
+
+    {% when "full" %}
+    <!-- Full Page Hero -->
+    <div class="col-span-full bg-image" style="background-image: url({{page.page-image}});"> 
+        <div class="flex page-overlay md:h-[60vh]">
+            <div class="flex basis-7/11 {{page.text-placement}} p-5p">
+                <div class="self-center">
+                    <h1 class="font-bold text-light">{{page.title}}</h1>
+                </div>
             </div>
         </div>
+    </div>
+
+    {% when "pricing" %}
+    <!-- Pricing Hero -->
+    <div class="md:col-span-4 col-span-full">
+        <img src="{{page.main-image}}">
+    </div>
+    <div class="flex col-span-full md:col-span-2 {{page.hero.color}}">
+        <div class="self-center p-5p {{page.hero.text_color}}">
+            <h3 class="text-yellow">{{page.hero.price}}</h3>
+            <h3 class="font-bold">{{page.hero.heading}}</h3>
+            <p class="pb-4">{{page.hero.p1}}</p>
+            <a href="{{page.hero.link}}" class="button">Buy Now</a>
+        </div>
+    </div>
 
     {% when "reverse" %}
     <!-- Reverse Hero -->
     <div class="flex md:col-span-2 col-span-full {{page.hero-r.color}}">
         <div class="self-center p-5p {{page.hero-r.text_color}}">
             <h3 class="text-blue">{{page.hero-r.price}}</h3>
-
-            <h3>{{page.hero-r.heading}}</h3>
-            <p class="pb-6">{{page.hero-r.p1}}</p>
-            
-            <div class="button {{page.hero-r.button_color}}"><a href="{{page.hero.link}}">{% if include.button %}{{include.button}}{%else%}Learn More{%endif%}</a></div>
+            <h3 class="font-bold">{{page.hero-r.heading}}</h3>
+            <p class="pb-4">{{page.hero-r.p1}}</p>
+            <div class="button {{page.hero-r.button_color}}"><a href="{{page.hero.link}}">Buy Now</a></div>
         </div>
     </div>
 
