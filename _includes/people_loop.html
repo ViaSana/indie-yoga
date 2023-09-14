@@ -1,40 +1,45 @@
-<div class="p-4 mx-4 mb-4 space-x-4 max-w-[96.5vw] bg-blue carousel carousel-center rounded-box">
-    {% for people in site.data.teachers %}
-    <div class="grid content-start max-w-xs carousel-item bg-d-blue">
+    <div class="p-4 pb-16 mx-4 space-x-4 max-w-[96.5vw] bg-blue carousel carousel-center rounded-box">
+        {% for people in site.data.teachers %}
+        <div class="grid content-start max-w-xs carousel-item bg-d-blue" id="item{{forloop.index}}">
 
-        {% if {{people.quote}} %}
-            <div class="hover-container bg-image aspect-square" style="background-image: url({{people.image}});">
-                <div class="hover-overlay">
-                    <div class="p-4 text-center hover-inner">
-                        <p>{{people.quote}}</p>
+            {% if {{people.quote}} %}
+                <div class="hover-container bg-image aspect-square" style="background-image: url({{people.image}});">
+                    <div class="hover-overlay">
+                        <div class="p-4 text-center hover-inner">
+                            <p>{{people.quote}}</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        {% else %}
-            <div class="bg-image aspect-square" style="background-image: url({{people.image}});"></div>
-        {% endif %}
+            {% else %}
+                <div class="bg-image aspect-square" style="background-image: url({{people.image}});"></div>
+            {% endif %}
 
-        <div class="p-4 bg-d-blue">
-            <h4 class="text-yellow">{{people.name}}</h4>
-            <!-- Fancy Apline to use a show more toggle -->
-            <p
-                class="show-toggle"
-                x-data="{ show: false, maxLength: 150, text: '', content: '' }"
-                x-init="text = $el.firstElementChild.textContent.trim(); content = text.slice(0, maxLength)" 
-                >
-                <span x-text="show ? text : content">{{people.bio}}</span>
-                <button
-                    class="show-toggle-btn"
-                    @click="show = !show"
-                    x-show="text.length > maxLength"
-                    x-text="show ? 'show less' : '...read more'"
-                ></button>
-            </p>
+            <div class="p-4 bg-d-blue">
+                <h4 class="text-yellow">{{people.name}}</h4>
+                <!-- Fancy Apline to use a show more toggle -->
+                <p
+                    class="show-toggle"
+                    x-data="{ show: false, maxLength: 150, text: '', content: '' }"
+                    x-init="text = $el.firstElementChild.textContent.trim(); content = text.slice(0, maxLength)" 
+                    >
+                    <span x-text="show ? text : content">{{people.bio}}</span>
+                    <button
+                        class="show-toggle-btn"
+                        @click="show = !show"
+                        x-show="text.length > maxLength"
+                        x-text="show ? 'show less' : '...read more'"
+                    ></button>
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="relative -top-12 flex justify-center w-full gap-2 py-2 bg-blue rounded-box mx-4 space-x-4 max-w-[96.5vw]">
+        <a href="#" class="underline text-d-blue">All Teachers</a>
+        <div class="w-1/3 carousel">
+        {% for people in site.data.teachers %}
+            <a href="#item{{forloop.index}}" class="mx-1 btn btn-xs carousel-item">{{forloop.index}}</a> 
+        {%endfor%}
         </div>
     </div>
-    {% endfor %}
-</div>
-
-
-
-

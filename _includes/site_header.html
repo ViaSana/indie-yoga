@@ -1,4 +1,4 @@
-<header class="px-4 pt-4 mx-scrn">
+<header class="relative z-10 px-4 pt-4 mx-scrn">
     <div class="flex w-full max-md:hidden">
         <div>
             <a href="/"><img class="max-h-24" src="assets/images/Indie_logo-long.png"></img></a>
@@ -13,11 +13,11 @@
                 <div @mouseover="open = true" class="px-4 pb-2">
                     <a href="/classes">Classes</a>
                 </div>
-                <div x-show="open" class="absolute pt-2 left-5 top-6">
-                    <a href="/pricing" class="block p-2 text-left bg-light">
+                <div x-show="open" class="absolute pt-2 left-4 top-6">
+                    <a href="/pricing" class="block p-2 text-left bg-grey">
                         Pricing
                     </a>
-                    <a href="/classes" class="block p-2 text-left bg-light">
+                    <a href="/classes" class="block p-2 text-left bg-grey">
                         Descriptions
                     </a>
                 </div>
@@ -28,8 +28,8 @@
                 <div @mouseover="open = true" class="px-4 pb-2">
                     <a href="/trainings">Workshops<span class="max-lg:hidden"> & Trainings</span></a>
                 </div>
-                <div x-show="open" class="absolute pt-2 left-5 top-6">
-                    <a href="/teachertraining" class="block p-2 text-left bg-light">
+                <div x-show="open" class="absolute pt-2 left-4 top-6">
+                    <a href="/teachertraining" class="block p-2 text-left bg-grey">
                         Teacher Training
                     </a>
                 </div>
