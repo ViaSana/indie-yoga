@@ -1,11 +1,25 @@
-<div class="grid grid-cols-3 gap-3 mx-scrn">
+<!-- All Teachers displayed in people_all.html include -->
+<div class="grid gap-3 pb-4 md:grid-cols-3 mx-scrn">
 
     {% for people in site.data.teachers %}
         <div>
             <div class="bg-image aspect-square" style="background-image: url({{people.image}});"></div>
             <div class="p-8 bg-d-blue">
                 <h4 class="text-yellow">{{people.name}}</h4>
-                <p>{{people.bio}}</p>
+                <!-- Fancy Apline to use a show more toggle -->
+                <p
+                    class="show-toggle"
+                    x-data="{ show: false, maxLength: 200, text: '', content: '' }"
+                    x-init="text = $el.firstElementChild.textContent.trim(); content = text.slice(0, maxLength)" 
+                    >
+                    <span x-text="show ? text : content">{{people.bio}}</span>
+                    <button
+                        class="show-toggle-btn"
+                        @click="show = !show"
+                        x-show="text.length > maxLength"
+                        x-text="show ? 'show less' : '...read more'"
+                    ></button>
+                </p>
             </div>
         </div>
     {% endfor %}

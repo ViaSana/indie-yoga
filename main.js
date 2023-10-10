@@ -1,4 +1,3 @@
-
 $(".testimonial-slider-container").slick({
     autoplay: true,
     autoplaySpeed: 2e4,

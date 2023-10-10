@@ -7,32 +7,38 @@
         <nav class="self-center w-full text-right">
             <a class="px-4" href="/about">About</a>
             <a class="px-4" href="/people"><span class="max-lg:hidden">Our </span>People</a>
+            <a class="px-4" href="/classes">Classes</a>
+            <a href="/pricing" class="px-4">Pricing</a>
 
-            <!-- Apline Dropdown to for Classes -->
-            <div x-data="{ open: false }" class="relative inline-block text-center" @mouseleave="open = false">
-                <div @mouseover="open = true" class="px-4 pb-2">
-                    <a href="/classes">Classes</a>
-                </div>
-                <div x-show="open" class="absolute pt-2 left-4 top-6">
-                    <a href="/pricing" class="block p-2 text-left bg-grey">
-                        Pricing
-                    </a>
-                    <a href="/classes" class="block p-2 text-left bg-grey">
-                        Descriptions
-                    </a>
-                </div>
-            </div>
+
+            <!-- Apline Dropdown to for Classes (Client requested we add pricing to the menu)
+                <div x-data="{ open: false }" class="relative inline-block text-center" @mouseleave="open = false">
+                    <div @mouseover="open = true" class="px-4 pb-2">
+                        <a href="/classes">Classes</a>
+                    </div>
+                    <div x-show="open" class="absolute pt-2 left-4 top-6">
+                        <a href="/pricing" class="block p-2 text-left bg-grey">
+                            Pricing
+                        </a>
+                        <a href="/classes" class="block p-2 text-left bg-grey">
+                            Descriptions
+                        </a>
+                    </div>
+                </div> 
+            -->
 
             <!-- Apline Dropdown to for Enrollments -->
             <div x-data="{ open: false }" class="relative inline-block text-center" @mouseleave="open = false">
                 <div @mouseover="open = true" class="px-4 pb-2">
                     <a href="/trainings">Workshops<span class="max-lg:hidden"> & Trainings</span></a>
                 </div>
+<!-- TEMP HIDDEN                
                 <div x-show="open" class="absolute pt-2 left-4 top-6">
                     <a href="/teachertraining" class="block p-2 text-left bg-grey">
                         Teacher Training
                     </a>
-                </div>
+                </div> 
+-->
             </div>
             
             <a href="/schedule">

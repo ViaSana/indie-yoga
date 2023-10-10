@@ -1,6 +1,6 @@
     <div class="p-4 pb-16 mx-4 space-x-4 max-w-[96.5vw] bg-blue carousel carousel-center rounded-box">
         {% for people in site.data.teachers %}
-        <div class="grid content-start max-w-xs carousel-item bg-d-blue" id="item{{forloop.index}}">
+        <div class="grid content-start max-w-[16rem] carousel-item bg-d-blue" id="item{{forloop.index}}">
 
             {% if {{people.quote}} %}
                 <div class="hover-container bg-image aspect-square" style="background-image: url({{people.image}});">
@@ -35,11 +35,15 @@
         {% endfor %}
     </div>
 
+    <!-- Nav Section with a sprinkle of JS -->
     <div class="relative -top-12 flex justify-center w-full gap-2 py-2 bg-blue rounded-box mx-4 space-x-4 max-w-[96.5vw]">
-        <a href="#" class="underline text-d-blue">All Teachers</a>
-        <div class="w-1/3 carousel">
-        {% for people in site.data.teachers %}
-            <a href="#item{{forloop.index}}" class="mx-1 btn btn-xs carousel-item">{{forloop.index}}</a> 
-        {%endfor%}
-        </div>
+    
+        <button onclick="goPrev()" class="mx-1 btn btn-xs"><</button>
+    
+        <a href="/teachers" class="underline text-d-blue">All Teachers</a>
+    
+        <button onclick="goNext()" class="mx-1 btn btn-xs">></button>
+    
     </div>
+
+    <script src="carousel.js"></script>
