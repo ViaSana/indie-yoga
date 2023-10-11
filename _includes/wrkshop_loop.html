@@ -8,7 +8,7 @@
 
     <!-- The cycle class allows the layout to flip each time it runs through the loop -->
     <div class="col-span-2 {% cycle 'order-2', 'order-4' %} max-lg:px-4">
-        <div class="bg-image aspect-portrait" style="background-image: url({{item.image}});"></div>
+        <div class="bg-center bg-no-repeat bg-contain aspect-portrait" style="background-image: url({{item.image}});"></div>
     </div>
 
     <!-- Makes the choice for which color scheme will be picked -->

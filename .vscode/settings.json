@@ -83,6 +83,10 @@
         {
             "filePath": "trainings.html",
             "group": "pages"
+        },
+        {
+            "filePath": "_includes/class_loop.html",
+            "group": "includes"
         }
     ],
     "favorites.groups": [

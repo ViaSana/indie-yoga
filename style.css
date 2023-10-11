@@ -61,10 +61,6 @@
     footer nav a  {
         @apply block py-2 hover:text-aqua;
     }
-
-    .social-row_item {
-        @apply inline-block py-2 pr-2 stroke-light hover:stroke-aqua;
-    }
 }
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
@@ -83,6 +79,13 @@
     }
     .button:active, .button-d:active{
         @apply text-aqua;
+    }
+    .social-row_item {
+        @apply inline-block py-2 pr-2 stroke-light hover:stroke-aqua;
+    }
+
+    .social-people_item {
+        @apply inline py-2 pr-2 stroke-yellow hover:stroke-aqua;
     }
 
     /* Overlay Styles */

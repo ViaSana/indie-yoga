@@ -17,16 +17,12 @@
   price: $35 Member / $40 Non-Member
   wkshop-background: dark blue
   walla_link:
-- title: Shake Rising
+- title: Deep Yin & Restore w/Mae
   description: >-
-    Shake Rising is a spiritual movement practice that uses dance, fitness, and
-    energy work as its modalities and the chakra body as its guide. We aim to
-    activate our life force energies, reprogram our subconscious minds, and
-    regulate our nervous systems. This practice is intended for
-    female-identifying individuals who are willing to bring an open heart and
-    mind.
-  datetime: 2023-08-26 19:30:00 -0700
-  image: assets/uploads/wrkshp-1.png
-  price: $30
+    Think Yin Yoga, but with more of those nurturing hands-on adjustments and gentle massage we love so much. This is an invitation to deeply reset and nourish your body, mind and spirit, to influence your life beyond the mat. We will slow down, clarify intentions, reset with deep, gentle yin postures, and an option to share tea after.
+    Bring a mat, journal and pillow.
+  datetime: 2023-09-13 19:00:00 -0700
+  image: https://api.hellowalla.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN1RiQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--54c982e864668902c659bdd7250d764a4a928ce8/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMMEFXa0M5QUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--4baec8b8e14ea4738032bcc26335f5c76f01a7b1/IG%202.jpg
+  price: $33
   wkshop-background: light blue
-  walla_link:
+  walla_link: https://api.hellowalla.com/previews/6826?b=34&type=enrollment

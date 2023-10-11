@@ -11,7 +11,20 @@
 <div 
     id="walla-widget-root" 
     data-walla-id="4e15c3e1-f4df-4597-95af-977aec2f077c"
-    data-walla-page="trainings"
+    data-walla-page="enrollments"
 ></div>
 
 {% endcase %}
+
+<script type="text/javascript">
+    ;(function (w, a, l, la, j, s) {
+      const t = a.getElementById('walla-widget-script');
+      if (t) return;
+      j = a.createElement(l);
+      j.async = 1;
+      j.src = la;
+      j.id = 'walla-widget-script';
+      s = a.getElementsByTagName(l)[0];
+      s.parentNode.insertBefore(j, s);
+    })(window, document, 'script', 'https://widget.hellowalla.com/loader/v1/walla-widget-loader.js')
+</script>

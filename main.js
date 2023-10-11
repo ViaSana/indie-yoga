@@ -33,16 +33,4 @@ $('.hamburger-button').click(function(){
     var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
     i.src="https://cdn.curator.io/published/108f7c79-8ffc-467c-a1bf-37780a6a341e.js";
     e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
-    })();
-
-// WALLA WIDGET Function
-(function (w, a, l, la, j, s) {
-    const t = a.getElementById('walla-widget-script')
-    if (t) return;
-    j = a.createElement(l);
-    j.async = 1;
-    j.src = la;
-    j.id = 'walla-widget-script';
-    s = a.getElementsByTagName(l)[0];
-    s.parentNode.insertBefore(j, s);
-})(window, document, 'script', 'https://widget.hellowalla.com/loader/v1/walla-widget-loader.js');
+})();

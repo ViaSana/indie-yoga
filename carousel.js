@@ -2,43 +2,40 @@
 const items = document.querySelectorAll('.carousel-item'); 
 
 // Track current item index
-let current = 0;
+let current = 1;
 
-// Scroll to item function
-function scrollToItem(id) {
-
-
-    // document.querySelector(id).scrollIntoView({behavior: 'smooth'});
-
-    window.scrollTo(document.querySelector(id).offsetLeft, document.querySelector(id).offsetTop);
-    console.log(id);
-    console.log(document.querySelector(id).offsetLeft);
-    console.log(document.querySelector(id).offsetTop);
-
+// Function that jumps to the hash item and then removes from URL
+function jump(h){
+    var url = location.href;               //Save down the URL without hash.
+    location.href = "#"+h;                 //Go to the target element.
+    history.replaceState(null,null,url);   //Don't like hashes. Changing it back.
 }
 
 // Next click handler
 function goNext() {
     current++;
-    
+    current++;
+
     if(current >= items.length) {
-        current = 0;
+        current = 0 ;
     }
 
-    const id = '#item' + (current + 1);
+    const id = 'item' + (current + 1);
     
-    scrollToItem(id); 
+    jump(id); 
 }
 
 // Prev click handler 
 function goPrev() {
     current--;
-    
+    current--;
+
     if(current < 0) {
         current = items.length - 1;
     }
 
-    const id = '#item' + (current + 1);
+    const id = 'item' + (current + 1);
 
-    scrollToItem(id);
+    // scrollToItem(id);
+    jump(id);
 }

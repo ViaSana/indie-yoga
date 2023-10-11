@@ -1,6 +1,6 @@
     <div class="p-4 pb-16 mx-4 space-x-4 max-w-[96.5vw] bg-blue carousel carousel-center rounded-box">
         {% for people in site.data.teachers %}
-        <div class="grid content-start max-w-[16rem] carousel-item bg-d-blue" id="item{{forloop.index}}">
+        <div class="grid content-start w-[14rem] carousel-item bg-d-blue" id="item{{forloop.index}}">
 
             {% if {{people.quote}} %}
                 <div class="hover-container bg-image aspect-square" style="background-image: url({{people.image}});">
@@ -15,10 +15,19 @@
             {% endif %}
 
             <div class="p-4 bg-d-blue">
-                <h4 class="text-yellow">{{people.name}}</h4>
+                <h4 class="inline text-yellow">{{people.name}}</h4>
+                
+                {% if {{people.social}} %}
+                <!-- Instagram icon appears if teachers have a ig name listed-->
+                <a class="social-people_item" href="https://www.instagram.com/{{people.social}}">
+                    <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000" class="inline"><path d="M12 16a4 4 0 100-8 4 4 0 000 8z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 16V8a5 5 0 015-5h8a5 5 0 015 5v8a5 5 0 01-5 5H8a5 5 0 01-5-5z" stroke-width="1.5"></path><path d="M17.5 6.51l.01-.011" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </a>
+                {% endif %}
+
+    
                 <!-- Fancy Apline to use a show more toggle -->
                 <p
-                    class="show-toggle"
+                    class="pt-2 show-toggle"
                     x-data="{ show: false, maxLength: 150, text: '', content: '' }"
                     x-init="text = $el.firstElementChild.textContent.trim(); content = text.slice(0, maxLength)" 
                     >
