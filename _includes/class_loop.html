@@ -1,6 +1,5 @@
-<!-- 
-    Pulls all the class info and images from site.data.indie-info
--->
+<!--    Class_loop ----
+    Pulls all the class info and images from site.data.indie-info -->
 {% for class in site.data.indie-info.classes %}
 <div class="relative flex py-6 {% cycle '', 'flex-row-reverse' %}">
     <div class="w-[60vw] bg-image aspect-[3/2]" style="background-image: url({{class.image}});"></div>
@@ -10,11 +9,11 @@
 
         <!-- Fancy Apline to use a show more toggle -->
         <p
-            class="show-toggle max-sm:hidden"
+            class="show-toggle"
             x-data="{ show: false, maxLength: 230, text: '', content: '' }"
             x-init="text = $el.firstElementChild.textContent.trim(); content = text.slice(0, maxLength)" 
             >
-            <span x-text="show ? text : content">{{class.description}}</span>
+            <span x-text="show ? text : content" class="max-sm:hidden">{{class.description}}</span>
             <button
                 class="show-toggle-btn"
                 @click="show = !show"
