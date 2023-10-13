@@ -85,7 +85,7 @@
     }
 
     .social-people_item {
-        @apply inline py-2 pr-2 stroke-yellow hover:stroke-aqua;
+        @apply inline stroke-yellow hover:stroke-aqua;
     }
 
     /* Overlay Styles */

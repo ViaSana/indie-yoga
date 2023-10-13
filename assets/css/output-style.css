@@ -1548,9 +1548,6 @@ footer nav a:hover {
 .social-people_item {
   display: inline;
   stroke: #E5B02B;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-right: 0.5rem;
 }
 .social-people_item:hover {
   stroke: #65D8D2;
@@ -1707,6 +1704,72 @@ footer nav a:hover {
 .z-10 {
   z-index: 10;
 }
+.z-20 {
+  z-index: 20;
+}
+.z-30 {
+  z-index: 30;
+}
+.z-40 {
+  z-index: 40;
+}
+.z-50 {
+  z-index: 50;
+}
+.z-\[\] {
+  z-index: ;
+}
+.z-\[8\] {
+  z-index: 8;
+}
+.z-\[1\] {
+  z-index: 1;
+}
+.z-\[2\] {
+  z-index: 2;
+}
+.z-\[3\] {
+  z-index: 3;
+}
+.z-\[4\] {
+  z-index: 4;
+}
+.z-\[5\] {
+  z-index: 5;
+}
+.z-\[6\] {
+  z-index: 6;
+}
+.z-\[7\] {
+  z-index: 7;
+}
+.z-\[10-1\] {
+  z-index: 10-1;
+}
+.z-\[10-2\] {
+  z-index: 10-2;
+}
+.z-\[10-3\] {
+  z-index: 10-3;
+}
+.z-\[10-4\] {
+  z-index: 10-4;
+}
+.z-\[10-5\] {
+  z-index: 10-5;
+}
+.z-\[10-6\] {
+  z-index: 10-6;
+}
+.z-\[10-7\] {
+  z-index: 10-7;
+}
+.z-\[10-8\] {
+  z-index: 10-8;
+}
+.z-\[10\] {
+  z-index: 10;
+}
 .order-1 {
   order: 1;
 }
@@ -1778,6 +1841,9 @@ footer nav a:hover {
 .mt-4 {
   margin-top: 1rem;
 }
+.mr-12 {
+  margin-right: 3rem;
+}
 .line-clamp-1 {
   overflow: hidden;
   display: -webkit-box;
@@ -1828,6 +1894,9 @@ footer nav a:hover {
 }
 .h-full {
   height: 100%;
+}
+.h-\[34vh\] {
+  height: 34vh;
 }
 .max-h-0 {
   max-height: 0px;
@@ -2251,6 +2320,9 @@ img {
 }
 
 @media (min-width: 640px) {
+  .sm\:absolute {
+    position: absolute;
+  }
   .sm\:m-8 {
     margin: 2rem;
   }
@@ -2306,6 +2378,9 @@ img {
   }
   .md\:h-full {
     height: 100%;
+  }
+  .md\:min-h-\[60vh\] {
+    min-height: 60vh;
   }
   .md\:w-\[40vw\] {
     width: 40vw;

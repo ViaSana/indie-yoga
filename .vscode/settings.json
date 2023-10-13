@@ -94,6 +94,6 @@
         "pages",
         "includes"
     ],
-    "favorites.currentGroup": "includes",
+    "favorites.currentGroup": "pages",
     "favorites.sortOrder": "ASC"
 }
