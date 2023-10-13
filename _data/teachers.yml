@@ -1,10 +1,3 @@
-- name: Charity Rahmer
-  quote:
-  bio: >-
-    Bio Coming Soon
-  image: assets/uploads/charity.jpg
-  id: 1
-  social: 
 - name: John Jay
   quote: "You're entirely bonkers. But I'll tell you a secret: All the best people are - Alice in Wonderland"
   bio: >-
@@ -21,14 +14,7 @@
     training.
   image: assets/uploads/pricing-hero.jpg
   id: 2 
-  social: 
-- name: Abigail
-  quote:
-  bio: >-
-    Bio Coming Soon
-  image: /assets/images/Indie_logo.png
-  social: 
-  id: 3
+  social:
 - name: Lauren Gibson
   quote: "Do you have the patience to wait until your mud settles, and the water is clear; can you remain unmoving until the right action arises by itself? - Lao Tzu"
   bio: >-
@@ -38,13 +24,6 @@
   image: assets/uploads/laura.jpg
   id: 4
   social: lauradgibs
-- name: Summer
-  quote: 
-  bio: >-
-    Bio Coming Soon
-  image: assets/images/Indie_logo.png
-  id: 5
-  social: 
 - name: Colby Crispeno
   quote:
   bio: >-
@@ -157,41 +136,30 @@
   image: /assets/uploads/pricing.jpg
   id: 13
   social: 
-- name: Dani C  
-  quote:
+- name: Dani Coleman
+  quote: "Sometimes the things we think are lost are only hidden, waiting to be rediscovered. -Anthony Doerr"
   bio: >-
-    Dani Coleman is a 200hr Registered Yoga Teacher with a passion for creative
-    expression through movement and exploring the truest form of herself. After
-    living life with an impending need for self-discovery and searching for
-    resilience from trauma, Dani's teachings are centered around bold expression
-    and healing through spiritual guidance. It is her passion help others feel
-    and express their most energetic self; space is always held for creativity
-    and exploration to honor our most vibrant forms.
-  image: assets/images/Indie_logo.png
+    Dani is a registered yoga teacher, spiritual movement facilitator, social activist, and published author. She has a passion for self-expression through movement and exploring the conscious and subconscious aspects of herself. After living with an impending need for self-discovery and searching for resilience from trauma, Dani centered her practice and teachings around feminine embodiment and somatic healing through spiritual guidance. When she is outside of the yoga studio, you might find her buying or selling second-hand fashion, practicing her amateur dancing skills, or enjoying all that nature has to offer both near and far. 
+  image: assets/uploads/DColeman.jpg
   id: 14
-  social: 
+  social: danisummercoleman
 - name: Victoria
-  quote:
+  quote: “If I cannot do great things, I can do small things in a great way. -MLK" 
   bio: >-
-    Hey everyone!! I’m Victoria. My yoga journey started 10 years ago when I was looking for a new way to move my body. After a few years of practice it became something that transformed my overall well-being. One reason I practice yoga is because it makes me a better person. My mat is a place where I have a moment of silence to nourish myself mentally and physically, so that I am able to show up for others in a way that feels loving and complete. In my class we will move, grow, and play as we recharge our souls to bring light into our lives off the mat. Come flow with me to quiet your mind and let your body do the talking :-)
-  image: assets/images/Indie_logo.png
+    Victoria brings her warm, radiant, energy everywhere she goes. Her yoga journey started over a decade ago. It began as a new way to keep herself active and slowly transformed into a passion for learning about herself and staying connected to what nourishes her soul. After discovering the healing power of meditation through a wellness course in college, her calling to help others deepen their connection to themselves and the power of yoga and meditation began to blossom. Her studies have included earning her 500 hour yoga certification and yin yoga certification. She is always looking for ways to expand her knowledge in order to help others in every way she can. Outside the studio you can find her hiking, laying at the beach, or cuddling with her cat Pickles. Come flow with Victoria if you need a little sunshine in your life! 
+  image: assets/uploads/VSiemek.jpg
   id: 15
-  social: 
-- name: Alex Calahan
-  quote:
-  bio: Bio Coming Soon  
-  image: assets/images/Indie_logo.png
-  id: 16
-  social: 
-- name: Asia Casebolt
-  quote:
-  bio: Bio Coming Soon
-  image: assets/images/Indie_logo.png
-  id: 17
-  social: 
+  social: grow_witheflow
 - name: Bridgette
   quote: "Let the good land. - by my dear friend Lauren Higgins-Davidson."
   bio: I first learned yoga in South Africa in 1999. Yoga has been an integral part of my life since then. It has been with me through the best times and the hardest times. Yoga has healed my body so many times and given me strength and peace and joy. It has been my anchor when life has thrown curve balls my way. I am honored to be able to share my practice of yoga with you. Come flow with me and experience the joy of yoga.
   image: assets/uploads/Bridgette.jpg
   id: 18  
   social: bridge_the_love
+- name: Jonathan Old-Rowe
+  quote:
+  bio: >-
+    My first yoga class was in a yoga teacher training in 2000. after the teacher training ended i immediately began teaching for the studio that led the training. classes then were 90 mins… sometimes i taught 6 a day. i started teaching because it kept me away from a very different lifestyle, and the idea of mystical powers and ancient wisdom seemed super romantic. now yoga feels like a very healthy way to be part of our beautiful ever evolving world of conciousness and creates great communities of people. all of my best friends are into yoga and it’s varying levels of experience.
+  image: assets/uploads/JOld.jpg
+  id: 19  
+  social:
