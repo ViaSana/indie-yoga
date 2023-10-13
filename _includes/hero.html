@@ -21,7 +21,7 @@
 
     {% when "info" %}
     <!-- Info Hero -->
-    <div class="md:h-[60vh] h-[34vh] md:col-span-4 col-span-full">
+    <div class="md:h-[60vh] h-[50vh] md:col-span-4 col-span-full">
         <img src="{{page.main-image}}">
     </div>  
     <div class="flex md:h-[60vh] col-span-full md:col-span-2 {{page.hero.color}}">
@@ -35,7 +35,7 @@
     {% when "full" %}
     <!-- Full Page Hero -->
     <div class="relative col-span-full bg-image" style="background-image: url({{page.page-image}});"> 
-        <div class="flex page-overlay md:h-[60vh] h-[34vh]">
+        <div class="flex page-overlay md:h-[60vh] h-[50vh]">
             <div class="flex basis-7/11 {{page.text-placement}} p-5p">
                 <div class="self-center">
                     <h1 class="font-bold text-light">{{page.title}}</h1>
@@ -84,9 +84,9 @@
             <p class="pb-4 max-lg:hidden">You will find our heated studio in the heart of ocean beach. We offer an inviting environment for all levels to grow and learn through yoga practice. Drop in to feed off the music, movement and energy that will surround you. </p>
             
             <div class="find-us_info">
-                <a href="#"><span><b>Email: </b>{{site.data.indie-info.email}}</span></a>
-                <a href="#"><span><b>Phone: </b>{{site.data.indie-info.phone}}</span></a>
-                <a href="#"><span><b>Address: </b>{{site.data.indie-info.address}}</span></a>
+                <a href="mailto:info@indieyogasd.com"><span><b>Email: </b>{{site.data.indie-info.email}}</span></a>
+                <a href="tel:{{site.data.indie-info.phone}}"><span><b>Phone: </b>{{site.data.indie-info.phone}}</span></a>
+                <a href="https://maps.google.com/maps?ll=32.746271,-117.251479&z=16&t=m&hl=en&gl=ID&mapclient=embed&cid=11254240054341428777"><span><b>Address: </b>{{site.data.indie-info.address}}</span></a>
             </div>
         </div>
     </div>

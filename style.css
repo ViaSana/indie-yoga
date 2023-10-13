@@ -31,11 +31,11 @@
     }
 
     h2 {
-        @apply text-2xl md:text-5xl;
+        @apply text-3xl md:text-5xl;
     } 
     
     h3 {
-        @apply text-2xl md:text-4xl;
+        @apply text-3xl md:text-4xl;
         font-weight: 400;
     }
 
@@ -227,7 +227,7 @@
     }
 
     .mobile-menu {
-        @apply absolute right-0 hidden text-center bg-blue;
+        @apply absolute hidden text-center -right-8 bg-blue;
         
         /* This precisely positions the drop down */
         padding: 55% 60% 25% 50%;
