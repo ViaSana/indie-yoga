@@ -1,9 +1,132 @@
 ---
 layout: default
-title: teacher training
+title: Yoga Teacher Training
+page_image: assets/uploads/tt_service.png
+about-tt_image: assets/uploads/tt_service.png
+ytt-signup_link: 
+teacher-1_image: assets/uploads/pricing-hero.jpg
+teacher-2_image: assets/uploads/pricing-hero.jpg
 ---
+<div class="mt-4 text-center mx-scrn text-light col-span-full bg-image" style="background-image: url({{page.page_image}});">
+    <div class="flex page-overlay md:h-[60vh] h-[50vh] justify-center">
+        <div class="self-center p-4 my-4">
+            <h2 class="py-4 editable">Yoga Teacher Training 2024</h2>
+            <h4>Transform Your Practice</h4>
+            <a href="{{page.ytt-signup_link}}"><div class="button">Register Now</div></a>
+        </div>
+    </div>
+</div>
 
-<div class="p-4 my-4 text-center bg-d-blue mx-scrn text-aqua h-2/3">
-    <h3 class="py-4 editable">Teacher Training 2023 has begun!</h3>
-    <h4>Come back soon for more info on how to sign up next year</h4>
-</div>   
+<div class="p-8 my-4 text-center bg-blue mx-scrn">
+    <h5 class="pb-0 editable text-d-blue">Dive deep into the world of yoga. Discover, evolve, and emerge as a certified Yoga Teacher in just 13 weeks with our Yoga Alliance approved 200-hour training program. Guided by the expert duo, John Jay & Abigail McHugh, this could be the transformative journey you’ve been waiting for.</h5>
+</div>
+
+<div class="grid items-center gap-4 md:grid-cols-8 mx-scrn">     
+    <div class="flex h-full md:col-span-3 bg-d-blue">
+        <div class="self-center p-5p">
+            <h3>About the Training</h3>
+            <p class="pb-4">Have you ever felt the pull towards teaching and sharing the magic of yoga? This program is a unique blend of time-honored traditions and modern-day practices. Here, you won’t just learn; you’ll experience. From understanding the roots of yoga, mastering meditation and breathwork, to embracing the essentials of today’s yoga classroom, every module has been curated to ensure your evolution as both a practitioner and a teacher.</p>
+            <p class="font-bold">You'll Learn:</p>
+            <ul class="pb-4 pl-3 list-disc">
+                <li>How to build a strong personal practice and how to share it with authenticity.</li>
+                <li>Delve into Yoga Philosophy and History, and discover how it’s more relevant today than ever.</li>
+                <li>Anatomy of Asana.</li>
+                <li>How to design and lead intelligently sequenced classes that not only teach but inspire.</li>
+                <li>Meditation and breathwork techniques.</li>
+                <li>The essentials of turning your passion for yoga into a rewarding career.</li>
+            </ul>
+            
+            <a href="{{page.ytt-signup_link}}"><div class="button">Register Now</div></a>
+        </div>
+    </div>
+
+    <div class="h-full md:col-span-5 bg-image col-span-full" style="background-image: url({{page.about-tt_image}});">
+    </div>
+</div>
+
+<!-- Your Guides -->
+<section class="my-4 text-center bg-yellow text-d-blue mx-scrn">
+    <h2>Your Guides</h2>
+    <!-- Side By Side Teacher Grid -->
+    <div class="grid md:grid-cols-2">
+        <div class="p-4 h-min">
+            <div class="m-6">
+                <img class="aspect-square" src="{{page.teacher-1_image}}">
+            </div>
+            <h4>John Jay</h4>
+            <p class="h-min">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique et facere, earum explicabo commodi sit dolores. Ducimus itaque alias inventore facilis soluta neque. Iste quisquam praesentium error iure itaque architecto.</p>
+        </div>
+        <div class="p-4 h-min">
+            <div class="m-6">
+                <img class="mb-4 aspect-square" src="{{page.teacher-2_image}}">
+            </div>
+            <h4>Abigail McHugh</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique et facere, earum explicabo commodi sit dolores. Ducimus itaque alias inventore facilis soluta neque. Iste quisquam praesentium error iure itaque architecto.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Student Testimonial -->
+<section class="bg-d-blue mx-scrn">
+    <h4>What Our Students Say</h4>
+    <div class="testimonial-slider-container">
+        {% for item in site.data.testimonials.from-ytt %}
+        <div class="slider-item text-light"> 
+            <p> {{item.review}} </p>
+            <p class="author">- {{item.student}} </p>  
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Special YTT Info Section -->
+<div class="grid gap-4 my-4 md:grid-cols-7 mx-scrn">
+
+    <!-- Col 1 -->
+    <div class="flex md:col-span-2 bg-blue">
+        <div class="self-center p-10p text-d-blue">
+            <h3>{{site.data.teacher-training.schedule.heading}}</h3>
+            <p class="pb-4"><span class="font-bold">Duration:</span> {{site.data.teacher-training.schedule.duration}}</p>
+            <p class="pb-4"><span class="font-bold">Weekly In-Person Sessions on:</span> {{site.data.teacher-training.schedule.time-table}}</p>
+        </div>
+    </div>
+
+    <!-- Col 2 -->
+    <div class="flex md:col-span-3 bg-d-blue">
+        <div class="self-center text-center p-10p text-light">
+            <h3>{{site.data.teacher-training.tuition.heading}}</h3>
+            <h3 class="text-yellow">{{site.data.teacher-training.tuition.pricing-t2}}</h3>
+            <p class="pb-4">{{site.data.teacher-training.tuition.info}}</p>
+            <p class="pb-4"><span class="font-bold">Tier 1 pricing:</span> {{site.data.teacher-training.tuition.pricing-t1}}</p>
+            <p class="pb-4"><span class="font-bold">Tier 2 pricing:</span> {{site.data.teacher-training.tuition.pricing-t2}}</p>
+            <p class="pb-4">{{site.data.teacher-training.tuition.help}}</p>
+            <a class="button" href={{page.ytt-signup_link}}>Register Now</a>
+        </div>
+    </div>
+
+    <!-- Col 3 -->
+    <div class="flex md:col-span-2 bg-blue">
+        <div class="self-center p-10p text-d-blue">
+            <h3>{{site.data.teacher-training.location.heading}}</h3>
+            <p class="pb-4">{{site.data.teacher-training.location.info}}</p>
+            <!-- <p class="pb-4">{{site.data.teacher-training.schedule.time-table}}</p> -->
+        </div>
+    </div>
+
+</div>
+
+<!-- Pulls Items from FAQs.yml -->
+<section class="mx-scrn">
+    <h3 class="text-center text-d-blue">What's Included</h3>
+    <div>
+        {% for item in site.data.faqs.whats-included %}
+            <div class="relative text-left text-d-blue">
+                <div class="flex items-center justify-between px-6 mx-12 my-6 bg-yellow">
+                    <h5 class="py-2">{{ item }}</h5>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+
+{% include insta.html %}
