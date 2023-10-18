@@ -1,48 +1,48 @@
 <header class="relative z-10 px-4 pt-4 mx-scrn">
     <div class="flex w-full max-md:hidden">
         <div>
-            <a href="/"><img class="max-h-24" src="assets/images/Indie_logo-long.png"></img></a>
+            <a href="/"><img class="w-full max-h-24 max-[820px]:w-[215px]" src="assets/images/Indie_logo-long.png"></img></a>
         </div>
 
         <nav class="self-center w-full text-right">
-            <a class="px-4" href="/about">About</a>
-            <a class="px-4" href="/people"><span class="max-lg:hidden">Our </span>People</a>
-            <a class="px-4" href="/classes">Classes</a>
-            <a href="/pricing" class="px-4">Pricing</a>
 
-
-            <!-- Apline Dropdown to for Classes (Client requested we add pricing to the menu)
-                <div x-data="{ open: false }" class="relative inline-block text-center" @mouseleave="open = false">
-                    <div @mouseover="open = true" class="px-4 pb-2">
-                        <a href="/classes">Classes</a>
-                    </div>
-                    <div x-show="open" class="absolute pt-2 left-4 top-6">
-                        <a href="/pricing" class="block p-2 text-left bg-grey">
-                            Pricing
-                        </a>
-                        <a href="/classes" class="block p-2 text-left bg-grey">
-                            Descriptions
-                        </a>
-                    </div>
-                </div> 
-            -->
-
-            <!-- Apline Dropdown to for Enrollments -->
             <div x-data="{ open: false }" class="relative inline-block text-center" @mouseleave="open = false">
                 <div @mouseover="open = true" class="px-4 pb-2">
-                    <a href="/trainings">Workshops<span class="max-lg:hidden"> & Trainings</span></a>
+                    <a href="/about">About</a>
                 </div>
-<!-- TEMP HIDDEN                
-                <div x-show="open" class="absolute pt-2 left-4 top-6">
-                    <a href="/teachertraining" class="block p-2 text-left bg-grey">
-                        Teacher Training
+                <div x-cloak x-show="open" class="absolute pt-2 left-4 top-6">
+                    <a class="block p-2 text-left whitespace-nowrap bg-grey" href="/people">Our People</a>
+                </div>
+            </div>
+
+            <div x-data="{ open: false }" class="relative inline-block text-center" @mouseleave="open = false">
+                
+                <div @mouseover="open = true" class="px-4 pb-2">
+                    <a href="/classes">Classes</a>
+                </div>
+
+                <div x-cloak x-show="open" class="absolute pt-2 left-4 top-6">
+                    
+                    <a href="/pricing" class="block p-2 text-left bg-grey">
+                        Pricing
                     </a>
-                </div> 
--->
+
+                    <a href="/classes" class="block p-2 text-left bg-grey">
+                        Descriptions
+                    </a>
+                </div>
+            </div>
+
+            <div class="inline-block px-4 pb-2">
+                <a href="/trainings">Workshops</a>            
+            </div>
+
+            <div class="inline-block px-4 pb-2">
+                <a href="/teachertraining">Teacher Training</a>
             </div>
             
             <a href="/schedule">
-                <div class="ml-4 button">Schedule</div>
+                <div class="ml-2 button">Schedule</div>
             </a>
         </nav>
     </div>
@@ -54,7 +54,7 @@
         </div>
         <div class="flex items-center justify-end w-full">
             <div class="relative mr-4 space-y-2 hamburger-button">
-                <!-- The Hamburger -->
+                <!-- Hamburger -->
                 <div class="w-8 h-0.5 bg-aqua"></div>
                 <div class="w-8 h-0.5 bg-aqua"></div>
                 <div class="w-8 h-0.5 bg-aqua"></div>
