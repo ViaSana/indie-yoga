@@ -44,35 +44,6 @@
         </div>
     </div>
 
-    {% when "pricing" %}
-    <!-- Pricing Hero -->
-    <div class="md:col-span-4 col-span-full">
-        <img src="{{page.main-image}}">
-    </div>
-    <div class="flex col-span-full md:col-span-2 {{page.hero.color}}">
-        <div class="self-center p-5p {{page.hero.text_color}}">
-            <h3 class="text-yellow">{{page.hero.price}}</h3>
-            <h3 class="font-bold">{{page.hero.heading}}</h3>
-            <p class="pb-4">{{page.hero.p1}}</p>
-            <a href="{{page.hero.walla_link-2}}" class="button">Buy Now</a>
-        </div>
-    </div>
-
-    {% when "reverse" %}
-    <!-- Reverse Hero -->
-    <div class="flex md:col-span-2 col-span-full {{page.hero-r.color}}">
-        <div class="self-center p-5p {{page.hero-r.text_color}}">
-            <h3 class="text-blue">{{page.hero-r.price}}</h3>
-            <h3 class="font-bold">{{page.hero-r.heading}}</h3>
-            <p class="pb-4">{{page.hero-r.p1}}</p>
-            <div class="button {{page.hero-r.button_color}}"><a href="{{page.hero-r.walla_link-1}}">Buy Now</a></div>
-        </div>
-    </div>
-
-    <div class="md:col-span-4 col-span-full">
-        <img src="{{page.reverse-image}}">
-    </div>
-
     {% when "map" %}
     <!-- Map Hero -->
     <div class="order-1 md:col-span-4 col-span-full md:-order-1">

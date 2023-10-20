@@ -26,15 +26,9 @@ _inputs:
     cascade: true
   hero:
     type: auto
-    hidden: true
-    cascade: true
-  hero-r:
-    type: auto
-    hidden: true
     cascade: true
   price:
     type: auto
-    hidden: true
     cascade: true
   cta-color:
     type: auto
