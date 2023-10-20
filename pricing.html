@@ -4,11 +4,10 @@ layout: default
 title: Class Pricing & Packages
 page-image: /assets/uploads/pricing-hero.jpg
 text-placement: ml-auto
-main-image: /assets/uploads/schedule-hero.jpg
-reverse-image: /assets/uploads/pricing.jpg
 cta-color: bg-aqua
 
 new-student:
+  image: /assets/uploads/schedule-hero.jpg
   heading: 'New Student Special: One Month Unlimited'
   description: >-
     Come give us a try! We'd love to welcome you to Indie Yoga with the best offer you'll find to practice with us. Whether you're just starting your practice or you've search for a while, you've found your new home for yoga.
@@ -16,6 +15,7 @@ new-student:
   walla_link-1: https://widget.hellowalla.com/packages/791?uuid=4e15c3e1-f4df-4597-95af-977aec2f077c
 
 rockstar:
+  image: /assets/uploads/pricing.jpg
   price: $108
   heading: 'Indie Rockstar: Studio Membership'
   description_html: |-
@@ -55,14 +55,14 @@ packages:
   </div>
 
   <div class="md:col-span-4 col-span-full">
-      <img src="{{page.reverse-image}}">
+      <img src="{{page.new-student.image}}">
   </div>
 </div>
 
 <!-- Pricing Hero -->
 <div class="grid grid-cols-6 gap-4 my-4 mx-scrn">
     <div class="md:col-span-4 col-span-full">
-        <img src="{{page.main-image}}">
+        <img src="{{page.rockstar.image}}">
     </div>
     <div class="flex col-span-full md:col-span-2 bg-d-blue">
         <div class="self-center p-5p text-light">

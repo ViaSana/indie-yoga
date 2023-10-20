@@ -24,6 +24,10 @@ _inputs:
     type: auto
     hidden: true
     cascade: true
+  title:
+    type: auto
+    hidden: true
+    cascade: true
   hero:
     type: auto
     cascade: true

@@ -2128,6 +2128,9 @@ footer nav a:hover {
 .font-bold {
   font-weight: 700;
 }
+.capitalize {
+  text-transform: capitalize;
+}
 .leading-\[3\.64rem\] {
   line-height: 3.64rem;
 }
