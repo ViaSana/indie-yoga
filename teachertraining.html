@@ -54,14 +54,14 @@ teacher-2_image: assets/uploads/abig.png
                 <img class="aspect-square" src="{{page.teacher-1_image}}">
             </div>
             <h4>John Jay</h4>
-            <p class="h-min">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique et facere, earum explicabo commodi sit dolores. Ducimus itaque alias inventore facilis soluta neque. Iste quisquam praesentium error iure itaque architecto.</p>
+            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique et facere, earum explicabo commodi sit dolores. Ducimus itaque alias inventore facilis soluta neque. Iste quisquam praesentium error iure itaque architecto.</p>
         </div>
         <div class="p-4 h-min">
             <div class="m-6">
                 <img class="mb-4 aspect-square" src="{{page.teacher-2_image}}">
             </div>
             <h4>Abigail McHugh</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique et facere, earum explicabo commodi sit dolores. Ducimus itaque alias inventore facilis soluta neque. Iste quisquam praesentium error iure itaque architecto.</p>
+            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique et facere, earum explicabo commodi sit dolores. Ducimus itaque alias inventore facilis soluta neque. Iste quisquam praesentium error iure itaque architecto.</p>
         </div>
     </div>
 </section>
@@ -119,10 +119,10 @@ teacher-2_image: assets/uploads/abig.png
 <section class="mx-scrn">
     <h3 class="text-center text-d-blue">What's Included</h3>
     <div>
-        {% for item in site.data.faqs.whats-included %}
+        {% for item in site.data.teacher-training.whats-included %}
             <div class="relative text-left text-d-blue">
                 <div class="flex items-center justify-between px-6 mx-12 my-6 bg-yellow">
-                    <h5 class="py-2">{{ item }}</h5>
+                    <h5 class="py-2">{{ item.feature }}</h5>
                 </div>
             </div>
         {% endfor %}
