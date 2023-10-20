@@ -1,10 +1,12 @@
 ---
 layout: default
+
 title: Class Pricing & Packages
 page-image: /assets/uploads/pricing-hero.jpg
 text-placement: ml-auto
 main-image: /assets/uploads/schedule-hero.jpg
 reverse-image: /assets/uploads/pricing.jpg
+cta-color: bg-aqua
 
 new-student:
   heading: 'New Student Special: One Month Unlimited'
@@ -13,12 +15,10 @@ new-student:
   price: $39
   walla_link-1: https://widget.hellowalla.com/packages/791?uuid=4e15c3e1-f4df-4597-95af-977aec2f077c
 
-hero:
-  color: bg-d-blue
-  text_color: text-light
+rockstar:
   price: $108
   heading: 'Indie Rockstar: Studio Membership'
-  p1: |-
+  description_html: |-
     Join the community with unlimited classes and amazing IndieCentives with discounts at other businesses in OB.
     <br>- First month is just $88
     <br>- Free towel rental
@@ -26,7 +26,20 @@ hero:
     <br>- Minimum 2 month commitment
   walla_link-2: https://api.hellowalla.com/previews/763?b=34&type=package
 
-cta-color: bg-aqua
+packages:
+- heading: "1 Month Unlimited"
+  cost: $150
+  description: Take as many classes as you want for 30 days.
+  link: https://api.hellowalla.com/previews/790?b=34&type=package
+- heading: "20 Class Samadhi Pack"
+  cost: $325
+  description: This 20 class pack is for anyone who wants to take yoga classes at the best rate outside our RockStar Autopay membership. We've set it up so you never have to worry about your credits expiring or running out. When you use all your classes it will repurchase another pack right when you sign-up for the next one.
+  link: https://api.hellowalla.com/previews/789?b=34&type=package
+- heading: "10 Class Card"
+  cost: $195
+  description: 10 classes to use for anything on the schedule
+  link: https://api.hellowalla.com/previews/788?b=34&type=package
+
 ---
 {% include hero.html case="full" %}
 
@@ -51,20 +64,30 @@ cta-color: bg-aqua
     <div class="md:col-span-4 col-span-full">
         <img src="{{page.main-image}}">
     </div>
-    <div class="flex col-span-full md:col-span-2 {{page.hero.color}}">
-        <div class="self-center p-5p {{page.hero.text_color}}">
-            <h3 class="text-yellow">{{page.hero.price}}</h3>
-            <h3 class="font-bold">{{page.hero.heading}}</h3>
-            <p class="pb-4">{{page.hero.p1}}</p>
-            <a href="{{page.hero.walla_link-2}}" class="button">Buy Now</a>
+    <div class="flex col-span-full md:col-span-2 bg-d-blue">
+        <div class="self-center p-5p text-light">
+            <h3 class="text-yellow">{{page.rockstar.price}}</h3>
+            <h3 class="font-bold">{{page.rockstar.heading}}</h3>
+            <p class="pb-4">{{page.rockstar.description_html}}</p>
+            <a href="{{page.rockstar.walla_link-2}}" class="button">Buy Now</a>
         </div>
     </div>
 </div>
 
-
 {% include cta.html action=2 %}
 
 <!-- Pulls data from package collection -->
-{% include package_loop.html %}
+<div class="grid gap-4 my-4 md:grid-cols-7 mx-scrn">
+  {% for item in page.packages %}
+  <div class="{% cycle 'md:col-span-2 text-d-blue bg-blue','md:col-span-3 text-light bg-d-blue' %} flex">
+      <div class="self-center p-5p">
+          <h3 class="text-yellow">{{item.cost}}</h3>
+          <h3>{{item.heading}}</h3>
+          <p class="pb-4">{{item.description}}</p>
+          <a class="button" href="{{item.link}}">Buy Now</a>
+      </div>
+  </div>
+  {% endfor %}
+</div>
 
 {% include insta.html %}
