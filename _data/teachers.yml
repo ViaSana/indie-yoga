@@ -13,7 +13,6 @@
     Breathwork & Ice Bath Workshops, as well as Wellness Retreats and 1-on-1
     training.
   image: assets/uploads/pricing-hero.jpg
-  id: 2 
   social:
 - name: Lauren Gibson
   quote: "Do you have the patience to wait until your mud settles, and the water is clear; can you remain unmoving until the right action arises by itself? - Lao Tzu"
@@ -21,9 +20,7 @@
     I first found yoga in 2014 when I was suffering from chronic back pain. Yoga helped alleviate not only some of my physical pain, but more importantly it helped lift me out of the depression I had been battling for years. I truly believe that yoga saved my life.  I knew that I wanted to share the mental and physical benefits of this practice with others after experiencing so much healing myself.
     
     I obtained my 200hr YTT certificate in 2018 at Indie, and nothing brings me more joy than facilitating growth and healing within others. I strive to offer classes that are accessible to students of all levels and abilities, with a focus on finding one's inner strength and connecting to one's inner voice. Outside of the studio, you can find me trying out a new recipe, cuddling with a friend's pet, or getting down to some funky techno."
-  image: assets/uploads/laura.jpg
-  id: 4
-  social: lauradgibs
+  image: assets/uploads/laura.jpg  social: lauradgibs
 - name: Colby Crispeno
   quote:
   bio: >-
@@ -36,16 +33,12 @@
     presence of breath. Yoga and other embodied practices have been instrumental
     in my own healing and wholeness and I wish to invite others into this
     spacious place.
-  image: /assets/uploads/colby.jpeg
-  id: 6
-  social: colbycrispeno
+  image: /assets/uploads/colby.jpeg  social: colbycrispeno
 - name: Gianna
   quote: "The past is unchangeable. The future hasn’t happened yet. So be in this moment now!"
   bio: >-
     Gianna Mauceri is a sound healer, spiritual counselor, integrative healer, Author, and has completed three different yoga teacher trainings. She believes that inner healing is the medicine the world needs, and is passionate about sharing this message in her classes.
-  image: /assets/uploads/gianna.jpeg
-  id: 7
-  social: gianna.divine.love
+  image: /assets/uploads/gianna.jpeg  social: gianna.divine.love
 - name: Jess Ghanma
   quote: Be happy for this moment, this moment is your life.
   bio: >-
@@ -57,17 +50,13 @@
     through their own unique needs, wants, and cravings. Come to class for the
     vibes under a low light room and flowy playlist, but stay for what you
     discover about yourself each and every time.
-  image: /assets/uploads/jess.jpeg
-  id: 8
-  social: jessxghnmv
+  image: /assets/uploads/jess.jpeg  social: jessxghnmv
 - name: Mae
   quote:
   bio: >-
     Mae's teaching style is deep and intuitive. As a teacher, her joy lies in co-creating a space with others to explore their own unique expressions and bring greater awareness to the body and mind, subsequently influencing life beyond the mat. Her classes are heavily influenced by her work as a massage therapist; combining elements of yoga, meditation, and massage.
     Mae's love for yoga began as a teenager in New York. A seed was planted upon realizing the transformational benefits of yoga, and she began teaching in 2013. Mae completed her second YTT in 2017, and has taught and led workshops at studios, festivals, Stanford University, events, and fitness centers throughout the years."
-  image: assets/uploads/mae.jpg
-  id: 9
-  social: 
+  image: assets/uploads/mae.jpg  social: 
 - name: Megan Singh
   quote: "Look deep into nature and you will understand everything better. - Albert Einstein"
   bio: >-
@@ -86,7 +75,6 @@
     to see you on your mat!   RYT 200 (Bird Rock Yoga, 2019)  RYT 200 (Indie
     Yoga OB, 2022)
   image: /assets/uploads/megan.jpg
-  id: 10
   social: meganroyersingh
 - name: Monica
   quote: "Life is completely a mystery, or better yet magic. For me, it comes down to trusting life & acting as if that trust was real... -James T. Hubble, Artist"
@@ -98,7 +86,6 @@
     deliciously sweet & sweaty detoxification! In 2017 I completed YTT at Indie
     Yoga and consider it one of the is best places on the planet.
   image: /assets/uploads/monica.jpeg
-  id: 11
   social: 
 - name: Sara Lev
   quote: "The best way to know who you are, is to distinguish from who and what you are not - inspired by Yoga Sutra 2.26"
@@ -122,7 +109,6 @@
     practitioners, Sara's classes provide a safe and welcoming space where all
     can explore, evolve, and discover the profound beauty of yoga.
   image: /assets/uploads/sara.jpg
-  id: 12
   social: saralev.yoga
 - name: Caroline
   quote:
@@ -134,32 +120,40 @@
     classes are a safe and sacred space for you to tune into your inner
     awareness and learn something new about yourself each time.
   image: /assets/uploads/pricing.jpg
-  id: 13
   social: 
 - name: Dani Coleman
   quote: "Sometimes the things we think are lost are only hidden, waiting to be rediscovered. -Anthony Doerr"
   bio: >-
     Dani is a registered yoga teacher, spiritual movement facilitator, social activist, and published author. She has a passion for self-expression through movement and exploring the conscious and subconscious aspects of herself. After living with an impending need for self-discovery and searching for resilience from trauma, Dani centered her practice and teachings around feminine embodiment and somatic healing through spiritual guidance. When she is outside of the yoga studio, you might find her buying or selling second-hand fashion, practicing her amateur dancing skills, or enjoying all that nature has to offer both near and far. 
   image: assets/uploads/DColeman.jpg
-  id: 14
   social: danisummercoleman
 - name: Victoria
   quote: “If I cannot do great things, I can do small things in a great way. -MLK" 
   bio: >-
     Victoria brings her warm, radiant, energy everywhere she goes. Her yoga journey started over a decade ago. It began as a new way to keep herself active and slowly transformed into a passion for learning about herself and staying connected to what nourishes her soul. After discovering the healing power of meditation through a wellness course in college, her calling to help others deepen their connection to themselves and the power of yoga and meditation began to blossom. Her studies have included earning her 500 hour yoga certification and yin yoga certification. She is always looking for ways to expand her knowledge in order to help others in every way she can. Outside the studio you can find her hiking, laying at the beach, or cuddling with her cat Pickles. Come flow with Victoria if you need a little sunshine in your life! 
   image: assets/uploads/VSiemek.jpg
-  id: 15
   social: grow_witheflow
 - name: Bridgette
   quote: "Let the good land. - by my dear friend Lauren Higgins-Davidson."
   bio: I first learned yoga in South Africa in 1999. Yoga has been an integral part of my life since then. It has been with me through the best times and the hardest times. Yoga has healed my body so many times and given me strength and peace and joy. It has been my anchor when life has thrown curve balls my way. I am honored to be able to share my practice of yoga with you. Come flow with me and experience the joy of yoga.
-  image: assets/uploads/Bridgette.jpg
-  id: 18  
+  image: assets/uploads/Bridgette.jpg  
   social: bridge_the_love
 - name: Jonathan Old-Rowe
   quote:
   bio: >-
     My first yoga class was in a yoga teacher training in 2000. after the teacher training ended i immediately began teaching for the studio that led the training. classes then were 90 mins… sometimes i taught 6 a day. i started teaching because it kept me away from a very different lifestyle, and the idea of mystical powers and ancient wisdom seemed super romantic. now yoga feels like a very healthy way to be part of our beautiful ever evolving world of conciousness and creates great communities of people. all of my best friends are into yoga and it’s varying levels of experience.
-  image: assets/uploads/JOld.jpg
-  id: 19  
+  image: assets/uploads/JOld.jpg  
   social:
+- name: Will
+  quote: Best Case Scenario 
+  bio: >-
+    "I began my yogi journey in 2015 at Indie Yoga. My roots are nourished here. I learned how to cultivate a practice and show up for myself here. Indie gave me a safe place to learn and grow. It is an honor and privilege to share yoga as an instructor at Indie. Yoga is a blueprint to my freedom and sharing it gives me purpose and joy! This community is home. 
+    Former teacher/coach from Ohio took a chance on life and landed in Ocean Beach in 2012. OB is my Home! Your Life is worth Living! Shine your Light!"
+  image: assets/uploads/Will.jpeg
+  social: freewill.yoga
+- name: Asia Casebolt
+  quote: You are the sky and everything else is just the weather
+  bio: >-
+    I'm Asia! I've done multiple trainings surrounding Anusara, Hatha, Meditation and Vinyasa. I found my authentic voice while I lived and taught yoga in Spain and continued exploring Vedic knowledge and meditation while I lived and traveled in India. I teach around Tantric philosophy. This means that everything we experience in practice is a portal back to our own divinity. I am a playful person and that reflects in my classes. My favorite things are my dog, cookies and thrift shopping.
+  image: assets/uploads/Asia.jpg
+  social: asia.casebolt
