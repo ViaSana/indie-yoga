@@ -1877,6 +1877,12 @@ footer nav a:hover {
 .w-full {
   width: 100%;
 }
+.w-\[40vw\] {
+  width: 40vw;
+}
+.w-\[40vh\] {
+  width: 40vh;
+}
 .max-w-2xl {
   max-width: 42rem;
 }

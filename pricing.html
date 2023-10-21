@@ -9,22 +9,22 @@ cta-color: bg-aqua
 new-student:
   image: /assets/uploads/schedule-hero.jpg
   heading: 'New Student Special: One Month Unlimited'
-  description: >-
-    Come give us a try! We'd love to welcome you to Indie Yoga with the best offer you'll find to practice with us. Whether you're just starting your practice or you've search for a while, you've found your new home for yoga.
   price: $39
-  walla_link-1: https://widget.hellowalla.com/packages/791?uuid=4e15c3e1-f4df-4597-95af-977aec2f077c
+  description_html: >-
+    Come give us a try! We'd love to welcome you to Indie Yoga with the best offer you'll find to practice with us. Whether you're just starting your practice or you've search for a while, you've found your new home for yoga.
+  walla_link: https://widget.hellowalla.com/packages/791?uuid=4e15c3e1-f4df-4597-95af-977aec2f077c
 
 rockstar:
   image: /assets/uploads/pricing.jpg
-  price: $108
   heading: 'Indie Rockstar: Studio Membership'
+  price: $108
   description_html: |-
     Join the community with unlimited classes and amazing IndieCentives with discounts at other businesses in OB.
     <br>- First month is just $88
     <br>- Free towel rental
     <br>- One guest pass per month
     <br>- Minimum 2 month commitment
-  walla_link-2: https://api.hellowalla.com/previews/763?b=34&type=package
+  walla_link: https://api.hellowalla.com/previews/763?b=34&type=package
 
 packages:
 - heading: "1 Month Unlimited"
@@ -49,8 +49,8 @@ packages:
       <div class="self-center p-5p text-d-blue">
           <h3 class="text-blue">{{page.new-student.price}}</h3>
           <h3 class="font-bold">{{page.new-student.heading}}</h3>
-          <p class="pb-4">{{page.new-student.description}}</p>
-          <div class="button bg-blue"><a href="{{page.new-student.walla_link-1}}">Buy Now</a></div>
+          <p class="pb-4">{{page.new-student.description_html}}</p>
+          <div class="button bg-blue"><a href="{{page.new-student.walla_link}}">Buy Now</a></div>
       </div>
   </div>
 
@@ -69,7 +69,7 @@ packages:
             <h3 class="text-yellow">{{page.rockstar.price}}</h3>
             <h3 class="font-bold">{{page.rockstar.heading}}</h3>
             <p class="pb-4">{{page.rockstar.description_html}}</p>
-            <a href="{{page.rockstar.walla_link-2}}" class="button">Buy Now</a>
+            <a href="{{page.rockstar.walla_link}}" class="button">Buy Now</a>
         </div>
     </div>
 </div>
