@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Homepage
+main-heading: "OB's OG Hot Yoga Studio"
+sub-heading: "You Are Not A Drop in the Ocean, You are the ocean in a Drop - Rumi"
 home-image: assets/images/home_hero-2.jpg
 cta-color: bg-yellow
 main-image: /assets/uploads/about-indie.png
@@ -22,16 +24,12 @@ hero:
     link: about
 ---
 <!-- Home Hero w/ special responsiveness -->
-<div class="grid gap-4 my-4 md:grid-cols-6 mx-scrn md:h-[85vh]">
+<div class="grid gap-4 my-4 md:grid-cols-6 mx-scrn md:min-h-[85vh]">
     
     <div class="flex order-2 max-md:hidden md:col-span-2 bg-blue">
         <div class="self-center p-5p text-d-blue">
-            <h1 class="font-bold capitalize editable">
-                OB's OG Hot Yoga Studio
-            </h1>
-            <h4 class="capitalize editable">
-                You Are Not A Drop in the Ocean, You are the ocean in a Drop - Rumi
-            </h4>
+            <h1 class="font-bold capitalize">{{page.main-heading}}</h1>
+            <h4 class="capitalize">{{page.sub-heading}}</h4>
         </div>
     </div>
 
@@ -43,8 +41,8 @@ hero:
     <div class="block col-span-full bg-image md:hidden h-[63vh]" style="background-image: url({{page.home-image}});"> 
         <div class="flex h-full text-left page-overlay">
             <div class="self-center p-5p w-[70vw]">
-                <h1 class="editable">Ride Life's Waves with Yoga's Flow</h1>
-                <h4 class="editable">The Original Hot Yoga Studio in Ocean Beach</h4>
+                <h1 class="capitalize">{{page.main-heading}}</h1>
+                <h4 class="capitalize">{{page.sub-heading}}</h4>
             </div>
         </div>
     </div>
