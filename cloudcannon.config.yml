@@ -3,6 +3,7 @@ paths:
   data: _data
   layouts: _layouts
   includes: _includes
+
 collections_config:
   data:
     path: _data
@@ -29,8 +30,12 @@ _inputs:
     hidden: true
     cascade: true
   hero:
-    type: auto
-    cascade: true
+    color: bg-primary
+      type: select
+      options:
+        - "bg-primary": "Primary"
+        - "bg-secondary": "Secondary"
+        - "bg-accent": "Black"
   price:
     type: auto
     cascade: true
@@ -63,6 +68,7 @@ _inputs:
       allow_create: true
       empty_type: array
     cascade: true
+
 _select_data:
   data_config:
     site-settings:

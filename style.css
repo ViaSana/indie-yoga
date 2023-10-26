@@ -12,7 +12,7 @@
     }
 
     body {
-        @apply font-body bg-light text-light;
+        @apply font-body;
     }
 
     section {
@@ -25,9 +25,6 @@
 
     h1 {
         @apply text-3xl md:text-5xl; 
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
     }
 
     h2 {
@@ -35,8 +32,7 @@
     } 
     
     h3 {
-        @apply text-3xl md:text-4xl;
-        font-weight: 400;
+        @apply text-3xl font-light md:text-4xl;
     }
 
     h4 {
@@ -44,14 +40,11 @@
     }
     
     h5 {
-        @apply pb-4 font-sans;
-        font-size: 1.6rem;
-        line-height: normal;
+        @apply pb-4 font-sans text-3xl;
     }
 
     footer h5 {
-        @apply text-aqua;
-        font-weight: 700;
+        @apply pt-2 text-aqua;
     }
 
     header a  {
@@ -65,6 +58,15 @@
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 @layer components {
+    /* daisyUI button */
+    .btn {
+        @apply capitalize rounded-none;
+    }
+    .btn-accent{
+        @apply text-neutral;
+    }
+
+    /* old button styles */
     .button {
         @apply inline-block px-4 py-3 font-bold border bg-yellow text-d-blue border-yellow;
     }
@@ -81,7 +83,7 @@
         @apply text-aqua;
     }
     .social-row_item {
-        @apply inline-block py-2 pr-2 stroke-light hover:stroke-aqua;
+        @apply inline-block py-2 pr-2 stroke-neutral hover:stroke-aqua;
     }
 
     .social-people_item {
@@ -126,11 +128,10 @@
         left: 10px;
     }
 
-    .slick-next::before, .logo-slider .slick-prev::before {
+    .slick-next::before {
         font-family: slick;
         font-size: 20px;
         line-height: 1;
-        opacity: .75;
     }
             /*------------ !!!CURRENT BUG WITH TAILWIND FOR STYLE ORDER OF APPLICATION!!!!  ------------*/
     .slick-dots {
@@ -145,7 +146,7 @@
     }
 
     .slick-dots li button::before {
-        color: rgb(47, 223, 20);
+        @apply !text-neutral;
     }
 
     .slick-dots li.slick-active button::before {
@@ -161,7 +162,7 @@
         @apply block py-2;
     }
     .find-us_info a:hover {
-        @apply text-aqua;
+        @apply text-base-300;
     }
 
     /* Show More Toggle */
@@ -204,7 +205,6 @@
     
     .hover-overlay:hover {
         background-color: rgba(60, 60, 60, 0.7);
-        @apply text-light;
     }
     
     .hover-inner {
@@ -238,10 +238,6 @@
         text-decoration: none; 
         padding: 1vh 0;
         display: block;
-    }
-
-    #curator-feed-default-feed-layout {
-        @apply text-light
     }
 }
 

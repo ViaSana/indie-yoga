@@ -1,9 +1,9 @@
-<div class="text-center {{page.cta-color}} mx-scrn my-4 p-8">
+<div class="text-center mx-scrn my-4 p-8 {{include.color}}">
 
 {% case include.action %}
 {% when 1 %}
-<!-- CTA 1 -->
-    <a href="/pricing#new-student"><h3 class="pb-0 editable hover:text-d-blue">New to our community? Join us for just $39!</h3></a>
+<!-- CTA 1 d-->
+    <a href="/pricing#new-student"><h3 class="pb-0 editable hover:text-success text-neutral">New to our community? Join us for just $39!</h3></a>
 
 {% when 2 %}
 <!-- CTA 2 -->
@@ -11,13 +11,13 @@
     <a href="/trainings"><h5 class="pb-0 editable text-d-blue hover:text-blue">Not finding what you’re looking for? Check out our other available workshops.</h5></a>
 
 {% when 3 %}
-<!-- CTA 3 -->
-    <h5 class="pb-0 editable text-d-blue">Our mission is to provide a convenient Ocean Beach neighborhood refuge where students can dedicate well-earned time for themselves and discover their own amazing potential.</h5>
+<!-- CTA 3 d-->
+    <h5 class="pb-0 editable text-base-200">Our mission is to provide a convenient Ocean Beach neighborhood refuge where students can dedicate well-earned time for themselves and discover their own amazing potential.</h5>
 
 {% when 4 %}
-<!-- CTA 4 -->
-    <h3 class="editable text-d-blue">Can't Join Us In-Person?</h3>
-    <a href="https://www.youtube.com/@indieyogasd"><p class="text-lg editable text-d-blue hover:text-blue">Check out our free online courses available on YouTube!</p></a>
+<!-- CTA 4 d-->
+    <h3 class="editable text-neutral">Can't Join Us In-Person?</h3>
+    <a href="https://www.youtube.com/@indieyogasd" class="text-xl editable text-neutral hover:text-success">Check out our free online courses available on YouTube!</a>
     
 {% when 5 %}
 <!-- CTA 5 -->

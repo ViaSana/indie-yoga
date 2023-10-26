@@ -9,8 +9,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Lato', 'sans-serif'],
-        body: ['Ubuntu', 'sans-serif']
+        body: ['Lato', 'sans-serif'],
+        sans: ['Ubuntu', 'sans-serif']
       },
       spacing: {
         '5p': '5%',
@@ -31,8 +31,9 @@ module.exports = {
         '50': '50vh',
       },
       colors:{
+        'aqua': '#bbfbfd',
+
         'd-blue': '#27476E',
-        'aqua': '#65D8D2',
         'blue': '#C6F9F6',
         'yellow': '#E5B02B',
         'light': '#EEE8EC',
@@ -40,17 +41,27 @@ module.exports = {
       }
     },
   },
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          "primary": "#555555",
+          "secondary": "#537887",
+          "accent": "#000000",
+          "neutral": "#ffffff",
+          "base-100": "#eee8ec",
+          "info": "#ffffff",
+          "success": "#3e3d3d",
+          "warning": "#bbfbfd",
+          "error": "#bbfbfd",
+        },
+      },
+    ],    
+  },
+
   plugins: [
     require('@tailwindcss/typography'),
     require("daisyui"),
+    require("tailwindcss-animate"),
   ],
-
-  daisyui: {
-    themes: false, // true: all themes | false: only light + dark | array: specific themes like this ["light", "dark", "cupcake"]
-    styled: true, // include daisyUI colors and design decisions for all components
-    utils: true, // adds responsive and modifier utility classes
-    rtl: false, // rotate style direction from left-to-right to right-to-left. You also need to add dir="rtl" to your html tag and install `tailwindcss-flip` plugin for Tailwind CSS.
-    prefix: "", // prefix for daisyUI classnames (components, modifiers and responsive class names. Not colors)
-    logs: true, // Shows info about daisyUI version and used config in the console when building your CSS
-  },
 }

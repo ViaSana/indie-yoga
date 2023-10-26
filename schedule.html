@@ -4,15 +4,13 @@ title: Schedule
 cta-color: bg-yellow
 main-image: /assets/uploads/schedule-hero.jpg
 hero:
-    p1: Class Schedule
+    color: bg-primary
+    top-line: Class Schedule
     heading: Sign up below or stop by in person
-    color: bg-d-blue
-    text_color-2: text-yellow
-    text_color: text-light
 ---
 {% include hero.html case="info" %}
 
-{% include cta.html action=1 %}
+{% include cta.html action=1 color="bg-secondary" %}
 
 <section id="walla-schedule">
     {% include walla_widget.html case="schedule" %}

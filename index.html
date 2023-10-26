@@ -4,11 +4,9 @@ title: Homepage
 main-heading: OB's OG Hot Yoga Studio
 sub-heading: You Are Not A Drop in the Ocean, You are the ocean in a Drop - Rumi
 home-image: assets/images/home_hero-2.jpg
-cta-color: bg-yellow
 main-image: /assets/uploads/about-indie.png
+
 about:
-    color: 'bg-blue'
-    text_color: 'text-d-blue'
     heading: Where the Soul Meets the Sea, in Ocean Beach
     p1: >-
         Welcome to Indie Yoga, the first hot yoga studio of the Ocean Beach
@@ -26,15 +24,15 @@ about:
 <!-- Home Hero w/ special responsiveness -->
 <div class="grid gap-4 my-4 md:grid-cols-6 mx-scrn md:min-h-[85vh]">
     
-    <div class="flex order-2 max-md:hidden md:col-span-2 bg-blue">
-        <div class="self-center p-5p text-d-blue">
-            <h1 class="font-bold capitalize">{{page.main-heading}}</h1>
-            <h4 class="capitalize">{{page.sub-heading}}</h4>
+    <div class="flex order-2 max-md:hidden md:col-span-2 bg-primary">
+        <div class="self-center p-5p">
+            <h1 class="font-bold capitalize text-neutral">{{page.main-heading}}</h1>
+            <h4 class="capitalize text-aqua">{{page.sub-heading}}</h4>
         </div>
     </div>
 
     <div class="max-md:hidden md:col-span-4 md:order-3">
-        <img src="{{page.home-image}}" />
+        <img src="{{page.home-image}}" class="duration-1000 animate-in slide-in-from-right-96 fade-in" />
     </div>
 
     <!-- for small screens -->
@@ -48,18 +46,18 @@ about:
     </div>
 </div>
 
-{% include cta.html action=1 %}
+{% include cta.html action=1 color="bg-secondary"%}
 
-<section class="pt-10">
-    <div class="text-center mx-scrn text-d-blue">
-        <h2 class="pb-4 font-bold md:pb-12 editable">Find Your Flow</h2>
+<section class="py-8">
+    <div class="text-center mx-scrn text-accent">
+        <h2 class="pb-4 md:pb-12 editable">Find Your Flow</h2>
 
         <!-- Creates a Loop though 'Indie-Info.yml' to create square links to the rest of the pages -->
-        {% include service-squares_loop.html %}
+        {% include services_loop.html %}
     </div>
 </section>
 
-{% include cta.html action=4 %}
+{% include cta.html action=4 color="bg-secondary" %}
 
 {% include hero.html case="home" %}
 
