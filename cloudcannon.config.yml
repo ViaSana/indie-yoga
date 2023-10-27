@@ -29,13 +29,13 @@ _inputs:
     type: auto
     hidden: true
     cascade: true
-  hero:
-    color: bg-primary
-      type: select
-      options:
-        - "bg-primary": "Primary"
-        - "bg-secondary": "Secondary"
-        - "bg-accent": "Black"
+  # hero:
+  #   color: bg-primary
+  #     type: select
+  #     options:
+  #       - "bg-primary": "Primary"
+  #       - "bg-secondary": "Secondary"
+  #       - "bg-accent": "Black"
   price:
     type: auto
     cascade: true
