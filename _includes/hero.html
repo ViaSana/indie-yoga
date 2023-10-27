@@ -34,7 +34,9 @@
         <div class="flex page-overlay md:h-[60vh] h-[50vh]">
             <div class="flex basis-7/11 {{page.text-placement}} p-5p">
                 <div class="self-center">
-                    <h1 class="font-bold text-light">{{page.title}}</h1>
+                    <h1 class="font-bold text-neutral">{{page.title}}</h1>
+                    <a href="/schedule.html" class="px-4 mx-4 btn">View Schedule</a>
+                    <a href="/pricing.html" class="px-4 mx-4 btn">Packages + Memberships</a>  
                 </div>
             </div>
         </div>
@@ -47,11 +49,11 @@
     </div>
     <div class="flex md:col-span-2 col-span-full bg-info">
         <div class="self-center p-5p text-accent">
-            <h3>Where to Find Us</h3>
+            <h3 class="editable">Where to Find Us</h3>
             <p class="pb-4 max-lg:hidden editable">You will find our heated studio in the heart of ocean beach. We offer an inviting environment for all levels to grow and learn through yoga practice. Drop in to feed off the music, movement and energy that will surround you. </p>
             
             <div class="find-us_info">
-                <a href="mailto:info@indieyogasd.com"><span><b>Email: </b>{{site.data.indie-info.email}}</span></a>
+                <a href="mailto:{{site.data.indie-info.email}}"><span><b>Email: </b>{{site.data.indie-info.email}}</span></a>
                 <a href="tel:{{site.data.indie-info.phone}}"><span><b>Phone: </b>{{site.data.indie-info.phone}}</span></a>
                 <a href="https://maps.google.com/maps?ll=32.746271,-117.251479&z=16&t=m&hl=en&gl=ID&mapclient=embed&cid=11254240054341428777"><span><b>Address: </b>{{site.data.indie-info.address}}</span></a>
             </div>

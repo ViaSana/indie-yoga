@@ -1,4 +1,5 @@
 <header class="relative z-10 px-4 pt-4 mx-scrn">
+    <!-- hidden when mobile-menu active -->
     <div class="flex w-full max-md:hidden">
         <div>
             <a href="/"><img class="w-full max-h-24 max-[820px]:w-[215px]" src="assets/images/Indie_logo-long.png"></img></a>
@@ -11,7 +12,7 @@
                     <a href="/about">About</a>
                 </div>
                 <div x-cloak x-show="open" class="absolute pt-2 left-4 top-6">
-                    <a class="block p-2 text-left whitespace-nowrap bg-grey" href="/people">Our People</a>
+                    <a class="block p-2 text-left whitespace-nowrap bg-success" href="/people">Our People</a>
                 </div>
             </div>
 
@@ -23,11 +24,11 @@
 
                 <div x-cloak x-show="open" class="absolute pt-2 left-4 top-6">
                     
-                    <a href="/pricing" class="block p-2 text-left bg-grey">
+                    <a href="/pricing" class="block p-2 text-left bg-success">
                         Pricing
                     </a>
 
-                    <a href="/classes" class="block p-2 text-left bg-grey">
+                    <a href="/classes" class="block p-2 text-left bg-success">
                         Descriptions
                     </a>
                 </div>
@@ -47,7 +48,7 @@
         </nav>
     </div>
 
-    <!-- This with max-md:hidden on the above div handles the menu + .hamburger-button, .mobile-menu + JS() in main.js -->
+    <!-- works w/ main.js + .hamburger-button, .mobile-menu -->
     <div class="flex w-full md:hidden">
         <div>
             <a href="/"><img class="max-h-32" src="assets/images/Indie_logo-long.png"></img></a>
@@ -55,9 +56,9 @@
         <div class="flex items-center justify-end w-full">
             <div class="relative mr-4 space-y-2 hamburger-button">
                 <!-- Hamburger -->
-                <div class="w-8 h-0.5 bg-aqua"></div>
-                <div class="w-8 h-0.5 bg-aqua"></div>
-                <div class="w-8 h-0.5 bg-aqua"></div>
+                <div class="w-8 h-0.5 bg-accent"></div>
+                <div class="w-8 h-0.5 bg-accent"></div>
+                <div class="w-8 h-0.5 bg-accent"></div>
                 
                 <div class="shadow-lg pl-72 mobile-menu">
                     <div class="mr-6 -mt-4 text-right text-aqua">X</div> 

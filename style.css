@@ -223,11 +223,11 @@
 
     /* Styles when the hamburger button is active  */
     .hamburger-button.active{
-        @apply bg-blue
+        @apply bg-success;
     }
 
     .mobile-menu {
-        @apply absolute hidden text-center -right-8 bg-blue;
+        @apply absolute hidden text-center -right-8 bg-success;
         
         /* This precisely positions the drop down */
         padding: 55% 60% 25% 50%;
