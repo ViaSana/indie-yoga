@@ -19,12 +19,24 @@
     {% when "info" %}
     <!-- Info Hero -->
     <div class="md:h-[60vh] h-[50vh] md:col-span-4 col-span-full">
-        <img class="object-[center_90%]" src="{{page.main-image}}">
+        <img class="object-[center_80%]" src="{{page.main-image}}">
     </div>  
     <div class="flex md:h-[60vh] col-span-full md:col-span-2 {{page.hero.color}}">
         <div class="self-center p-5p">
             <h4 class="pb-4 text-aqua">{{page.hero.top-line}}</h4>
             <h3 class="text-neutral">{{page.hero.heading}}</h3>
+        </div>
+    </div>
+
+    {% when "schedule" %}
+    <!-- Info Hero -->
+    <div class="md:h-[60vh] h-[50vh] md:col-span-4 col-span-full">
+        <img class="object-[center_90%]" src="{{page.main-image}}">
+    </div>  
+    <div class="flex md:h-[60vh] col-span-full md:col-span-2 {{page.hero.color}}">
+        <div class="self-center p-5p">
+            <h3 class="pb-4 text-neutral">{{page.hero.top-line}}</h4>
+            <h4 class="text-aqua">{{page.hero.heading}}</h3>
         </div>
     </div>
 
@@ -35,8 +47,20 @@
             <div class="flex basis-7/11 {{page.text-placement}} p-5p">
                 <div class="self-center">
                     <h1 class="font-bold text-neutral">{{page.title}}</h1>
-                    <a href="/schedule.html" class="px-4 mx-4 btn">View Schedule</a>
-                    <a href="/pricing.html" class="px-4 mx-4 btn">Packages + Memberships</a>  
+                    <a href="/schedule.html" class="mr-2 btn btn-secondary">View Schedule</a>
+                    <a href="/pricing.html" class="btn btn-secondary">Packages + Memberships</a>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% when "pricing" %}
+    <!-- Full Page Hero w/o buttons -->
+    <div class="relative bg-image col-span-full" style="background-image: url({{page.page-image}});"> 
+        <div class="flex page-overlay md:h-[60vh] h-[50vh]">
+            <div class="flex basis-7/11 {{page.text-placement}} p-5p">
+                <div class="self-center">
+                    <h1 class="text-neutral">{{page.title}}</h1>
                 </div>
             </div>
         </div>

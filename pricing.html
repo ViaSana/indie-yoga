@@ -4,7 +4,6 @@ layout: default
 title: Class Pricing & Packages
 page-image: /assets/uploads/pricing-hero.jpg
 text-placement: ml-auto
-cta-color: bg-aqua
 
 new-student:
   image: /assets/uploads/schedule-hero.jpg
@@ -20,10 +19,10 @@ rockstar:
   price: $108
   description_html: |-
     Join the community with unlimited classes and amazing IndieCentives with discounts at other businesses in OB.
-    <br>- First month is just $88
-    <br>- Free towel rental
-    <br>- One guest pass per month
-    <br>- Minimum 2 month commitment
+    <br> - First month is just $88
+    <br> - Free towel rental
+    <br> - One guest pass per month
+    <br> - Minimum 2 month commitment
   walla_link: https://api.hellowalla.com/previews/763?b=34&type=package
 
 packages:
@@ -41,19 +40,18 @@ packages:
   link: https://api.hellowalla.com/previews/788?b=34&type=package
 
 ---
-{% include hero.html case="full" %}
+{% include hero.html case="pricing" %}
 
 <!-- New Student Hero -->
 <div id="new-student" class="grid grid-cols-6 gap-4 my-4 mx-scrn">
-  <div class="flex md:col-span-2 col-span-full bg-yellow">
-      <div class="self-center p-5p text-d-blue">
-          <h3 class="text-blue">{{page.new-student.price}}</h3>
-          <h3 class="font-bold">{{page.new-student.heading}}</h3>
+  <div class="flex md:col-span-2 col-span-full bg-primary">
+      <div class="self-center p-5p text-neutral">
+          <h3 class="text-aqua">{{page.new-student.price}}</h3>
+          <h3>{{page.new-student.heading}}</h3>
           <p class="pb-4">{{page.new-student.description_html}}</p>
-          <div class="button bg-blue"><a href="{{page.new-student.walla_link}}">Buy Now</a></div>
+          <div class="btn btn-warning"><a href="{{page.new-student.walla_link}}">Buy Now</a></div>
       </div>
   </div>
-
   <div class="md:col-span-4 col-span-full">
       <img src="{{page.new-student.image}}">
   </div>
@@ -64,27 +62,27 @@ packages:
     <div class="md:col-span-4 col-span-full">
         <img src="{{page.rockstar.image}}">
     </div>
-    <div class="flex col-span-full md:col-span-2 bg-d-blue">
-        <div class="self-center p-5p text-light">
-            <h3 class="text-yellow">{{page.rockstar.price}}</h3>
-            <h3 class="font-bold">{{page.rockstar.heading}}</h3>
+    <div class="flex col-span-full md:col-span-2 bg-accent">
+        <div class="self-center p-5p text-neutral">
+            <h3 class="text-aqua">{{page.rockstar.price}}</h3>
+            <h3>{{page.rockstar.heading}}</h3>
             <p class="pb-4">{{page.rockstar.description_html}}</p>
-            <a href="{{page.rockstar.walla_link}}" class="button">Buy Now</a>
+            <a href="{{page.rockstar.walla_link}}" class="btn btn-warning">Buy Now</a>
         </div>
     </div>
 </div>
 
-{% include cta.html action=2 %}
+{% include cta.html action=2 color="bg-secondary" %}
 
 <!-- Pulls data from package collection -->
 <div class="grid gap-4 my-4 md:grid-cols-7 mx-scrn">
   {% for item in page.packages %}
-  <div class="{% cycle 'md:col-span-2 text-d-blue bg-blue','md:col-span-3 text-light bg-d-blue' %} flex">
+  <div class="{% cycle 'md:col-span-2 bg-primary','md:col-span-3 bg-success' %} text-neutral flex">
       <div class="self-center p-5p">
-          <h3 class="text-yellow">{{item.cost}}</h3>
+          <h3 class="text-aqua">{{item.cost}}</h3>
           <h3>{{item.heading}}</h3>
           <p class="pb-4">{{item.description}}</p>
-          <a class="button" href="{{item.link}}">Buy Now</a>
+          <a class="btn btn-warning" href="{{item.link}}">Buy Now</a>
       </div>
   </div>
   {% endfor %}

@@ -11,34 +11,17 @@
         <div class="bg-center bg-no-repeat bg-contain aspect-portrait" style="background-image: url({{item.image}});"></div>
     </div>
 
-    <!-- Makes the choice for which color scheme will be picked -->
-    {% case {{item.wkshop-background}} %}
-        {% when "dark blue" %}
-        <div class="flex items-center order-1 col-span-4 align-middle lg:order-3 p-5p bg-d-blue text-light">
-            <div>
-                <h5 class="text-yellow">{{item.datetime | date:"%a, %b %e %l:%M%P"}}</h5>
+    <div class="flex items-center order-1 col-span-4 align-middle lg:order-3 p-5p text-neutral {% cycle 'bg-success','bg-secondary' %}">
+        <div>
+            <h5 class="text-aqua">{{item.datetime | date:"%a, %b %e %l:%M%P"}}</h5>
 
-                <h3 class="col-span-3">{{item.title}}</h3>
-                
-                <p class="pb-4">{{item.description}}</p>
-                
-                <h3 class="text-yellow">{{item.price}}</h3>
-                <a href="{{item.walla_link}}" class="button">Register Now</a>
-            </div>
+            <h3 class="col-span-3">{{item.title}}</h3>
+            
+            <p class="pb-4">{{item.description}}</p>
+            
+            <h3 class="text-aqua">{{item.price}}</h3>
+            <a href="{{item.walla_link}}" class="btn btn-warning">Register Now</a>
         </div>
-
-        {% when "light blue" %}
-        <div class="flex items-center order-1 col-span-4 align-middle lg:order-3 p-5p bg-blue text-d-blue">
-            <div class="">
-                <h5 class="text-yellow">{{item.datetime | date:"%a, %b %e %l:%M%P"}}</h5>
-                <h3 class="col-span-3">{{item.title}}</h3>
-                
-                <p class="pb-4">{{item.description}}</p>
-                
-                <h3 class="text-yellow">{{item.price}}</h3>
-                <a href="{{item.walla_link}}" class="button-d">Register Now</a>
-            </div>
-        </div>
-    {% endcase %}
+    </div>
 </div>
 {% endfor %}

@@ -48,7 +48,7 @@
     }
 
     header a  {
-        @apply font-bold text-d-blue hover:text-aqua;
+        @apply font-bold text-accent hover:text-secondary;
     }
 
     footer nav a  {
@@ -60,34 +60,21 @@
 @layer components {
     /* daisyUI button */
     .btn {
-        @apply capitalize rounded-none;
+        @apply capitalize rounded-none hover:scale-95;
     }
     .btn-accent{
-        @apply text-neutral;
+        @apply text-neutral hover:text-secondary;
+    }
+    .btn-warning{
+        @apply hover:text-secondary;
     }
 
-    /* old button styles */
-    .button {
-        @apply inline-block px-4 py-3 font-bold border bg-yellow text-d-blue border-yellow;
-    }
-    .button:hover {
-        @apply bg-d-blue text-yellow;
-    }
-    .button-d {
-        @apply inline-block px-4 py-3 font-bold border bg-d-blue text-yellow border-d-blue;
-    }
-    .button-d:hover {
-        @apply  bg-yellow text-d-blue;
-    }
-    .button:active, .button-d:active{
-        @apply text-aqua;
-    }
     .social-row_item {
         @apply inline-block py-2 pr-2 stroke-neutral hover:stroke-aqua;
     }
 
     .social-people_item {
-        @apply inline stroke-yellow hover:stroke-aqua;
+        @apply inline stroke-aqua hover:stroke-neutral;
     }
 
     /* Overlay Styles */
@@ -215,23 +202,8 @@
         transform: translateY(-50%);
     }
 
-    /* Hamburger Style */
-    .hamburger-button {
-        cursor: pointer;
-        z-index: 2;
-    }
-
-    /* Styles when the hamburger button is active  */
-    .hamburger-button.active{
-        @apply bg-success;
-    }
-
     .mobile-menu {
-        @apply absolute hidden text-center -right-8 bg-success;
-        
-        /* This precisely positions the drop down */
-        padding: 55% 60% 25% 50%;
-        top: -6px;
+        @apply absolute hidden w-screen h-screen text-center top-full bg-success;
     }
 
     .mobile-menu a {
