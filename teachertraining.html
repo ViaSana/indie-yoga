@@ -9,7 +9,7 @@ teacher-2_image: assets/uploads/abig.png
 ---
 <div class="mt-4 text-center mx-scrn text-neutral col-span-full bg-image" style="background-image: url({{page.page_image}});">
     <div class="flex page-overlay md:h-[60vh] h-[50vh] justify-center">
-        <div class="self-center p-4 my-4">
+        <div class="self-center p-4 my-4 animate-from-bottom">
             <h2 class="py-4 editable">Yoga Teacher Training 2024</h2>
             <h4 class="editable">Transform Your Practice</h4>
             <a href="{{page.ytt-signup_link}}"><div class="btn btn-accent">Register Now</div></a>
@@ -22,7 +22,7 @@ teacher-2_image: assets/uploads/abig.png
 </div>
 
 <div class="grid items-center gap-4 md:grid-cols-8 mx-scrn">     
-    <div class="flex h-full md:col-span-3 bg-primary text-neutral">
+    <div class="flex h-full md:col-span-3 bg-primary text-neutral scroll-in-from-left">
         <div class="self-center p-5p">
             <h3 class="editable text-aqua">About the Training</h3>
             <p class="pb-4 editable">Have you ever felt the pull towards teaching and sharing the magic of yoga? This program is a unique blend of time-honored traditions and modern-day practices. Here, you won’t just learn; you’ll experience. From understanding the roots of yoga, mastering meditation and breathwork, to embracing the essentials of today’s yoga classroom, every module has been curated to ensure your evolution as both a practitioner and a teacher.</p>
@@ -40,7 +40,7 @@ teacher-2_image: assets/uploads/abig.png
         </div>
     </div>
 
-    <div class="h-full md:col-span-5 bg-image col-span-full" style="background-image: url({{page.about-tt_image}});">
+    <div class="h-full md:col-span-5 bg-image col-span-full scroll-in-from-right" style="background-image: url({{page.about-tt_image}});">
     </div>
 </div>
 
@@ -50,14 +50,14 @@ teacher-2_image: assets/uploads/abig.png
     <!-- Side By Side Teacher Grid -->
     <div class="grid md:grid-cols-2">
         <div class="p-4 h-min">
-            <div class="flex justify-center m-6">
+            <div class="flex justify-center m-6 scroll-in-from-left">
                 <img class="aspect-square w-[40vh] " src="{{page.teacher-1_image}}">
             </div>
             <h4 class="editable">John Jay</h4>
             <p class="editable">John Jay discovered the benefits of a regular yoga practice while playing football at the University of San Diego. After completing trainings in both Hatha and Power Vinyasa styles, John Jay began instructing in 2010. Yoga’s vast array of traditions, schools and teachers allows each Yogi to blaze their own path organically; something that continues to excite him as both a student and teacher. As Lao Tzu said, “A good traveler has no fixed plans, and is not intent on arriving." Currently, John Jay is helping both novice and experienced Yogis evolve their practice, as both Manager of Indie Yoga and co-leader of Indie's Teacher Training Program.</p>
         </div>
         <div class="p-4 h-min">
-            <div class="flex justify-center m-6">
+            <div class="flex justify-center m-6 scroll-in-from-right">
                 <img class="aspect-square w-[40vh]" src="{{page.teacher-2_image}}">
             </div>
             <h4 class="editable">Abigail McHugh</h4>
@@ -92,7 +92,7 @@ teacher-2_image: assets/uploads/abig.png
     </div>
 
     <!-- Col 2 -->
-    <div class="flex md:col-span-3 bg-success">
+    <div class="flex md:col-span-3 bg-success scroll-in-from-bottom">
         <div class="self-center text-center p-10p text-light">
             <h3>{{site.data.teacher-training.tuition.heading}}</h3>
             <h3 class="text-aqua">{{site.data.teacher-training.tuition.pricing-t2}}</h3>
@@ -122,7 +122,7 @@ teacher-2_image: assets/uploads/abig.png
     <div class="mx-1 text-aqua">
         <div x-data="{ selected: null }">
             {% for item in site.data.teacher-training.whats-included %}
-                <div class="relative text-left">
+                <div class="relative text-left scroll-in-from-left">
                     <button type="button" class="block w-full pt-6" 
                             @click="selected !== {{ forloop.index }} ? selected = {{ forloop.index }} : selected = null">
                         <div class="flex text-left {% if item.description %}items-center justify-between{% endif %} px-4 bg-success">

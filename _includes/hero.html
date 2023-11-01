@@ -9,8 +9,10 @@
         <div class="self-center p-5p text-neutral">
             <h3>{{page.about.heading}}</h3>
             
-            <p class="pb-4">{{page.about.p1}}</p>
-            <p class="pb-4">{{page.about.p2}}</p>
+            <div class="scroll-in-from-right">
+                <p class="pb-4">{{page.about.p1}}</p>
+                <p class="pb-4">{{page.about.p2}}</p>
+            </div>
             
             <a href="{{page.hero.link}}" class="btn btn-accent">Learn More</a>
         </div>
@@ -22,7 +24,7 @@
         <img class="object-[center_80%]" src="{{page.main-image}}">
     </div>  
     <div class="flex md:h-[60vh] col-span-full md:col-span-2 {{page.hero.color}}">
-        <div class="self-center p-5p">
+        <div class="self-center p-5p scroll-in-from-right">
             <h4 class="pb-4 text-aqua">{{page.hero.top-line}}</h4>
             <h3 class="text-neutral">{{page.hero.heading}}</h3>
         </div>
@@ -92,7 +94,7 @@
         </div>    
     </div>   
     <div class="col-span-full md:col-span-2 max-md:hidden">
-        <div class="max-md:aspect-[3/2] md:h-full bg-image" style="background-image: url({{site.data.testimonials.image}});"></div>
+        <div class="max-md:aspect-[3/2] md:h-full bg-image scroll-in-from-left" style="background-image: url({{site.data.testimonials.image}});"></div>
     </div>
 
 {% endcase %}
