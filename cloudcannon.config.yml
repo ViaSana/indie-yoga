@@ -15,10 +15,6 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  packages:
-    path: _packages
-    output: false
-    icon: notes
 
 _inputs:
   layout:
