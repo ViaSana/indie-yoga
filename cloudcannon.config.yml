@@ -32,15 +32,6 @@ _inputs:
     type: auto
     hidden: true
     cascade: true
-  wkshop-background:
-    type: select
-    options:
-      allow_empty: true
-      values:
-        - dark blue
-        - light blue
-    label: Color Scheme
-    cascade: true
   text-placement:
     type: auto
     hidden: true
