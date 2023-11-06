@@ -192,6 +192,7 @@
     
     .hover-overlay:hover {
         background-color: rgba(60, 60, 60, 0.7);
+        @apply text-aqua;       
     }
     
     .hover-inner {

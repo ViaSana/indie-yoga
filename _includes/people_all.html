@@ -1,23 +1,47 @@
 <!-- All Teachers displayed in people_all.html include -->
-<div class="grid gap-3 pb-4 md:grid-cols-3 mx-scrn">
+<div class="grid gap-3 pb-4 md:grid-cols-3 mx-scrn bg-primary">
 
     {% for people in site.data.teachers %}
-        <div>
-            <div class="bg-image aspect-square" style="background-image: url({{people.image}});"></div>
-            <div class="p-8 bg-d-blue">
-                <h4 class="text-yellow">{{people.name}}</h4>
+        <div class="bg-success">
+
+            {% if {{people.quote}} %}
+                <div class="hover-container bg-image aspect-square" style="background-image: url({{people.image}});">
+                    <div class="hover-overlay">
+                        <div class="p-4 text-center hover-inner">
+                            <p>{{people.quote}}</p>
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+                <div class="bg-image aspect-square" style="background-image: url({{people.image}});"></div>
+            {% endif %}
+
+            <div class="p-8 bg-success">
+                <h4 class="inline pb-0 text-aqua">{{people.name}}</h4>
+
+                {% if {{people.social}} %}
+                    <!-- Instagram icon appears if teachers have a ig name listed-->
+                    <a class="social-people_item" href="https://www.instagram.com/{{people.social}}">
+                        <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 2 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline">
+                            <path d="M12 16a4 4 0 100-8 4 4 0 000 8z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M3 16V8a5 5 0 015-5h8a5 5 0 015 5v8a5 5 0 01-5 5H8a5 5 0 01-5-5z" stroke-width="1.5"></path>
+                            <path d="M17.5 6.51l.01-.011" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>
+                    {% endif %}
+
                 <!-- Fancy Apline to use a show more toggle -->
                 <p
-                    class="show-toggle"
-                    x-data="{ show: false, maxLength: 200, text: '', content: '' }"
+                    class="pt-2 show-toggle text-neutral"
+                    x-data="{ show: false, maxLength: 150, text: '', content: '' }"
                     x-init="text = $el.firstElementChild.textContent.trim(); content = text.slice(0, maxLength)" 
                     >
                     <span x-text="show ? text : content">{{people.bio}}</span>
                     <button
-                        class="show-toggle-btn"
+                        class="text-aqua show-toggle-btn"
                         @click="show = !show"
                         x-show="text.length > maxLength"
-                        x-text="show ? 'show less' : '...read more'"
+                        x-text="show ? ' show less' : ' ...read more'"
                     ></button>
                 </p>
             </div>

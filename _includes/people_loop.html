@@ -39,10 +39,10 @@
                     >
                     <span x-text="show ? text : content">{{people.bio}}</span>
                     <button
-                        class="show-toggle-btn"
+                        class="show-toggle-btn text-aqua"
                         @click="show = !show"
                         x-show="text.length > maxLength"
-                        x-text="show ? 'show less' : '...read more'"
+                        x-text="show ? ' show less' : ' ...read more'"
                     ></button>
                 </p>
             </div>
