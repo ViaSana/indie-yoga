@@ -38,13 +38,13 @@
         </div>
     </div>
 
-    {% when "full" %}
+    {% when "classes" %}
     <!-- Full Page Hero -->
     <div class="relative bg-image col-span-full" style="background-image: url({{page.page-image}});"> 
         <div class="flex page-overlay md:h-[60vh] h-[50vh]">
             <div class="flex basis-7/11 {{page.text-placement}} p-5p">
                 <div class="self-center">
-                    <h1 class="text-neutral animate-in-left">{{page.title}}</h1>
+                    <h1 class="text-neutral animate-in-left">{{page.hero_heading}}</h1>
                     <a href="/schedule.html" class="mr-2 btn btn-secondary">View Schedule</a>
                     <a href="/pricing.html" class="btn btn-secondary">Packages + Memberships</a>  
                 </div>
@@ -58,7 +58,7 @@
         <div class="flex page-overlay md:h-[60vh] h-[50vh]">
             <div class="flex basis-7/11 {{page.text-placement}} p-5p">
                 <div class="self-center animate-in-left">
-                    <h1 class="text-neutral">{{page.title}}</h1>
+                    <h1 class="text-neutral">{{page.hero_heading}}</h1>
                 </div>
             </div>
         </div>

@@ -72,7 +72,7 @@ block_b.forEach(object => {
         // now this is the most important line of code its what turns the triggers from a start point in to locking it to the scroll
         scrub: .5,
         // last but not least this helps us to visualize the script
-        markers: true,
+        markers: false,
     }
     }).from(object,{
         y:150,
@@ -87,7 +87,7 @@ block_l.forEach(object => {
             start: "top-=50 center+=250",
             end: "center center",
             scrub: 1,
-            markers: true,
+            markers: false,
         }
     }).from(object,{
         x:-150,
@@ -102,7 +102,7 @@ block_r.forEach(object => {
             start: "top-=50 center+=250",
             end: "center center",
             scrub: 1,
-            markers: true,
+            markers: false,
         }
     }).from(object,{
         x:150,
