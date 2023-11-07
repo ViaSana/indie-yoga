@@ -1644,6 +1644,11 @@ footer nav a:hover {
         padding: 1vh 0;
         display: block;
     }
+#js-arrow_r, #js-arrow_l {
+        border: 0;
+        outline-style: none;
+        animation: none;
+    }
 .visible {
   visibility: visible;
 }
@@ -1818,6 +1823,9 @@ footer nav a:hover {
 .max-h-32 {
   max-height: 8rem;
 }
+.max-h-\[530px\] {
+  max-height: 530px;
+}
 .min-h-\[230px\] {
   min-height: 230px;
 }
@@ -1966,10 +1974,6 @@ footer nav a:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--su) / var(--tw-bg-opacity));
 }
-.bg-yellow {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 176 43 / var(--tw-bg-opacity));
-}
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -1997,23 +2001,30 @@ footer nav a:hover {
 .bg-center {
   background-position: center;
 }
+.bg-bottom {
+  background-position: bottom;
+}
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
 .fill-accent {
   fill: hsl(var(--a) / 1);
 }
-.object-\[center_80\%\] {
-  -o-object-position: center 80%;
-     object-position: center 80%;
+.object-\[center_35\%\] {
+  -o-object-position: center 35%;
+     object-position: center 35%;
 }
 .object-\[center_90\%\] {
   -o-object-position: center 90%;
      object-position: center 90%;
 }
-.object-\[center_35\%\] {
-  -o-object-position: center 35%;
-     object-position: center 35%;
+.object-\[center_15\%\] {
+  -o-object-position: center 15%;
+     object-position: center 15%;
+}
+.object-\[center_75\%\] {
+  -o-object-position: center 75%;
+     object-position: center 75%;
 }
 .p-10p {
   padding: 10%;
@@ -2163,10 +2174,6 @@ footer nav a:hover {
   --tw-text-opacity: 1;
   color: hsl(var(--su) / var(--tw-text-opacity));
 }
-.text-yellow {
-  --tw-text-opacity: 1;
-  color: rgb(229 176 43 / var(--tw-text-opacity));
-}
 .underline {
   text-decoration-line: underline;
 }
@@ -2248,6 +2255,18 @@ img {
     }
 [x-cloak] {
         display: none !important;
+    }
+.bouncing-animation{
+        animation: bounce 2s ease-out 1s infinite running;
+    }
+@keyframes bounce {
+        from {
+            translate: 0 0;
+            opacity: 0;
+        }
+        to { 
+            translate: 0 0.5rem;
+        }
     }
 
 /* ----------- Default Styles --------- */

@@ -24,21 +24,21 @@ about:
 <!-- Home Hero w/ special responsiveness -->
 <div class="grid gap-4 my-4 md:grid-cols-6 mx-scrn md:min-h-[85vh]">
     
-    <div class="flex order-2 max-md:hidden md:col-span-2 bg-primary">
-        <div class="self-center p-5p">
+    <div class="flex order-2 max-md:hidden md:col-span-2 bg-primary ">
+        <div class="self-center p-5p animate-in-left">
             <h1 class="font-bold capitalize text-neutral">{{page.main-heading}}</h1>
             <h4 class="capitalize text-aqua">{{page.sub-heading}}</h4>
         </div>
     </div>
 
-    <div class="max-md:hidden md:col-span-4 md:order-3">
+    <div class="max-md:hidden md:col-span-4 md:order-3 animate-in-right">
         <img src="{{page.home-image}}" />
     </div>
 
     <!-- for small screens -->
     <div class="block col-span-full bg-image md:hidden h-[63vh]" style="background-image: url({{page.home-image}});"> 
         <div class="flex h-full text-left page-overlay">
-            <div class="self-center p-5p w-[70vw]">
+            <div class="self-center p-5p w-[70vw] animate-in-left">
                 <h1 class="capitalize text-neutral">{{page.main-heading}}</h1>
                 <h4 class="capitalize text-aqua">{{page.sub-heading}}</h4>
             </div>

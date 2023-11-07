@@ -3,7 +3,7 @@
 {% for class in site.data.indie-info.classes %}
 <div class="relative flex py-4 {% cycle '', 'flex-row-reverse' %}">
     <div class="w-[60vw] bg-image aspect-[3/2]" style="background-image: url({{class.image}});"></div>
-    <div class="sm:absolute max-md:inset-x-14 p-4 top-24 md:w-[40vw] w-[82vw] z-10 {% cycle 'md:right-6 bg-base-100 text-success scroll-in-from-left', 'scroll-in-from-right md:left-6 bg-secondary text-neutral' %}">
+    <div class="sm:absolute max-md:inset-x-14 p-4 top-24 md:w-[40vw] w-[82vw] z-10 {% cycle 'md:right-6 bg-base-100 text-success scroll-in-left', 'scroll-in-right md:left-6 bg-secondary text-neutral' %}">
         
         <h3 class="leading-[3.64rem] line-clamp-1">{{class.title}}</h3>
 

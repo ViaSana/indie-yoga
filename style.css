@@ -77,16 +77,6 @@
         @apply inline stroke-aqua hover:stroke-neutral;
     }
 
-    /* Overlay Styles */
-    .services-overlay {
-        position: relative;
-        background-color: rgba(190, 190, 190, 0.7);
-    }
-    .page-overlay {
-        position: relative;
-        background-color: rgba(25, 25, 25, 0.4);
-    }
-
     /* Slider */
     .testimonial-slider-container {
         max-width: 900px;
@@ -154,7 +144,7 @@
 
     /* Show More Toggle */
     .show-toggle .show-toggle-btn {
-        font-weight: 500;
+        font-weight: 600;
         border: 0;
         background: transparent;
         cursor: pointer;
@@ -174,6 +164,16 @@
         height:100%;
         width:100%;
         position:absolute;
+    }
+
+    /* Overlay Styles */
+    .services-overlay {
+        position: relative;
+        background-color: rgba(190, 190, 190, 0.7);
+    }
+    .page-overlay {
+        position: relative;
+        background-color: rgba(25, 25, 25, 0.4);
     }
 
     /* Hover Image */
@@ -212,6 +212,12 @@
         padding: 1vh 0;
         display: block;
     }
+
+    #js-arrow_r, #js-arrow_l {
+        border: 0;
+        outline-style: none;
+        animation: none;
+    }
 }
 
 @layer utilities {
@@ -249,5 +255,19 @@
 
     [x-cloak] {
         display: none !important;
+    }
+
+    .bouncing-animation{
+        animation: bounce 2s ease-out 1s infinite running;
+    }
+    
+    @keyframes bounce {
+        from {
+            translate: 0 0;
+            opacity: 0;
+        }
+        to { 
+            translate: 0 0.5rem;
+        }
     }
 }

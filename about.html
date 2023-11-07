@@ -1,7 +1,9 @@
 ---
 layout: default
 title: About
-main-image: assets/images/about-hero.jpg
+main-image: /assets/uploads/pricing.jpg
+youtube_link: "https://www.youtube.com/embed/Ojge9ra4yKw?si?controls=0"
+
 hero:
     top-line: Welcome to Indie!
     heading: Where the Soul Meets the Sea, In Ocean Beach
@@ -12,7 +14,7 @@ hero:
 
 <!-- About Video -->
 <div class="grid items-center gap-4 md:grid-cols-8 mx-scrn">     
-    <div class="flex h-full md:col-span-3 bg-primary text-neutral">
+    <div class="flex h-full md:col-span-3 bg-primary text-neutral scroll-in-left">
         <div class="self-center p-5p">
             <h3 class="editable">OB’s OG Hot Yoga Studio</h3>
             <p class="pb-4 editable">At Indie Yoga, you’re not stepping into a mere studio, but a home where every individual is cherished, every class is a collective journey, and every session brings you closer to your authentic self.</p>
@@ -28,7 +30,9 @@ hero:
     </div>
 
     <div class="md:col-span-5">
-        {% include yt_video.html %}
+        <div class="md:mr-4 embed-container">
+            <iframe width="560" height="315" src="{{page.youtube_link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
     </div>
 </div>
 

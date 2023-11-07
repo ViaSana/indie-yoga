@@ -87,6 +87,10 @@
         {
             "filePath": "_includes/class_loop.html",
             "group": "includes"
+        },
+        {
+            "filePath": "teachers.html",
+            "group": "pages"
         }
     ],
     "favorites.groups": [

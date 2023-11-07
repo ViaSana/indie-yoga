@@ -29,12 +29,16 @@ $('.hamburger-button').click(function(){
 
 //Animations//
 const mainHeading = document.querySelectorAll(".animate-from-bottom")
-const headings = document.querySelectorAll(".scroll-in-from-bottom")
-const offerings = document.querySelectorAll(".scroll-in-from-right")
+const hero_l = document.querySelectorAll(".animate-in-left")
+const hero_r = document.querySelectorAll(".animate-in-right")
+
 const lines = document.querySelectorAll(".scroll-in-from-left")
 
+const block_l = document.querySelectorAll(".scroll-in-left")
+const block_r = document.querySelectorAll(".scroll-in-right")
+const block_b = document.querySelectorAll(".scroll-in-from-bottom")
 
-// Animates in from the bottom on page load
+
 mainHeading.forEach(object => {
     gsap.from(object, {
         y:250,
@@ -43,32 +47,62 @@ mainHeading.forEach(object => {
     })
 })
 
-headings.forEach(object => {
+hero_l.forEach(object => {
+    gsap.from(object, {
+        x:-350,
+        opacity:0,
+        duration:1.25,
+    })
+})
+hero_r.forEach(object => {
+    gsap.from(object, {
+        x:350,
+        opacity:0,
+        duration:1.25,
+    })
+})
+
+block_b.forEach(object => {
 
     let tl = gsap.timeline({
     scrollTrigger: {
         trigger: object,
-        start: "top-=210 center+=50",
-        end: "center-=75 center+=50",
+        start: "top-=450 center+=50",
+        end: "center-=100 center",
         // now this is the most important line of code its what turns the triggers from a start point in to locking it to the scroll
         scrub: .5,
         // last but not least this helps us to visualize the script
-        markers: false,
+        markers: true,
     }
     }).from(object,{
-        y:250,
+        y:150,
         opacity:0,
     })
 });
 
-offerings.forEach(object => {
+block_l.forEach(object => {
     let tl = gsap.timeline({
     scrollTrigger: {
             trigger: object,
-            start: "clamp(top center+=50)",
-            end: "clamp(center center)",
+            start: "top-=50 center+=250",
+            end: "center center",
             scrub: 1,
-            markers: false,
+            markers: true,
+        }
+    }).from(object,{
+        x:-150,
+        opacity:0,
+    })
+});
+
+block_r.forEach(object => {
+    let tl = gsap.timeline({
+    scrollTrigger: {
+            trigger: object,
+            start: "top-=50 center+=250",
+            end: "center center",
+            scrub: 1,
+            markers: true,
         }
     }).from(object,{
         x:150,

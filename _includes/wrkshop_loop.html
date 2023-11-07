@@ -7,11 +7,11 @@
 <div class="grid grid-cols-2 mt-4 lg:gap-4 lg:grid-cols-6 mx-scrn">
 
     <!-- The cycle class allows the layout to flip each time it runs through the loop -->
-    <div class="col-span-2 {% cycle 'order-2 scroll-in-from-left', 'order-4 scroll-in-from-right' %} max-lg:px-4">
+    <div class="col-span-2 {% cycle 'order-2 scroll-in-left', 'order-4 scroll-in-right' %} max-lg:px-4">
         <div class="bg-center bg-no-repeat bg-contain aspect-portrait" style="background-image: url({{item.image}});"></div>
     </div>
 
-    <div class="flex items-center order-1 col-span-4 align-middle lg:order-3 p-5p text-neutral {% cycle 'bg-success','bg-secondary' %}">
+    <div class="flex items-center order-1 col-span-4 align-middle lg:order-3 p-5p text-neutral {% cycle 'bg-success scroll-in-right','scroll-in-left bg-secondary' %}">
         <div>
             <h5 class="text-aqua">{{item.datetime | date:"%a, %b %e %l:%M%P"}}</h5>
 

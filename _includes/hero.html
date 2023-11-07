@@ -5,15 +5,11 @@
     {% when "home" %}
     <!-- Home Hero -->
     <div class="md:col-span-4 col-span-full bg-image min-h-[60vh]" style="background-image: url({{page.main-image}});"></div> 
-    <div class="flex col-span-full md:col-span-2 bg-primary">
+    <div class="flex col-span-full md:col-span-2 bg-primary scroll-in-right">
         <div class="self-center p-5p text-neutral">
             <h3>{{page.about.heading}}</h3>
-            
-            <div class="scroll-in-from-right">
-                <p class="pb-4">{{page.about.p1}}</p>
-                <p class="pb-4">{{page.about.p2}}</p>
-            </div>
-            
+            <p class="pb-4">{{page.about.p1}}</p>
+            <p class="pb-4">{{page.about.p2}}</p>
             <a href="{{page.hero.link}}" class="btn btn-accent">Learn More</a>
         </div>
     </div>
@@ -21,10 +17,10 @@
     {% when "info" %}
     <!-- Info Hero -->
     <div class="md:h-[60vh] h-[50vh] md:col-span-4 col-span-full">
-        <img class="object-[center_35%]" src="{{page.main-image}}">
+        <img src="{{page.main-image}}">
     </div>  
     <div class="flex md:h-[60vh] col-span-full md:col-span-2 bg-secondary">
-        <div class="self-center p-5p">
+        <div class="self-center p-5p animate-in-right">
             <h4 class="pb-4 text-aqua">{{page.hero.top-line}}</h4>
             <h3 class="text-neutral">{{page.hero.heading}}</h3>
         </div>
@@ -36,7 +32,7 @@
         <img class="object-[center_90%]" src="{{page.main-image}}">
     </div>  
     <div class="flex md:h-[60vh] col-span-full md:col-span-2 bg-primary">
-        <div class="self-center p-5p">
+        <div class="self-center p-5p animate-in-right">
             <h3 class="pb-4 text-neutral">{{page.hero.top-line}}</h4>
             <h4 class="text-aqua">{{page.hero.heading}}</h3>
         </div>
@@ -48,7 +44,7 @@
         <div class="flex page-overlay md:h-[60vh] h-[50vh]">
             <div class="flex basis-7/11 {{page.text-placement}} p-5p">
                 <div class="self-center">
-                    <h1 class="font-bold text-neutral">{{page.title}}</h1>
+                    <h1 class="text-neutral animate-in-left">{{page.title}}</h1>
                     <a href="/schedule.html" class="mr-2 btn btn-secondary">View Schedule</a>
                     <a href="/pricing.html" class="btn btn-secondary">Packages + Memberships</a>  
                 </div>
@@ -61,7 +57,7 @@
     <div class="relative bg-image col-span-full" style="background-image: url({{page.page-image}});"> 
         <div class="flex page-overlay md:h-[60vh] h-[50vh]">
             <div class="flex basis-7/11 {{page.text-placement}} p-5p">
-                <div class="self-center">
+                <div class="self-center animate-in-left">
                     <h1 class="text-neutral">{{page.title}}</h1>
                 </div>
             </div>
@@ -73,7 +69,7 @@
     <div class="order-1 md:col-span-4 col-span-full md:-order-1">
         {% include g_map.html %}
     </div>
-    <div class="flex md:col-span-2 col-span-full bg-info">
+    <div class="flex md:col-span-2 col-span-full bg-info scroll-in-right">
         <div class="self-center p-5p text-accent">
             <h3 class="editable">Where to Find Us</h3>
             <p class="pb-4 max-lg:hidden editable">You will find our heated studio in the heart of ocean beach. We offer an inviting environment for all levels to grow and learn through yoga practice. Drop in to feed off the music, movement and energy that will surround you. </p>
@@ -88,13 +84,13 @@
     
     {% when "testimonial" %}
     <!-- Testimonial Hero -->
-    <div class="col-span-full md:col-span-4 bg-accent">
+    <div class="col-span-full md:col-span-4 bg-accent scroll-in-left">
         <div class="self-center p-5p px-10p">
             {% include testimonial_slider.html %}
         </div>    
     </div>   
     <div class="col-span-full md:col-span-2 max-md:hidden">
-        <div class="max-md:aspect-[3/2] md:h-full bg-image scroll-in-from-left" style="background-image: url({{site.data.testimonials.image}});"></div>
+        <div class="max-md:aspect-[3/2] md:h-full bg-image" style="background-image: url({{site.data.testimonials.image}});"></div>
     </div>
 
 {% endcase %}
