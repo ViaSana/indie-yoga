@@ -1,4 +1,4 @@
-<header class="z-40 px-4 pt-4 mx-scrn">
+<header class="px-4 pt-4 mx-scrn">
     <!-- hidden when mobile-menu active -->
     <div class="flex w-full max-md:hidden">
         <div>
@@ -11,7 +11,7 @@
                 <div @mouseover="open = true" class="px-4 pb-2">
                     <a href="/about">About</a>
                 </div>
-                <div x-cloak x-show="open" class="absolute pt-2 left-4 top-6">
+                <div x-cloak x-show="open" class="absolute z-50 pt-2 left-4 top-6">
                     <a class="block p-2 text-left whitespace-nowrap bg-neutral" href="/people">Our People</a>
                 </div>
             </div>
@@ -22,7 +22,7 @@
                     <a href="/classes">Classes</a>
                 </div>
 
-                <div x-cloak x-show="open" class="absolute pt-2 left-4 top-6 ">
+                <div x-cloak x-show="open" class="absolute z-50 pt-2 left-4 top-6">
                     
                     <a href="/pricing" class="block p-2 text-left bg-neutral">
                         Pricing
