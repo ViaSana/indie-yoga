@@ -1,9 +1,22 @@
-- name: Deep Yin & Restore w/Mae
+- name: 'Unity for Humanity '
   description: >-
-    Think Yin Yoga, but with more of those nurturing hands-on adjustments and gentle massage we love so much. This is an invitation to deeply reset and nourish your body, mind and spirit, to influence your life beyond the mat. We will slow down, clarify intentions, reset with deep, gentle yin postures, and an option to share tea after.
-    Bring a mat, journal and pillow.
-  datetime: 2023-09-13 19:00:00 -0700
-  image: https://api.hellowalla.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN1RiQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--54c982e864668902c659bdd7250d764a4a928ce8/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMMEFXa0M5QUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--4baec8b8e14ea4738032bcc26335f5c76f01a7b1/IG%202.jpg
-  price: $33
+    Community Gathering at The Template this Thursday, 11/16, 6:00-9:00 PM 
+
+
+    In light of recent events that have deeply affected our brothers and sisters
+    in Palestine and Israel, it’s time for us to come together and make a
+    positive impact. Our intention is to unite as a community, for a night of
+    artistic expression and sound healing, to support one another.  
+
+
+    All funds raised will be donated to The Palestinian Children’s Relief Fund
+    and The Shiloh Israel Children’s Fund, to ensure that contributions made,
+    will reach all innocent lives in need.  
+
+
+    Suggested donnation, $15-$30+ (Venmo: @unityforhumanity) 
+  datetime: 2023-11-16 18:00:00 -0800
+  image: /assets/uploads/unity-for-humanity-1.jpeg
+  price: $15-$30+
   wkshop-background: dark blue
-  walla_link: https://api.hellowalla.com/previews/6826?b=34&type=enrollment
+  walla_link:
