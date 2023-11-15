@@ -38,4 +38,4 @@
   datetime: 2023-12-10 19:00:00 -0800
   image: /assets/uploads/manifestation-alchemy-poster.jpeg
   price: $40 for Members, $50 for Non-Members
-  walla_link: https://manage.hellowalla.com/indie-yoga/enrollment-schedule
+  walla_link: https://api.hellowalla.com/previews/9391?b=34&type=enrollment
