@@ -1678,9 +1678,6 @@ footer nav a:hover {
 .top-0 {
   top: 0px;
 }
-.top-1 {
-  top: 0.25rem;
-}
 .top-1\/2 {
   top: 50%;
 }
@@ -2373,9 +2370,6 @@ img {
   }
   .md\:min-h-\[60vh\] {
     min-height: 60vh;
-  }
-  .md\:min-h-\[85vh\] {
-    min-height: 85vh;
   }
   .md\:min-h-\[80vh\] {
     min-height: 80vh;
