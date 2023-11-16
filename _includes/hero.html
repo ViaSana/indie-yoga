@@ -28,10 +28,16 @@
 
     {% when "schedule" %}
     <!-- Schedule Hero -->
-    <div class="md:h-[60vh] h-[50vh] md:col-span-4 col-span-full">
-        <img class="object-[center_90%]" src="{{page.main-image}}">
+    <div class="md:h-[60vh] h-[50vh] md:col-span-4 col-span-full relative">
+            <img class="object-[center_90%]" src="{{page.main-image}}">
+            <div class="absolute inset-0 flex page-overlay md:hidden">
+                <div class="self-center p-5p animate-in-right">
+                    <h3 class="pb-4 text-neutral">{{page.hero.top-line}}</h4>
+                    <h4 class="text-aqua">{{page.hero.heading}}</h3>
+                </div>
+            </div>
     </div>  
-    <div class="flex md:h-[60vh] col-span-full md:col-span-2 bg-primary">
+    <div class="flex md:h-[60vh] col-span-full md:col-span-2 bg-primary max-md:hidden">
         <div class="self-center p-5p animate-in-right">
             <h3 class="pb-4 text-neutral">{{page.hero.top-line}}</h4>
             <h4 class="text-aqua">{{page.hero.heading}}</h3>
