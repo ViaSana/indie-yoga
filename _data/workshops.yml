@@ -39,14 +39,8 @@
   price: $40 for Members, $50 for Non-Members
   walla_link: https://manage.hellowalla.com/indie-yoga/enrollment-schedule
 - name: 50 hour Yoga Sculpt Training with Abigail McHugh
-  description: "Embark on a transformative journey with our 50-hour Intensive Yoga Sculpt Teacher Training at Indie Yoga. Whether you crave a quick, high-energy program or want to infuse strength training into your yoga routine, this course is a game-changer. Master the art of combining yoga, strength training, and cardio for a dynamic class experience. Learn the intricacies of the Yoga Sculpt sequence, explore relevant anatomy, and gain the skills to teach engaging classes. Our comprehensive program includes in-studio sessions, self-guided clinical hours, and flexible payment plans starting at $999. Secure your spot with a $300 non-refundable deposit. Enjoy benefits like a 1-month unlimited membership, Indie Yoga Swag Bag, educational training, and new sculpt buddies for life. Led by Training Leader Abigail McHugh, a certified yoga instructor and former athletic trainer, our training prioritizes individual differences. Early bird pricing of $999 available until Dec 18th; after that, it's $1,199. Enroll now for top-notch education, workshops from special guests, and empower yourself to become the best yoga sculpt instructor. All details and sign up on our website. Reach out to Abigail via Instagram\_@essentiallyrab with any questions!"
-  datetime:
-  image: ''
-  price: ''
-  walla_link: ''
-- name: ''
-  description: ''
-  datetime: '2023-12-11T03:00:00.000Z'
-  image: ''
-  price: ''
-  walla_link: ''
+  description: "Embark on a transformative journey with our 50-hour Intensive Yoga Sculpt Teacher Training. Whether you crave a quick, high-energy program or want to infuse strength training into your yoga routine, this course is a game-changer. Master the art of combining yoga, strength training, and cardio in one dynamic class. Learn the Yoga Sculpt sequence, explore anatomy, and gain skills to teach engaging classes. Our comprehensive program includes in-studio sessions, self-guided clinical hours, and flexible payment plans. Secure your spot with a $300 non-refundable deposit. Enjoy benefits like a 1-month unlimited membership, Indie Yoga Swag Bag, educational training, and new sculpt buddies for life. Led by Training Leader Abigail McHugh, a certified yoga instructor and former athletic trainer, our training prioritizes individual differences. Early bird pricing of $999 available until Dec 18th; after that, it's $1,199. Enroll now for top-notch education, workshops from special guests, and empower yourself to become the best yoga sculpt instructor. Reach out to Abigail via Instagram\_@essentiallyrab with any questions!"
+  datetime: 2024-01-17 00:00:00 -0800
+  image: /assets/uploads/ab-wrkshp.jpg
+  price: $999
+  walla_link: https://api.hellowalla.com/previews/9932?b=34&type=enrollment
