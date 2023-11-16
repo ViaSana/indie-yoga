@@ -4,7 +4,7 @@ seo:
   description:
   keywords:
   social_image:
-  favicon_image:
+  favicon_image: /favicon.ico
   author: ViaSana.co
 social:
   instagram_username: indieyogasd
