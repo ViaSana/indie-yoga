@@ -99,5 +99,6 @@
         "includes"
     ],
     "favorites.currentGroup": "pages",
-    "favorites.sortOrder": "ASC"
+    "favorites.sortOrder": "ASC",
+    "workbench.editor.restoreViewState": false
 }
