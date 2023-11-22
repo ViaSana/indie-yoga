@@ -1,3 +1,5 @@
+
+
 paths:
   uploads: assets/uploads
   data: _data
@@ -17,6 +19,14 @@ collections_config:
     disable_file_actions: false
 
 _inputs:
+  seo:
+    type: object
+    options:
+      preview:
+        text:
+          - key: "Search Engine"
+        subtext:
+          - key: "Edit meta data for seach optimization"
   layout:
     type: auto
     hidden: true
