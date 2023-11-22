@@ -1,9 +1,3 @@
-seo:
-  description:
-  keywords:
-  social_image:
-  hide-from-google:
-
 paths:
   uploads: assets/uploads
   data: _data
@@ -27,13 +21,8 @@ _inputs:
     type: object
     options:
       preview:
-        text:
-          - key: "Search Engine"
-          - "Optimization"
-        subtext:
-          - key: "Edit meta data for seach optimization"
-          - "Meta Data"
-        image: false
+        text: "Search Engine Meta Data"
+        subtext: "Update page description, keywords, social image and set if the page is crawled by search engines"
         icon: travel_explore
   layout:
     type: auto
