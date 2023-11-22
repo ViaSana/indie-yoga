@@ -31,6 +31,8 @@ _inputs:
           - key: "Search Engine"
         subtext:
           - key: "Edit meta data for seach optimization"
+        image: false
+        icon: travel_explore
   layout:
     type: auto
     hidden: true
