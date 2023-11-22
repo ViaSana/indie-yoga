@@ -29,8 +29,10 @@ _inputs:
       preview:
         text:
           - key: "Search Engine"
+          - "Optimization"
         subtext:
           - key: "Edit meta data for seach optimization"
+          - "Meta Data"
         image: false
         icon: travel_explore
   layout:
