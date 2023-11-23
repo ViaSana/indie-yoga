@@ -3,13 +3,19 @@ layout: default
 title: Yoga Teacher Training
 page_image: assets/uploads/tt_service.png
 about-tt_image: assets/uploads/ytt.png
-ytt-signup_link: https://docs.google.com/forms/d/e/1FAIpQLSfJ_UdUn2xvzj4qzY5KuJ8nshRGtglVrmcvvJmbDfotAMQqiA/viewform?usp=sf_link
+ytt-signup_link: >-
+    https://docs.google.com/forms/d/e/1FAIpQLSfJ_UdUn2xvzj4qzY5KuJ8nshRGtglVrmcvvJmbDfotAMQqiA/viewform?usp=sf_link
 teacher-1_image: assets/uploads/jj2.png
 teacher-2_image: assets/uploads/abig.png
 seo:
-    description:
-    keywords:
-    social_image:
+    description: >-
+        Immersive 200-hour yoga teacher training in Ocean Beach, San Diego. Join
+        our Yoga Alliance approved program led by expert teachers over 13 weeks.
+        Transform your personal practice and emerge certified to teach.
+    keywords: >-
+        teacher training, yoga teacher training, 200-hour, Yoga Alliance,
+        certified teachers, Ocean Beach, OB
+    social_image: /assets/uploads/indie-logo.png
     hide-from-google: false
 ---
 <div class="mt-4 text-center mx-scrn text-neutral col-span-full bg-image" style="background-image: url({{page.page_image}});">
@@ -56,14 +62,14 @@ seo:
     <div class="grid md:grid-cols-2">
         <div class="p-4 h-min">
             <div class="flex justify-center m-6 scroll-in-left">
-                <img class="aspect-square w-[40vh] " src="{{page.teacher-1_image}}">
+                <img class="aspect-square w-[40vh] " src="{{page.teacher-1_image}}" />
             </div>
             <h4 class="editable">John Jay</h4>
             <p class="editable">John Jay discovered the benefits of a regular yoga practice while playing football at the University of San Diego. After completing trainings in both Hatha and Power Vinyasa styles, John Jay began instructing in 2010. Yoga’s vast array of traditions, schools and teachers allows each Yogi to blaze their own path organically; something that continues to excite him as both a student and teacher. As Lao Tzu said, “A good traveler has no fixed plans, and is not intent on arriving." Currently, John Jay is helping both novice and experienced Yogis evolve their practice, as both Manager of Indie Yoga and co-leader of Indie's Teacher Training Program.</p>
         </div>
         <div class="p-4 h-min">
             <div class="flex justify-center m-6 scroll-in-right">
-                <img class="aspect-square w-[40vh]" src="{{page.teacher-2_image}}">
+                <img class="aspect-square w-[40vh]" src="{{page.teacher-2_image}}" />
             </div>
             <h4 class="editable">Abigail McHugh</h4>
             <p class="editable">Abigail is from New Jersey, where she grappled with anxiety and depression until yoga and meditation helped me gain control of my mind and overcome my battles. These practices empowered her to master her mind, prompting her athletic and leadership-driven spirit to share her revelations with others. Relocating to Ocean Beach (OB) in 2015, she deepened her commitment by undergoing transformative Yoga Teacher Training at Indie Yoga. Watching the transformation of the hearts, mind, and spirits while building a relationship with her students is what keeps bringing her back to teach.</p>
@@ -130,21 +136,18 @@ seo:
         <div x-data="{ selected: null }">
             {% for item in site.data.teacher-training.whats-included %}
                 <div class="relative text-left scroll-in-from-left">
-                    <button type="button" class="block w-full pt-6" 
-                            @click="selected !== {{ forloop.index }} ? selected = {{ forloop.index }} : selected = null">
+                    <button type="button" class="block w-full pt-6" @click="selected !== {{ forloop.index }} ? selected = {{ forloop.index }} : selected = null">
                         <div class="flex text-left {% if item.description %}items-center justify-between{% endif %} px-4 bg-success">
                             <h5 class="py-2">{{ item.feature }}</h5>
                             <div class="w-6 pr-8 ml-auto">
 
                 <!-- only create accordian IF the feature has a description -->
                 {% if item.description %}
-                                <svg width="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#bbfbfd"><path d="M6 9l6 6 6-6" stroke="#bbfbfd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+                                <svg width="24px" stroke-width="1.5" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#bbfbfd"><path d="M6 9l6 6 6-6" stroke="#bbfbfd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></div>
                         </div>
                     </button>
 
-                    <div class="relative overflow-hidden transition-all duration-700 max-h-0" 
-                            style="" x-ref="container{{ forloop.index }}" 
-                            x-bind:style="selected == {{ forloop.index }} ? 'max-height: ' + $refs.container{{ forloop.index }}.scrollHeight + 'px' : ''">
+                    <div class="relative overflow-hidden transition-all duration-700 max-h-0" x-ref="container{{ forloop.index }}" x-bind:style="selected == {{ forloop.index }} ? 'max-height: ' + $refs.container{{ forloop.index }}.scrollHeight + 'px' : ''">
                         <div class="bg-success text-aqua">
                             <p class="py-4">{{ item.description }}</p>
                         </div>
@@ -152,11 +155,11 @@ seo:
                 {% else %}
                 <!-- else - close the div -->
                         </div>
-                    </button>
+                    
                 {% endif %}
 
                 </div>
             {% endfor %}
         </div>
-    </div>
+    
 </section>
