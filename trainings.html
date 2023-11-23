@@ -5,9 +5,15 @@ hero_heading: Workshops & Events
 page-image: /assets/uploads/workshops-hero.jpg
 text-placement: mr-auto
 seo:
-    description:
-    keywords:
-    social_image:
+    description: >-
+        Indie Yoga Ocean Beach hosts special events and workshops like sound
+        baths, yoga sculpt training, cacao ceremonies, and more. View the
+        calendar and register for transformational experiences led by
+        experienced teachers.
+    keywords: >-
+        workshops, events, sound healing, ice bath, yoga sculpt teacher
+        training, cacao ceremony, calendar, register, Ocean Beach, OB
+    social_image: /assets/uploads/indie-logo.png
     hide-from-google: false
 ---
 {% include hero.html case="pricing" %}
@@ -17,22 +23,19 @@ seo:
 <div class="my-4">
     <div x-data="{ selected: null }">
         <div class="relative">
-            <button type="button" class="block w-full mx-scrn" 
-                    @click="selected !== 1 ? selected = 1 : selected = null">
+            <button type="button" class="block w-full mx-scrn" @click="selected !== 1 ? selected = 1 : selected = null">
                 <div class="pt-4 text-center bg-primary text-neutral">
                     <h2 class="pb-0">Calendar</h2>
                     <!-- Down Arrow SVG -->
                     <div class="w-12 pb-2 mx-auto bouncing-animation">
-                        <svg width="48px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff">
-                            <path d="M6 9l6 6 6-6" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <svg width="48px" stroke-width="1.5" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff">
+                            <path d="M6 9l6 6 6-6" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
                 </div>
             </button>
             
-            <div class="relative overflow-hidden transition-transform duration-700 max-h-0" 
-                    x-ref="container1" 
-                    x-bind:style="selected == 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+            <div class="relative overflow-hidden transition-transform duration-700 max-h-0" x-ref="container1" x-bind:style="selected == 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
                 <section>
                     {% include walla_widget.html case="enrollments" %}
                 </section>
