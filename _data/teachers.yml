@@ -16,6 +16,19 @@
     training.
   image: assets/uploads/pricing-hero.jpg
   social:
+- name: Abigail McHugh
+  bio: >-
+    Abigail is from New Jersey, where she grappled with anxiety and depression
+    until yoga and meditation helped me gain control of my mind and overcome my
+    battles. These practices empowered her to master her mind, prompting her
+    athletic and leadership-driven spirit to share her revelations with others.
+    Relocating to Ocean Beach (OB) in 2015, she deepened her commitment by
+    undergoing transformative Yoga Teacher Training at Indie Yoga. Watching the
+    transformation of the hearts, mind, and spirits while building a
+    relationship with her students is what keeps bringing her back to teach.
+  image: assets/uploads/abig.png
+  quote: You can always begin again
+  social: '@essentiallyrab'
 - name: Laura Gibson
   quote: >-
     Do you have the patience to wait until your mud settles, and the water is
@@ -37,31 +50,6 @@
     cuddling with a friend's pet, or getting down to some funky techno."
   image: assets/uploads/laura.jpg
   social: lauradgibs
-- name: Colby Crispeno
-  quote:
-  bio: >-
-    Hey everybody! I'm originally from Seattle, Washington but moved down to San
-    Diego to get some more vitamin D. I love to surf, hike with my dog, climb,
-    camp, and cook with friends. I am passionate about the mind/ body/soul
-    connection, as well as trauma-informed yoga. I want everyone to feel
-    comfortable in their own skin and work to facilitate everybody's ability to
-    tap into their own strength through the power of mindful movement and
-    presence of breath. Yoga and other embodied practices have been instrumental
-    in my own healing and wholeness and I wish to invite others into this
-    spacious place.
-  image: /assets/uploads/colby.jpeg
-  social: colbycrispeno
-- name: Gianna
-  quote: >-
-    The past is unchangeable. The future hasn’t happened yet. So be in this
-    moment now!
-  bio: >-
-    Gianna Mauceri is a sound healer, spiritual counselor, integrative healer,
-    Author, and has completed three different yoga teacher trainings. She
-    believes that inner healing is the medicine the world needs, and is
-    passionate about sharing this message in her classes.
-  image: /assets/uploads/gianna.jpeg
-  social: gianna.divine.love
 - name: Jess Ghanma
   quote: Be happy for this moment, this moment is your life.
   bio: >-
@@ -75,6 +63,33 @@
     discover about yourself each and every time.
   image: /assets/uploads/jess.jpeg
   social: jessxghnmv
+- name: Dani Coleman
+  quote: >-
+    Sometimes the things we think are lost are only hidden, waiting to be
+    rediscovered. -Anthony Doerr
+  bio: >-
+    Dani is a registered yoga teacher, spiritual movement facilitator, social
+    activist, and published author. She has a passion for self-expression
+    through movement and exploring the conscious and subconscious aspects of
+    herself. After living with an impending need for self-discovery and
+    searching for resilience from trauma, Dani centered her practice and
+    teachings around feminine embodiment and somatic healing through spiritual
+    guidance. When she is outside of the yoga studio, you might find her buying
+    or selling second-hand fashion, practicing her amateur dancing skills, or
+    enjoying all that nature has to offer both near and far. 
+  image: assets/uploads/DColeman.jpg
+  social: danisummercoleman
+- name: Gianna
+  quote: >-
+    The past is unchangeable. The future hasn’t happened yet. So be in this
+    moment now!
+  bio: >-
+    Gianna Mauceri is a sound healer, spiritual counselor, integrative healer,
+    Author, and has completed three different yoga teacher trainings. She
+    believes that inner healing is the medicine the world needs, and is
+    passionate about sharing this message in her classes.
+  image: /assets/uploads/gianna.jpeg
+  social: gianna.divine.love
 - name: Mae
   quote:
   bio: >-
@@ -124,6 +139,17 @@
     Yoga and consider it one of the is best places on the planet.
   image: /assets/uploads/monica.jpeg
   social:
+- name: Caroline
+  quote:
+  bio: >-
+    Caroline is passionate about guiding beings towards their remembrance of
+    their own inner healer through the path of yoga. In her classes she
+    integrates the physical, mental and spiritual aspects of yoga as tools to
+    guide her students in the realization that "you are your own medicine". Her
+    classes are a safe and sacred space for you to tune into your inner
+    awareness and learn something new about yourself each time.
+  image: /assets/uploads/pricing.jpg
+  social:
 - name: Sara Lev
   quote: >-
     The best way to know who you are, is to distinguish from who and what you
@@ -149,33 +175,18 @@
     and discover the profound beauty of yoga.
   image: /assets/uploads/sara.jpg
   social: saralev.yoga
-- name: Caroline
-  quote:
+- name: Asia Casebolt
+  quote: You are the sky and everything else is just the weather
   bio: >-
-    Caroline is passionate about guiding beings towards their remembrance of
-    their own inner healer through the path of yoga. In her classes she
-    integrates the physical, mental and spiritual aspects of yoga as tools to
-    guide her students in the realization that "you are your own medicine". Her
-    classes are a safe and sacred space for you to tune into your inner
-    awareness and learn something new about yourself each time.
-  image: /assets/uploads/pricing.jpg
-  social:
-- name: Dani Coleman
-  quote: >-
-    Sometimes the things we think are lost are only hidden, waiting to be
-    rediscovered. -Anthony Doerr
-  bio: >-
-    Dani is a registered yoga teacher, spiritual movement facilitator, social
-    activist, and published author. She has a passion for self-expression
-    through movement and exploring the conscious and subconscious aspects of
-    herself. After living with an impending need for self-discovery and
-    searching for resilience from trauma, Dani centered her practice and
-    teachings around feminine embodiment and somatic healing through spiritual
-    guidance. When she is outside of the yoga studio, you might find her buying
-    or selling second-hand fashion, practicing her amateur dancing skills, or
-    enjoying all that nature has to offer both near and far. 
-  image: assets/uploads/DColeman.jpg
-  social: danisummercoleman
+    I'm Asia! I've done multiple trainings surrounding Anusara, Hatha,
+    Meditation and Vinyasa. I found my authentic voice while I lived and taught
+    yoga in Spain and continued exploring Vedic knowledge and meditation while I
+    lived and traveled in India. I teach around Tantric philosophy. This means
+    that everything we experience in practice is a portal back to our own
+    divinity. I am a playful person and that reflects in my classes. My favorite
+    things are my dog, cookies and thrift shopping.
+  image: assets/uploads/Asia.jpg
+  social: asia.casebolt
 - name: Victoria
   quote: “If I cannot do great things, I can do small things in a great way. -MLK"
   bio: >-
@@ -229,28 +240,17 @@
     2012. OB is my Home! Your Life is worth Living! Shine your Light!"
   image: assets/uploads/Will.jpeg
   social: freewill.yoga
-- name: Asia Casebolt
-  quote: You are the sky and everything else is just the weather
+- name: Colby Crispeno
+  quote:
   bio: >-
-    I'm Asia! I've done multiple trainings surrounding Anusara, Hatha,
-    Meditation and Vinyasa. I found my authentic voice while I lived and taught
-    yoga in Spain and continued exploring Vedic knowledge and meditation while I
-    lived and traveled in India. I teach around Tantric philosophy. This means
-    that everything we experience in practice is a portal back to our own
-    divinity. I am a playful person and that reflects in my classes. My favorite
-    things are my dog, cookies and thrift shopping.
-  image: assets/uploads/Asia.jpg
-  social: asia.casebolt
-- name: Abigail McHugh
-  bio: >-
-    Abigail is from New Jersey, where she grappled with anxiety and depression
-    until yoga and meditation helped me gain control of my mind and overcome my
-    battles. These practices empowered her to master her mind, prompting her
-    athletic and leadership-driven spirit to share her revelations with others.
-    Relocating to Ocean Beach (OB) in 2015, she deepened her commitment by
-    undergoing transformative Yoga Teacher Training at Indie Yoga. Watching the
-    transformation of the hearts, mind, and spirits while building a
-    relationship with her students is what keeps bringing her back to teach.
-  image: assets/uploads/abig.png
-  quote: You can always begin again
-  social: '@essentiallyrab'
+    Hey everybody! I'm originally from Seattle, Washington but moved down to San
+    Diego to get some more vitamin D. I love to surf, hike with my dog, climb,
+    camp, and cook with friends. I am passionate about the mind/ body/soul
+    connection, as well as trauma-informed yoga. I want everyone to feel
+    comfortable in their own skin and work to facilitate everybody's ability to
+    tap into their own strength through the power of mindful movement and
+    presence of breath. Yoga and other embodied practices have been instrumental
+    in my own healing and wholeness and I wish to invite others into this
+    spacious place.
+  image: /assets/uploads/colby.jpeg
+  social: colbycrispeno
