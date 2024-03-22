@@ -11,7 +11,63 @@
     $120, down from $150, for the month of March. With no contract or commitment
     needed after the month. Use promo code, "MarchMadness" to unlock your
     discount.
-  datetime: 2024-02-12 19:00:00 -0800
+  datetime: 2024-03-01 00:00:00 -0800
   image: /assets/uploads/a1024246-bddf-4e01-b4f6-2e8b8727507a.jpeg
   price: Free to Join
   walla_link: https://api.hellowalla.com/previews/19794?b=34&type=enrollment
+- name: Hip Hop Yoga w/Open Optics and Charity
+  description: >-
+    Join us for a night of Music, Yoga, Friends and Community building. In
+    celebration of our amazing community here in Ocean Beach. Indie Yoga will be
+    hosting Hip Hop Yoga w/Open Optics!
+
+    Let's come together to support locally owned and operated San Diego
+    businesses and events. In addition to a Yoga flow taught by Charity, with
+    music provided by Open Optics, locally owned vendors will be providing a
+    taste of their offerings.  Food, drinks, and good vibes will be provided
+    after class as we meet, greet and move our feet!
+
+    This is a free event, open to everyone!
+  datetime: 2024-03-29 19:00:00 -0700
+  image: >-
+    https://api.hellowalla.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbkNaIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2de7330d67f5c9e0c296e1950f8ec304e6b488ec/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQzlBRnBBdlFCIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--44432224fd62fe9a0fb475b42d874f2f7a3531ba/FB46B268-A56A-4EA1-BDFA-BEFFF6436C09_1_105_c.jpeg
+  price: FREE
+  walla_link: https://api.hellowalla.com/previews/23396?b=34&type=enrollment
+- name: Deep Yin & Restore w/ Mae
+  description: >-
+    Think Yin Yoga, but with more of those nurturing hands-on adjustments and
+    gentle massage we love so much. This is an invitation to deeply reset and
+    nourish your body, mind and spirit, to influence your life beyond the mat.
+    We will slow down, clarify intentions, reset with deep, gentle yin postures,
+    and an option to share tea after.
+
+    Bring a mat, journal and pillow.
+  datetime: 2024-05-05 19:00:00 -0700
+  image: >-
+    https://api.hellowalla.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN1RiQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--54c982e864668902c659bdd7250d764a4a928ce8/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMMEFXa0M5QUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--4baec8b8e14ea4738032bcc26335f5c76f01a7b1/IG%202.jpg
+  price: $35
+  walla_link: https://api.hellowalla.com/previews/22306?b=34&type=enrollment
+- name: A Song of Fire & Ice
+  description: >-
+    Join John Jay for an amazing workshop, where we will hop out of the frying
+    pan and into the fire of ice!
+
+    The Yoga Sutras ask us to practice non-attachment, remembering the fluidity
+    of life and our ever changing experiences. We will explore these teachings
+    in the extremes of Hot Yoga and Ice Baths. With the power of breathwork and
+    commitment we will strive to let go in the understanding that all things
+    must pass, both pleasant and unpleasant. Let’s unlock our full potential and
+    power, as we find comfort in the most uncomfortable of settings!
+
+    Other benefits include: increased energy, better sleep, reduced stress
+    levels, heightened focus and determination, stronger immune system, and
+    increased will power.
+
+    Hot Yoga/Breathwork/Ice Baths
+
+    12:00-3:00pm
+  datetime: 2024-04-20 12:00:00 -0700
+  image: >-
+    https://api.hellowalla.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdVpkIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--df423d45a8f2589486bee894cd94367ab7575b05/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJU2xCSEJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMMEFXa0M5QUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--2cc7c32e6df46e7a79937bc8bbacf186e3fa7cef/IMG_3101.JPG
+  price: $90
+  walla_link: https://api.hellowalla.com/previews/22412?b=34&type=enrollment
