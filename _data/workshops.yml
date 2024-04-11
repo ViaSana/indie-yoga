@@ -1,3 +1,15 @@
+- name: Beginning Inversions w/John Beck
+  description: >-
+    Join John Beck as he shares the path to inversions. This 2 hour class will
+    teach you drills and an understanding of the basics to improving and
+    advancing in your inversion practice for your yoga flow or inversion goals.
+    We will talk about hands, core, active flexibility and will train our body’s
+    to find the freedom to advance no matter what our level is. $50 dollar
+    investment for this 2 hour workshop! $45 for Members!
+  datetime: 2024-04-14 12:30:00 -0700
+  image: /assets/uploads/img-7756.jpg
+  price: $45 for Members, $50 for non-Members
+  walla_link: https://api.hellowalla.com/previews/23692?b=34&type=enrollment
 - name: A Song of Fire & Ice
   description: >-
     Join John Jay for an amazing workshop, where we will hop out of the frying
@@ -22,15 +34,3 @@
     https://api.hellowalla.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdVpkIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--df423d45a8f2589486bee894cd94367ab7575b05/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJU2xCSEJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMMEFXa0M5QUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--2cc7c32e6df46e7a79937bc8bbacf186e3fa7cef/IMG_3101.JPG
   price: $90
   walla_link: https://api.hellowalla.com/previews/22412?b=34&type=enrollment
-- name: Beginning Inversions w/John Beck
-  description: >-
-    Join John Beck as he shares the path to inversions. This 2 hour class will
-    teach you drills and an understanding of the basics to improving and
-    advancing in your inversion practice for your yoga flow or inversion goals.
-    We will talk about hands, core, active flexibility and will train our body’s
-    to find the freedom to advance no matter what our level is. $50 dollar
-    investment for this 2 hour workshop! $45 for Members!
-  datetime: 2024-04-14 12:30:00 -0700
-  image: /assets/uploads/img-7756.jpg
-  price: $45 for Members, $50 for non-Members
-  walla_link: https://api.hellowalla.com/previews/23692?b=34&type=enrollment
