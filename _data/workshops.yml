@@ -10,6 +10,17 @@
   image: /assets/uploads/img-7756.jpg
   price: $45 for Members, $50 for non-Members
   walla_link: https://api.hellowalla.com/previews/23692?b=34&type=enrollment
+- name: Flower Moon Reset w/Asia
+  description: >-
+    Yoga nidra is the ancient practice of subconscious reset through light
+    movement, breath and meditation. While we are in deep conscious relaxation
+    old stories and patterns are available to be rewired without the conscious
+    mind's interference. I will take you through a mystical journey linked with
+    the flower moon. This journey includes light reiki, and sound healing✨
+  datetime: 2024-05-24 19:00:00 -0700
+  image: /assets/uploads/nidra-workshop-11-x-17-in.png
+  price: $33 for Members and Non-Members
+  walla_link: https://api.hellowalla.com/previews/26167?b=34&type=enrollment
 - name: A Song of Fire & Ice
   description: >-
     Join John Jay for an amazing workshop, where we will hop out of the frying
@@ -29,19 +40,8 @@
     Hot Yoga/Breathwork/Ice Baths
 
     12:00-3:00pm
-  datetime: 2024-04-20 12:00:00 -0700
+  datetime: 2024-06-15 12:00:00 -0700
   image: >-
     https://api.hellowalla.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdVpkIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--df423d45a8f2589486bee894cd94367ab7575b05/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJU2xCSEJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMMEFXa0M5QUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--2cc7c32e6df46e7a79937bc8bbacf186e3fa7cef/IMG_3101.JPG
   price: $75 for Members $90 for non-Members
-  walla_link: https://api.hellowalla.com/previews/22412?b=34&type=enrollment
-- name: Flower Moon Reset w/Asia
-  description: >-
-    Yoga nidra is the ancient practice of subconscious reset through light
-    movement, breath and meditation. While we are in deep conscious relaxation
-    old stories and patterns are available to be rewired without the conscious
-    mind's interference. I will take you through a mystical journey linked with
-    the flower moon. This journey includes light reiki, and sound healing✨
-  datetime: 2024-05-24 19:00:00 -0700
-  image: /assets/uploads/nidra-workshop-11-x-17-in.png
-  price: $33 for Members and Non-Members
-  walla_link: https://api.hellowalla.com/previews/26167?b=34&type=enrollment
+  walla_link: https://api.hellowalla.com/previews/28744?b=34&type=enrollment
