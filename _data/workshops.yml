@@ -1,3 +1,12 @@
+- name: New Moon Sound Healing w/Gianna
+  description: >-
+    Join us for a blissful heart opening evening as we dive into setting
+    powerful New Moon Intentions with Cacao, Reiki energy healing and a
+    restorative sound healing journey with Gianna.
+  datetime: 2024-06-14 19:30:00 -0700
+  image: /assets/uploads/image1.jpeg
+  price: $33 for Members and Non-Members
+  walla_link: https://api.hellowalla.com/previews/29825?b=34&type=enrollment
 - name: A Song of Fire & Ice
   description: >-
     Join John Jay for an amazing workshop, where we will hop out of the frying
@@ -78,12 +87,3 @@
   image: /assets/uploads/yinyogaflyer.png
   price: Tier 1- $350 (first 5 people) Tier 2- $450
   walla_link: https://api.hellowalla.com/previews/26174?b=34&type=enrollment
-- name: New Moon Sound Healing w/Gianna
-  description: >-
-    Join us for a blissful heart opening evening as we dive into setting
-    powerful New Moon Intentions with Cacao, Reiki energy healing and a
-    restorative sound healing journey with Gianna.
-  datetime: 2024-06-14 19:30:00 -0700
-  image: /assets/uploads/image1.jpeg
-  price: $33 for Members and Non-Members
-  walla_link: https://api.hellowalla.com/previews/29825?b=34&type=enrollment
