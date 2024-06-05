@@ -18,10 +18,28 @@
 
     12:00-3:00pm
   datetime: 2024-06-15 12:00:00 -0700
-  image: >-
-    https://api.hellowalla.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdVpkIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--df423d45a8f2589486bee894cd94367ab7575b05/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJU2xCSEJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMMEFXa0M5QUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--2cc7c32e6df46e7a79937bc8bbacf186e3fa7cef/IMG_3101.JPG
+  image: /assets/uploads/beige-aesthetic-abstract-yoga-event-flyer.jpeg
   price: $75 for Members $90 for non-Members
   walla_link: https://api.hellowalla.com/previews/28744?b=34&type=enrollment
+- name: Kundalini Activation Process w/Alex
+  description: >-
+    Kundalini Activation is direct transmission of pure life force energy. It is
+    a spiritual process of elevation, self-realization and awakening of your own
+    divine energy. The Kundalini represents our infinite multi-dimensional
+    potential. It is our inner Portal to All that is. When the power of your
+    life force awakens, a complete rewiring begins: releasing all that does not
+    serve you, activating all the gifts of your soul. During a Kundalini
+    activation, I open the portal, creating a vortex of intensified light
+    frequency. You simply open and welcome the experience fully. Through the
+    shakti kundalini portal your system enters in resonance and starts to adjust
+    to it naturally. Your vibration increases and you experience a return to the
+    original harmony of your spiritual essence. This divine energy is incredibly
+    intelligent and will purify and activate exactly what you need on a
+    physical, energetic, spiritual, mental and emotional level.
+  datetime: 2024-06-30 19:30:00 -0700
+  image: /assets/uploads/kap-poster-indie-2.jpeg
+  price: $55 For Members and Non-Members
+  walla_link: https://api.hellowalla.com/previews/29828?b=34&type=enrollment
 - name: Hop Into Summer w/Asia
   description: >-
     Come hop into Summer with this Fiery inversion workshop. We will begin with
@@ -60,22 +78,3 @@
   image: /assets/uploads/yinyogaflyer.png
   price: Tier 1- $350 (first 5 people) Tier 2- $450
   walla_link: https://api.hellowalla.com/previews/26174?b=34&type=enrollment
-- name: Kundalini Activation Process w/Alex
-  description: >-
-    Kundalini Activation is direct transmission of pure life force energy. It is
-    a spiritual process of elevation, self-realization and awakening of your own
-    divine energy. The Kundalini represents our infinite multi-dimensional
-    potential. It is our inner Portal to All that is. When the power of your
-    life force awakens, a complete rewiring begins: releasing all that does not
-    serve you, activating all the gifts of your soul. During a Kundalini
-    activation, I open the portal, creating a vortex of intensified light
-    frequency. You simply open and welcome the experience fully. Through the
-    shakti kundalini portal your system enters in resonance and starts to adjust
-    to it naturally. Your vibration increases and you experience a return to the
-    original harmony of your spiritual essence. This divine energy is incredibly
-    intelligent and will purify and activate exactly what you need on a
-    physical, energetic, spiritual, mental and emotional level.
-  datetime: 2024-06-30 19:30:00 -0700
-  image: /assets/uploads/kap-poster-indie-2.jpeg
-  price: $55 For Members and Non-Members
-  walla_link: https://api.hellowalla.com/previews/29828?b=34&type=enrollment
