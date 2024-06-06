@@ -1,30 +1,34 @@
 schedule:
   heading: Schedule
-  duration: September - December 2024 (Official dates TBA)
+  duration: 'September 11th - December 15th 2024 '
   time-table: >
-    <br>Wednesdays: 7:00-10:00 pm
-    <br>Saturdays: 1:30-5:00 pm
-    <br>Sundays: 1:30-5:00 pm
+    <br>Wednesdays: 7:00-10:00 pm <br>Saturdays: 1:30-5:00 pm <br>Sundays:
+    1:30-5:00 pm
 tuition:
   heading: Tuition
   info: Commit with just a $500 deposit, securing your place on this journey.
   pricing-t1: $2,295 (for the first 10 participants)
   pricing-t2: $2,595
-  help: Need flexibility? Ask about our payment plans. Please note, full payment is expected by the end of training.
+  help: >-
+    Need flexibility? Ask about our payment plans. Please note, full payment is
+    expected by the end of training.
 location:
   heading: Location
-  info: |
-    Our teacher training is held in-person at the Indie Yoga studio, the first hot yoga studio in Ocean Beach, San Diego. Holding our training in person ensures a real connection, authentic experiences, and a community that grows together.
+  info: >
+    Our teacher training is held in-person at the Indie Yoga studio, the first
+    hot yoga studio in Ocean Beach, San Diego. Holding our training in person
+    ensures a real connection, authentic experiences, and a community that grows
+    together.
 whats-included:
-- feature: A 200HR Yoga Alliance Certification
-  description:
-- feature: Experiential Sessions
-  description:
-- feature: Community Projects
-  description:
-- feature: Self-Discovery Ceremonies and Journaling
-  description:
-- feature: 3-month membership at Indie
-  description:
-- feature: Special Guest Teachers
-  description:
+  - feature: A 200HR Yoga Alliance Certification
+    description:
+  - feature: Experiential Sessions
+    description:
+  - feature: Community Projects
+    description:
+  - feature: Self-Discovery Ceremonies and Journaling
+    description:
+  - feature: 3-month membership at Indie
+    description:
+  - feature: Special Guest Teachers
+    description:
