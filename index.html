@@ -38,7 +38,7 @@ seo:
 <!-- Home Hero w/ special responsiveness -->
 <div class="grid gap-4 my-4 md:grid-cols-6 mx-scrn md:min-h-[80vh]">
     
-    <div class="flex order-2 max-md:hidden md:col-span-2 bg-primary ">
+    <div class="flex order-2 max-md:hidden md:col-span-2 bg-primary">
         <div class="self-center p-5p animate-in-left">
             <h1 class="font-bold capitalize text-neutral">{{page.main-heading}}</h1>
             <h4 class="capitalize text-aqua">{{page.sub-heading}}</h4>
@@ -46,11 +46,21 @@ seo:
     </div>
 
     <div class="max-md:hidden md:col-span-4 md:order-3 animate-in-right">
-        <img class="object-left" src="{{page.home-image}}" />
+        <img class="object-left" 
+             src="{{page.home-image}}" 
+             loading="eager" 
+             fetchpriority="high" 
+             alt="{{page.main-heading}}"
+             width="1200"
+             height="800"
+             decoding="async" />
     </div>
 
     <!-- for small screens -->
-    <div class="block col-span-full bg-cover bg-no-repeat md:hidden h-[63vh] bg-right" style="background-image: url({{page.home-image}});"> 
+    <div class="block col-span-full bg-cover bg-no-repeat md:hidden h-[63vh] bg-[23%]" 
+         style="background-image: url({{page.home-image}});"
+         role="img"
+         aria-label="{{page.main-heading}}"> 
         <div class="flex h-full text-left page-overlay">
             <div class="self-center p-5p w-[70vw] animate-in-left">
                 <h1 class="capitalize text-neutral">{{page.main-heading}}</h1>
