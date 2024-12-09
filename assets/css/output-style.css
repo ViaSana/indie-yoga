@@ -2024,14 +2024,14 @@ footer nav a:hover {
 .-top-12 {
   top: -3rem;
 }
+.left-0 {
+  left: 0px;
+}
 .left-4 {
   left: 1rem;
 }
-.left-5 {
-  left: 1.25rem;
-}
-.right-5 {
-  right: 1.25rem;
+.right-0 {
+  right: 0px;
 }
 .top-0 {
   top: 0px;
@@ -2044,21 +2044,6 @@ footer nav a:hover {
 }
 .top-6 {
   top: 1.5rem;
-}
-.right-10 {
-  right: 2.5rem;
-}
-.left-0 {
-  left: 0px;
-}
-.right-0 {
-  right: 0px;
-}
-.-left-5 {
-  left: -1.25rem;
-}
-.-right-5 {
-  right: -1.25rem;
 }
 .z-10 {
   z-index: 10;
@@ -2113,14 +2098,6 @@ footer nav a:hover {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-.-mx-1 {
-  margin-left: -0.25rem;
-  margin-right: -0.25rem;
-}
 .-ml-1 {
   margin-left: -0.25rem;
 }
@@ -2156,12 +2133,6 @@ footer nav a:hover {
 }
 .mt-4 {
   margin-top: 1rem;
-}
-.ml-5 {
-  margin-left: 1.25rem;
-}
-.mt-2 {
-  margin-top: 0.5rem;
 }
 .line-clamp-1 {
   overflow: hidden;
@@ -2205,6 +2176,9 @@ footer nav a:hover {
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
+.h-\[300px\] {
+  height: 300px;
+}
 .h-\[50vh\] {
   height: 50vh;
 }
@@ -2217,9 +2191,6 @@ footer nav a:hover {
 .h-min {
   height: -moz-min-content;
   height: min-content;
-}
-.h-\[300px\] {
-  height: 300px;
 }
 .max-h-0 {
   max-height: 0px;
@@ -2285,14 +2256,11 @@ footer nav a:hover {
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-.snap-start {
-  scroll-snap-align: start;
-}
-.scroll-pt-\[100vh\] {
-  scroll-padding-top: 100vh;
-}
 .list-disc {
   list-style-type: disc;
+}
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2302,9 +2270,6 @@ footer nav a:hover {
 }
 .grid-cols-6 {
   grid-template-columns: repeat(6, minmax(0, 1fr));
-}
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 .flex-row-reverse {
   flex-direction: row-reverse;
@@ -2358,12 +2323,6 @@ footer nav a:hover {
 .overflow-hidden {
   overflow: hidden;
 }
-.overflow-x-auto {
-  overflow-x: auto;
-}
-.scroll-smooth {
-  scroll-behavior: smooth;
-}
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -2377,10 +2336,6 @@ footer nav a:hover {
 .bg-base-100 {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--b1) / var(--tw-bg-opacity));
-}
-.bg-d-blue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(39 71 110 / var(--tw-bg-opacity));
 }
 .bg-info {
   --tw-bg-opacity: 1;
@@ -2448,10 +2403,6 @@ footer nav a:hover {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.object-\[center_75\%\] {
-  -o-object-position: center 75%;
-     object-position: center 75%;
-}
 .object-\[center_90\%\] {
   -o-object-position: center 90%;
      object-position: center 90%;
@@ -2459,6 +2410,9 @@ footer nav a:hover {
 .object-left {
   -o-object-position: left;
      object-position: left;
+}
+.p-1 {
+  padding: 0.25rem;
 }
 .p-10p {
   padding: 10%;
@@ -2475,16 +2429,17 @@ footer nav a:hover {
 .p-8 {
   padding: 2rem;
 }
-.p-1 {
-  padding: 0.25rem;
-}
 .\!py-6 {
   padding-top: 1.5rem !important;
   padding-bottom: 1.5rem !important;
 }
-.px-10p {
-  padding-left: 10%;
-  padding-right: 10%;
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 .px-4 {
   padding-left: 1rem;
@@ -2518,26 +2473,6 @@ footer nav a:hover {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -2552,9 +2487,6 @@ footer nav a:hover {
 }
 .pb-5p {
   padding-bottom: 5%;
-}
-.pb-\[66\%\] {
-  padding-bottom: 66%;
 }
 .pl-3 {
   padding-left: 0.75rem;
@@ -2683,11 +2615,11 @@ footer nav a:hover {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-.duration-700 {
-  transition-duration: 700ms;
-}
 .duration-300 {
   transition-duration: 300ms;
+}
+.duration-700 {
+  transition-duration: 700ms;
 }
 @keyframes enter {
   from {
@@ -2704,11 +2636,11 @@ footer nav a:hover {
 .fade-in {
   --tw-enter-opacity: 0;
 }
-.duration-700 {
-  animation-duration: 700ms;
-}
 .duration-300 {
   animation-duration: 300ms;
+}
+.duration-700 {
+  animation-duration: 700ms;
 }
 .mx-scrn {
   margin-left: auto;
@@ -2897,12 +2829,6 @@ img {
   .lg\:order-3 {
     order: 3;
   }
-  .lg\:order-1 {
-    order: 1;
-  }
-  .lg\:order-2 {
-    order: 2;
-  }
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -2928,8 +2854,4 @@ img {
   .lg\:gap-4 {
     gap: 1rem;
   }
-}
-
-.\[\&\:target\]\:scroll-m-0:target {
-  scroll-margin: 0px;
 }
