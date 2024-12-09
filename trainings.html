@@ -16,7 +16,7 @@ seo:
     social_image: /assets/uploads/indie-logo.png
     hide-from-google: false
 ---
-{% include hero.html case="pricing" %}
+{% include heroes/pricing-hero.html %}
 
 {% include wrkshop_loop.html %}
 
@@ -27,7 +27,7 @@ seo:
                 <div class="pt-4 text-center bg-primary text-neutral hover:text-aqua">
                     <h2 class="pb-0">Calendar</h2>
                     <!-- Down Arrow SVG -->
-                    <div class="w-12 pb-2 mx-auto bouncing-animation">
+                    <div class="pb-2 mx-auto w-12 bouncing-animation">
                         <svg width="48px" stroke-width="1.5" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff">
                             <path d="M6 9l6 6 6-6" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
@@ -35,7 +35,7 @@ seo:
                 </div>
             </button>
             
-            <div class="relative overflow-hidden transition-transform duration-700 max-h-0" x-ref="container1" x-bind:style="selected == 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+            <div class="overflow-hidden relative max-h-0 transition-transform duration-700" x-ref="container1" x-bind:style="selected == 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
                 <section>
                     {% include walla_widget.html case="enrollments" %}
                 </section>
