@@ -30,7 +30,7 @@
     <!-- Schedule Hero -->
     <div class="md:h-[60vh] h-[50vh] md:col-span-4 col-span-full relative">
             <img class="object-[center_90%]" src="{{page.main-image}}">
-            <div class="absolute inset-0 flex page-overlay md:hidden">
+            <div class="flex absolute inset-0 page-overlay md:hidden">
                 <div class="self-center p-5p animate-in-right">
                     <h3 class="pb-4 text-neutral">{{page.hero.top-line}}</h4>
                     <h4 class="text-aqua">{{page.hero.heading}}</h3>
@@ -46,7 +46,7 @@
 
     {% when "classes" %}
     <!-- Full Hero for Classes -->
-    <div class="relative bg-image col-span-full" style="background-image: url({{page.page-image}});"> 
+    <div class="relative col-span-full bg-image" style="background-image: url({{page.page-image}});"> 
         <div class="flex page-overlay md:h-[60vh] h-[50vh]">
             <div class="flex basis-7/11 {{page.text-placement}} p-5p">
                 <div class="self-center">
@@ -60,7 +60,7 @@
 
     {% when "pricing" %}
     <!-- Full Hero w/o buttons for Pricing-->
-    <div class="relative bg-image col-span-full" style="background-image: url({{page.page-image}});"> 
+    <div class="relative col-span-full bg-image" style="background-image: url({{page.page-image}});"> 
         <div class="flex page-overlay md:h-[60vh] h-[50vh]">
             <div class="flex basis-7/11 {{page.text-placement}} p-5p">
                 <div class="self-center animate-in-left">
@@ -72,10 +72,10 @@
 
     {% when "map" %}
     <!-- Map Hero -->
-    <div class="order-1 md:col-span-4 col-span-full md:-order-1">
+    <div class="order-1 col-span-full md:col-span-4 md:-order-1">
         {% include g_map.html %}
     </div>
-    <div class="flex md:col-span-2 col-span-full bg-info scroll-in-right">
+    <div class="flex col-span-full md:col-span-2 bg-info scroll-in-right">
         <div class="self-center p-5p text-accent">
             <h3 class="editable">Where to Find Us</h3>
             <p class="pb-4 max-lg:hidden editable">You will find our heated studio in the heart of ocean beach. We offer an inviting environment for all levels to grow and learn through yoga practice. Drop in to feed off the music, movement and energy that will surround you. </p>
@@ -91,8 +91,8 @@
     {% when "testimonial" %}
     <!-- Testimonial Hero -->
     <div class="col-span-full md:col-span-4 bg-accent scroll-in-left">
-        <div class="self-center p-5p px-10p">
-            {% include testimonial_slider.html %}
+        <div class="self-center p-5p">
+            {% include testimonial_carousel.html %}
         </div>    
     </div>   
     <div class="col-span-full md:col-span-2 max-md:hidden">

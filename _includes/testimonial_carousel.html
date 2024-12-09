@@ -1,0 +1,33 @@
+<div class="relative w-full">
+    <div class="overflow-hidden w-full">
+        <div class="flex transition-transform duration-300" id="carousel-track">
+            {% for item in site.data.testimonials.from-classpass %}
+            <div class="flex-none w-full">
+                <div class="px-12 w-full text-neutral">
+                    <p>{{ item.review }}</p>
+                    <p class="author">{{ item.class }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="flex absolute right-0 left-0 top-1/2 justify-between transform -translate-y-1/2">
+        <button class="p-1 px-3 text-white rounded-full bg-white/30 hover:bg-white/50" onclick="moveSlide('prev')">❮</button>
+        <button class="p-1 px-3 text-white rounded-full bg-white/30 hover:bg-white/50" onclick="moveSlide('next')">❯</button>
+    </div>
+</div>
+
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll('#carousel-track > div');
+const track = document.getElementById('carousel-track');
+
+function moveSlide(direction) {
+    if (direction === 'next') {
+        currentSlide = (currentSlide + 1) % slides.length;
+    } else {
+        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    }
+    track.style.transform = `translateX(-${currentSlide * 100}%)`;
+}
+</script>
