@@ -4,41 +4,6 @@ title: Class Pricing & Packages
 hero_heading: Class Pricing & Packages
 page-image: /assets/uploads/pricing-hero.jpg
 text-placement: ml-auto
-new-student:
-  image: /assets/uploads/schedule-hero.jpg
-  heading: 'New Student Special: One Month Unlimited'
-  price: $39
-  description_html: >-
-    Come give us a try! We'd love to welcome you to Indie Yoga with the best
-    offer you'll find to practice with us. Whether you're just starting your
-    practice or you've search for a while, you've found your new home for yoga.
-  walla_link: >-
-    https://widget.hellowalla.com/packages/791?uuid=4e15c3e1-f4df-4597-95af-977aec2f077c
-rockstar:
-  image: assets/images/about-hero.jpg
-  heading: 'Indie Rockstar: Studio Membership'
-  price: $118
-  description_html: >-
-    <p>Join the community with unlimited classes and amazing IndieCentives with
-    discounts at other businesses in OB.<br />- First month is just $98<br />-
-    Free towel rental<br />- One guest pass per month<br />- Minimum 2 month
-    commitment</p>
-  walla_link: https://api.hellowalla.com/previews/763?b=34&type=package
-packages:
-  - heading: 1 Month Unlimited
-    cost: $150
-    description: Take as many classes as you want for 30 days.
-    link: https://api.hellowalla.com/previews/790?b=34&type=package
-  - heading: 20 Class Samadhi Pack
-    cost: $325
-    description: >-
-      This 20 class pack is for anyone who wants to take yoga classes at the
-      best rate outside our RockStar Autopay membership.
-    link: https://api.hellowalla.com/previews/789?b=34&type=package
-  - heading: 10 Class Card
-    cost: $195
-    description: 10 classes to use for anything on the schedule
-    link: https://api.hellowalla.com/previews/788?b=34&type=package
 seo:
   description: >-
     Indie Yoga Ocean Beach offers unlimited monthly memberships, class packs and
@@ -52,43 +17,48 @@ seo:
   social_image: /assets/uploads/indie-logo.png
   hide-from-google: false
 ---
-{% include hero.html case="pricing" %}
+{% include heroes/pricing-hero.html %}
 
-<!-- New Student Hero -->
-<div id="new-student" class="grid grid-cols-6 gap-4 my-4 mx-scrn">
-  <div class="flex md:col-span-2 col-span-full bg-primary scroll-in-left">
+<!-- Membership Options -->
+<div class="grid grid-cols-1 gap-4 my-4 lg:grid-cols-6 mx-scrn">
+  {% for membership in site.data.pricing.memberships %}
+    {% assign image_div_class = "col-span-full lg:col-span-4 bg-success max-h-[530px] overflow-hidden" %}
+    {% assign text_div_class = "flex col-span-full lg:col-span-2 " | append: membership.bg_color %}
+    {% assign is_odd = forloop.index | modulo: 2 %}
+    
+    {% if is_odd == 0 %}
+    <div class="{{image_div_class}} scroll-in-left">
+      <img src="{{membership.image}}" class="object-cover w-full h-[300px] lg:h-full" />
+    </div>
+    <div class="{{text_div_class}} scroll-in-right" {% if membership.id %}id="{{membership.id}}"{% endif %}>
       <div class="self-center p-5p text-neutral">
-          <h3 class="text-aqua">{{page.new-student.price}}</h3>
-          <h3>{{page.new-student.heading}}</h3>
-          <p class="pb-4">{{page.new-student.description_html}}</p>
-          <div class="btn btn-warning"><a href="{{page.new-student.walla_link}}">Buy Now</a></div>
+        <h3 class="text-aqua">{{membership.price}}</h3>
+        <h3>{{membership.heading}}</h3>
+        <p class="pb-4">{{membership.description_html}}</p>
+        <a href="{{membership.walla_link}}" class="btn btn-warning">Buy Now</a>
       </div>
-  </div>
-  <div class="md:col-span-4 col-span-full scroll-in-right max-h-[530px]">
-      <img src="{{page.new-student.image}}" />
-  </div>
-</div>
-
-<!-- Pricing Hero -->
-<div class="grid grid-cols-6 gap-4 my-4 mx-scrn">
-    <div class="md:col-span-4 col-span-full max-h-[530px] scroll-in-left">
-        <img src="{{page.rockstar.image}}" class="object-[center_75%]" />
     </div>
-    <div class="flex col-span-full md:col-span-2 bg-accent scroll-in-right">
-        <div class="self-center p-5p text-neutral">
-            <h3 class="text-aqua">{{page.rockstar.price}}</h3>
-            <h3>{{page.rockstar.heading}}</h3>
-            <p class="pb-4">{{page.rockstar.description_html}}</p>
-            <a href="{{page.rockstar.walla_link}}" class="btn btn-warning">Buy Now</a>
-        </div>
+    {% else %}
+    <div class="{{text_div_class}} scroll-in-left" {% if membership.id %}id="{{membership.id}}"{% endif %}>
+      <div class="self-center p-5p text-neutral">
+        <h3 class="text-aqua">{{membership.price}}</h3>
+        <h3>{{membership.heading}}</h3>
+        <p class="pb-4">{{membership.description_html}}</p>
+        <a href="{{membership.walla_link}}" class="btn btn-warning">Buy Now</a>
+      </div>
     </div>
+    <div class="{{image_div_class}} scroll-in-right">
+      <img src="{{membership.image}}" class="object-cover w-full h-[300px] lg:h-full" />
+    </div>
+    {% endif %}
+  {% endfor %}
 </div>
 
 {% include cta.html action=2 color="bg-secondary" %}
 
-<!-- Pulls data from package collection -->
-<div class="grid gap-4 my-4 md:grid-cols-7 mx-scrn">
-  {% for item in page.packages %}
+<!-- Class Packages -->
+<div class="grid grid-cols-1 gap-4 my-4 md:grid-cols-7 mx-scrn">
+  {% for item in site.data.pricing.packages %}
   <div class="{% cycle 'md:col-span-2 bg-primary scroll-in-left','md:col-span-3 bg-success scroll-in-from-bottom', 'scroll-in-right md:col-span-2 bg-primary' %} text-neutral flex">
       <div class="self-center p-5p">
           <h3 class="text-aqua">{{item.cost}}</h3>

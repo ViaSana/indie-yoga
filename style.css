@@ -1,4 +1,3 @@
-
 /* ----------- Import Tailwind -----*/
 @tailwind base;
 @tailwind components;
@@ -200,6 +199,14 @@
 
     .mobile-menu {
         @apply absolute hidden w-screen h-screen text-center top-full bg-success;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+
+    .mobile-menu.fade-in {
+        opacity: 1;
+        visibility: visible;
     }
 
     .mobile-menu a {
