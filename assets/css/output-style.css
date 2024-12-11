@@ -2337,6 +2337,10 @@ footer nav a:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--b1) / var(--tw-bg-opacity));
 }
+.bg-info {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--in) / var(--tw-bg-opacity));
+}
 .bg-neutral {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--n) / var(--tw-bg-opacity));
@@ -2355,10 +2359,6 @@ footer nav a:hover {
 }
 .bg-white\/30 {
   background-color: rgb(255 255 255 / 0.3);
-}
-.bg-info {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--in) / var(--tw-bg-opacity));
 }
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
@@ -2751,11 +2751,11 @@ img {
   .md\:right-6 {
     right: 1.5rem;
   }
-  .md\:order-3 {
-    order: 3;
-  }
   .md\:-order-1 {
     order: -1;
+  }
+  .md\:order-3 {
+    order: 3;
   }
   .md\:col-span-2 {
     grid-column: span 2 / span 2;
