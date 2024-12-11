@@ -1,7 +1,13 @@
 // Remove jQuery slick slider code and replace hamburger menu toggle
-document.querySelector('.hamburger-button').addEventListener('click', function() {
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburgerButtons = document.querySelectorAll('.hamburger-button');
     const mobileMenu = document.querySelector('.mobile-menu');
-    mobileMenu.classList.toggle('fade-in');
+    
+    hamburgerButtons.forEach(button => {
+        button.addEventListener('change', function() {
+            mobileMenu.classList.toggle('fade-in');
+        });
+    });
 });
 
 //Animations//

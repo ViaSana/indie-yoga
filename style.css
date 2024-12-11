@@ -198,10 +198,11 @@
     }
 
     .mobile-menu {
-        @apply absolute hidden w-screen h-screen text-center top-full bg-success;
+        @apply absolute top-full w-screen h-screen text-center bg-success;
         opacity: 0;
         visibility: hidden;
         transition: opacity 0.3s ease, visibility 0.3s ease;
+        display: block;
     }
 
     .mobile-menu.fade-in {

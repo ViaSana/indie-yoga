@@ -7,22 +7,22 @@
 
         <nav class="self-center w-full text-right">
 
-            <div x-data="{ open: false }" class="relative inline-block text-center" @mouseleave="open = false">
+            <div x-data="{ open: false }" class="inline-block relative text-center" @mouseleave="open = false">
                 <div @mouseover="open = true" class="px-4 pb-2">
                     <a href="/about.html">About</a>
                 </div>
-                <div x-cloak x-show="open" class="absolute z-50 pt-2 left-4 top-6">
+                <div x-cloak x-show="open" class="absolute left-4 top-6 z-50 pt-2">
                     <a class="block p-2 text-left whitespace-nowrap bg-neutral" href="/people.html">Our People</a>
                 </div>
             </div>
 
-            <div x-data="{ open: false }" class="relative inline-block text-center" @mouseleave="open = false">
+            <div x-data="{ open: false }" class="inline-block relative text-center" @mouseleave="open = false">
                 
                 <div @mouseover="open = true" class="px-4 pb-2">
                     <a href="/classes.html">Classes</a>
                 </div>
 
-                <div x-cloak x-show="open" class="absolute z-50 pt-2 left-4 top-6">
+                <div x-cloak x-show="open" class="absolute left-4 top-6 z-50 pt-2">
                     
                     <a href="/pricing.html" class="block p-2 text-left bg-neutral">
                         Pricing
@@ -47,27 +47,27 @@
     </div>
 
     <!-- works w/ main.js + .hamburger-button, .mobile-menu -->
-    <div class="relative flex w-full md:hidden">
+    <div class="flex relative w-full md:hidden">
         <div>
             <a href="/"><img class="max-h-32" src="assets/images/indie_logo-long.png"></img></a>
         </div>
-        <div class="flex items-center justify-end w-full">
-            <a href="/schedule.html" class="ml-2 mr-4 btn btn-accent">Schedule</a>
+        <div class="flex justify-end items-center w-full">
+            <a href="/schedule.html" class="mr-4 ml-2 btn btn-accent">Schedule</a>
 
             <div class="mr-2 space-y-2">
                 <!-- Hamburger -->
-                <label class="btn btn-circle swap swap-rotate">
-                    <!-- this hidden checkbox controls the state --><input type="checkbox" />
+                <label class="btn btn-circle swap swap-rotate hamburger-container">
+                    <input type="checkbox" class="hamburger-button" />
                 
                     <!-- hamburger icon -->
-                    <svg class="fill-accent swap-off hamburger-button" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg>
+                    <svg class="fill-accent swap-off" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg>
                     
                     <!-- close icon -->
-                    <svg class="fill-accent swap-on hamburger-button" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg>
+                    <svg class="fill-accent swap-on" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg>
                 </label>
             </div>
         </div>
-        <div class="z-40 mt-4 shadow-lg mobile-menu -left-4">
+        <div class="-left-4 z-40 mt-4 shadow-lg mobile-menu">
             <nav class="text-center">
                 <a class="!py-6 text-neutral" href="/about.html">About</a>
                 <a class="!py-6 text-neutral" href="/people.html">Our People</a>
