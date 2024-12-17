@@ -1,16 +1,14 @@
 memberships:
-  - heading: 'Indie Super Star Membership'
+  - heading: Indie Super Star Membership
     image: assets/images/testimonials.jpg
     price: $89
     description_html: >-
-      Indie Super Stars have 5 classes per month at Just $89/month autopay!<br />
-      - 5 visits per month<br />
-      - Minimum commitment of 3 months<br />
-      - Auto-renews monthly after commitment<br />
-      - Starts at time of purchase<br />
-      - Includes in-person and livestream<
+      Indie Super Stars have 5 classes per month at just $89/month autopay!<br
+      /> - 5 visits per month<br /> - Minimum commitment of 3 months*<br /> -
+      Auto-renews monthly after commitment<br /> - Starts at time of purchase<br
+      /> * cannot be paused
     walla_link: https://api.hellowalla.com/previews/40387?b=34&type=package&loc=39
-    bg_color: bg-primary
+    bg_color: '#000000'
   - heading: 'Indie Rockstar: Studio Membership'
     image: assets/images/about-hero.jpg
     price: $118
@@ -27,11 +25,12 @@ memberships:
     description_html: >-
       Come give us a try! We'd love to welcome you to Indie Yoga with the best
       offer you'll find to practice with us. Whether you're just starting your
-      practice or you've search for a while, you've found your new home for yoga.
-    walla_link: https://widget.hellowalla.com/packages/791?uuid=4e15c3e1-f4df-4597-95af-977aec2f077c
+      practice or you've search for a while, you've found your new home for
+      yoga.
+    walla_link: >-
+      https://widget.hellowalla.com/packages/791?uuid=4e15c3e1-f4df-4597-95af-977aec2f077c
     bg_color: bg-primary
     id: new-student
-
 packages:
   - heading: 1 Month Unlimited
     cost: $150
