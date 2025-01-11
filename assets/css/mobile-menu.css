@@ -1,0 +1,16 @@
+/* Hide mobile menu by default before JS loads */
+.mobile-menu {
+    display: none !important;
+}
+
+/* Only show mobile menu when JS is loaded */
+.js-loaded .mobile-menu {
+    display: block !important;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.js-loaded .mobile-menu.fade-in {
+    opacity: 1;
+    visibility: visible;
+} 
