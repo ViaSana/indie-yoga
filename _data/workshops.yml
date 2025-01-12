@@ -30,13 +30,13 @@
   image: /assets/uploads/workshop-indie.png
   price: $45
   walla_link: https://api.hellowalla.com/previews/36662?b=34&type=enrollment
-- name: 50 hour Yoga Sculpt Training
-  description: >-
-    Discover the perfect match for your goals! Whether you're craving a quick, high-energy program or eager to fuse the power of strength training into your  yoga routine, our 50-hour Intensive Yoga Sculpt Teacher Training is an absolute game-changer. Dive in and master the art of combining yoga, strength training, and cardio for an electrifying and dynamic class experience like never before!
-    <br>
-    April 3rd - May 3rd:
-    Thursdays 7 - 9PM; Saturdays & Sundays 1 - 5PM
-  datetime: 2025-04-03 19:00:00 -0800
-  image: /assets/uploads/yoga-sculpt.PNG
-  price: $1250 ($950 early bird ends Feb. 5th) 
-  walla_link: mailto:danikakristyn2@gmail.com?subject=Yoga%20Sculpt%20Training%20Inquiry&body=For%20all%20inquiries%2C%20registration%2C%20and%20payment%20please%20provide%20your%20name%20and%20phone%20number%20and%20we'll%20reach%20out!
+# - name: 50 hour Yoga Sculpt Training
+#   description: >-
+#     Discover the perfect match for your goals! Whether you're craving a quick, high-energy program or eager to fuse the power of strength training into your  yoga routine, our 50-hour Intensive Yoga Sculpt Teacher Training is an absolute game-changer. Dive in and master the art of combining yoga, strength training, and cardio for an electrifying and dynamic class experience like never before!
+#     <br>
+#     April 3rd - May 3rd:
+#     Thursdays 7 - 9PM; Saturdays & Sundays 1 - 5PM
+#   datetime: 2025-04-03 19:00:00 -0800
+#   image: /assets/uploads/yoga-sculpt.PNG
+#   price: $1250 ($950 early bird ends Feb. 5th) 
+#   walla_link: mailto:danikakristyn2@gmail.com?subject=Yoga%20Sculpt%20Training%20Inquiry&body=For%20all%20inquiries%2C%20registration%2C%20and%20payment%20please%20provide%20your%20name%20and%20phone%20number%20and%20we'll%20reach%20out!
