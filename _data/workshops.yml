@@ -1,34 +1,13 @@
-- name: 20 HR Yin Yoga Training w/Dani & Mae
+- name: 20 Hour Yin Yoga Training with Dani and Mae
   description: >-
-    Imagine yourself being so resourceful that you can nourish your body,
-    nervous system, mind, and energy on your own through the modality of Yin
-    Yoga.
-
-
-    Yin Yoga focuses on the often neglected parts of the body - the joints,
-    tendons, and fascia. This program is an opportunity to prioritize moving
-    slowly and calming the anxious, modern mind.
-
-
-    This Yin Yoga training will provide you with the resources to understand
-    meditation, anatomy and physiology, and the nadis and meridians within the
-    practice of Yin. Whether you are hoping to teach Yin or a practitioner, this
-    training will prepare you to create a Yin Yoga sequence of your own - backed
-    by the knowledge of its history and benefits. 
-
-    1st 5 signups get $25 off
-  datetime: 2025-01-29 19:00:00 -0800
-  image: /assets/uploads/fl3a4389.jpg
-  price: $450
-  walla_link: https://api.hellowalla.com/previews/33499?b=34&type=enrollment
-- name: 50 hour Yoga Sculpt Training
-  description: >-
-    Discover the perfect match for your goals! Whether you're craving a quick, high-energy program or eager to fuse the power of strength training into your  yoga routine, our 50-hour Intensive Yoga Sculpt Teacher Training is an absolute game-changer. Dive in and master the art of combining yoga, strength training, and cardio for an electrifying and dynamic class experience like never before!
-    <br>
-    April 3rd - May 3rd:
-    Thursdays 7 - 9PM; Saturdays & Sundays 1 - 5PM
-  datetime: 2025-04-03 19:00:00 -0800
-  image: /assets/uploads/yoga-sculpt.PNG
-  price: $1250 ($950 early bird ends Feb. 5th) 
-  walla_link: https://api.hellowalla.com/previews/38246?b=34&type=enrollment
-  # walla_link: mailto:danikakristyn2@gmail.com?subject=Yoga%20Sculpt%20Training%20Inquiry&body=For%20all%20inquiries%2C%20registration%2C%20and%20payment%20please%20provide%20your%20name%20and%20phone%20number%20and%20we'll%20reach%20out!
+    Back this summer! Imagine yourself being so resourceful that you can nourish
+    your nervous system, mind and energy through the knowledge and practice of
+    Yin Yoga. Yin Yoga targets often neglected areas while soothing the modern
+    mind with slow, mindful movement and long-held poses. This training will
+    provide you with the resources to understand yin yoga fully and to create
+    your own Yin Yoga sequence.
+  datetime: 2025-07-23 19:00:00 -0700
+  image: /assets/uploads/danie-and-mae-2.png
+  price: $450 ($375 early bird for the 1st 5)
+  walla_link: >-
+    https://widget.hellowalla.com/enrollments/44842?uuid=4e15c3e1-f4df-4597-95af-977aec2f077c
