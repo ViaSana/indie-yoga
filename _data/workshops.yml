@@ -1,3 +1,20 @@
+- name: ''
+  description: >-
+    Deepen and reconnect with your practice as we flow toward the summer season
+    ... one class at a time. Complete at least 20 days of yoga during the 31
+    days of May for a chance to win prizes!
+
+
+    The challenge is free for members. To enter to win, simply register here and
+    sign up for classes as usual. Don't have an unlimited membership yet? No
+    sweat! Through May 5, become an Indie Rockstar for only $69 your first month
+    with Code: RENEWU. Or get 1 month of unlimited classes in May for just $99
+    with Code: MAYFLOW.
+  datetime: 2025-07-23 19:00:00 -0700
+  image: >-
+    https://walla-api-production-active-storage.s3.us-east-2.amazonaws.com/dzioq1pz4hbxv4ig3yy7zkd17mxx?response-content-disposition=inline%3B%20filename%3D%22E1DF0F32-4BC2-4D97-A364-0687BA3715E7.jpg%22%3B%20filename%2A%3DUTF-8%27%27E1DF0F32-4BC2-4D97-A364-0687BA3715E7.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2I4EATNFQ2OA5EU7%2F20250502%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20250502T150048Z&X-Amz-Expires=7200&X-Amz-SignedHeaders=host&X-Amz-Signature=2b58ff73f562f14d5d305246caa3c9a9b794eb28b70de51f20f0ca09f4f02077
+  price: ''
+  walla_link: https://api.hellowalla.com/previews/46863?b=34&type=enrollment
 - name: 20 Hour Yin Yoga Training with Dani and Mae
   description: >-
     Back this summer! Imagine yourself being so resourceful that you can nourish
