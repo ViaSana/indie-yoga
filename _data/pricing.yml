@@ -9,7 +9,6 @@ memberships:
       yoga.
     walla_link: >-
       https://widget.hellowalla.com/packages/791?uuid=4e15c3e1-f4df-4597-95af-977aec2f077c
-    bg_color: bg-primary
     id: new-student
   - heading: 'Indie Rockstar: Studio Membership'
     image: assets/images/about-hero.jpg
@@ -20,7 +19,6 @@ memberships:
       Free towel rental<br />- One guest pass per month<br />- Minimum 3 month
       commitment
     walla_link: https://api.hellowalla.com/previews/763?b=34&type=package
-    bg_color: '#000000'
 packages:
   - heading: 1 Month Unlimited
     cost: $150

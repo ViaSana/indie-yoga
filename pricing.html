@@ -23,7 +23,7 @@ seo:
 <div class="grid grid-cols-1 gap-4 my-4 lg:grid-cols-6 mx-scrn">
   {% for membership in site.data.pricing.memberships %}
     {% assign image_div_class = "col-span-full lg:col-span-4 bg-success max-h-[530px] overflow-hidden" %}
-    {% assign text_div_class = "flex col-span-full lg:col-span-2 " | append: membership.bg_color %}
+    {% assign text_div_class = "flex col-span-full lg:col-span-2 bg-primary" %}
     {% assign is_odd = forloop.index | modulo: 2 %}
     
     {% if is_odd == 0 %}
