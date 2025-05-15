@@ -1,14 +1,4 @@
 memberships:
-  - heading: Indie Super Star Membership
-    image: assets/images/testimonials.jpg
-    price: $89
-    description_html: >-
-      Indie Super Stars have 5 classes per month at just $89/month autopay!<br
-      /> - 5 visits per month<br /> - Minimum commitment of 3 months*<br /> -
-      Auto-renews monthly after commitment<br /> - Starts at time of purchase<br
-      /> * cannot be paused
-    walla_link: https://api.hellowalla.com/previews/40387?b=34&type=package&loc=39
-    bg_color: bg-primary
   - heading: 'Indie Rockstar: Studio Membership'
     image: assets/images/about-hero.jpg
     price: $118
