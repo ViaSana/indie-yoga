@@ -1,13 +1,13 @@
 schedule:
   heading: Schedule
-  duration: 'September 11th - December 15th 2024 '
-  time-table: >
-    <br>Wednesdays: 7:00-10:00 pm <br>Saturdays: 1:30-5:00 pm <br>Sundays:
-    1:30-5:00 pm
+  duration: 'Sept. 13 - Dec. 14, 2025 '
+  time-table: >-
+    <br>Tuesdays: 7:00-9:00 pm <br>Saturdays: Noon-6:30 pm <br>Sundays:
+    Noon-6:30 pm
 tuition:
   heading: Tuition
   info: Commit with just a $500 deposit, securing your place on this journey.
-  pricing-t1: $2,295 (for the first 10 participants)
+  pricing-t1: '$2,295 '
   pricing-t2: $2,595
   help: >-
     Need flexibility? Ask about our payment plans. Please note, full payment is
@@ -20,15 +20,21 @@ location:
     ensures a real connection, authentic experiences, and a community that grows
     together.
 whats-included:
-  - feature: A 200HR Yoga Alliance Certification
+  - feature: A 200 Hour Yoga Alliance Certification
     description:
-  - feature: Experiential Sessions
+  - feature: 3-month Membership at Indie
     description:
-  - feature: Community Projects
+  - feature: Community Building and Service Project
     description:
-  - feature: Self-Discovery Ceremonies and Journaling
+  - feature: 'Meditation and Breathwork Experiences '
     description:
-  - feature: 3-month membership at Indie
+  - feature: 'Self-Reflective Journaling and Shadow Work '
     description:
-  - feature: Special Guest Teachers
+  - feature: Yoga Philosophy and History
+    description:
+  - feature: 'Class Design '
+    description:
+  - feature: Business of Yoga
+    description:
+  - feature: Special Guest Speakers
     description:
