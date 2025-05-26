@@ -34,3 +34,7 @@ packages:
     cost: $195
     description: 10 classes to use for anything on the schedule
     link: https://api.hellowalla.com/previews/788?b=34&type=package
+  - heading: 1 Year Membership
+    cost: $1,200
+    description: Take as many classes as you want for an entire year.
+    link: https://api.hellowalla.com/previews/816?b=34&type=package
