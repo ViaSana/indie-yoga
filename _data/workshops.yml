@@ -1,19 +1,3 @@
-- name: May Flow Challenge
-  description: >-
-    Deepen and reconnect with your practice as we flow toward the summer season
-    ... one class at a time. Complete at least 20 days of yoga during the 31
-    days of May for a chance to win prizes!
-
-
-    The challenge is free for members. To enter to win, simply register here and
-    sign up for classes as usual. Don't have an unlimited membership yet? No
-    sweat! Through May 5, become an Indie Rockstar for only $69 your first month
-    with Code: RENEWU. Or get 1 month of unlimited classes in May for just $99
-    with Code: MAYFLOW.
-  datetime: 2025-07-23 19:00:00 -0700
-  image: /assets/uploads/fl3a4296.jpg
-  price: ''
-  walla_link: https://api.hellowalla.com/previews/46863?b=34&type=enrollment
 - name: 20 Hour Yin Yoga Training with Dani and Mae
   description: >-
     Back this summer! Imagine yourself being so resourceful that you can nourish
@@ -27,3 +11,14 @@
   price: $450 ($375 early bird for the 1st 5)
   walla_link: >-
     https://widget.hellowalla.com/enrollments/44842?uuid=4e15c3e1-f4df-4597-95af-977aec2f077c
+- name: 200 Hour Teacher Training with Dani and Sara
+  description: >
+    This is the perfect opportunity for those looking to create a deeper
+    connection between themselves and their practice! Led by Dani and Sara, this
+    Yoga Alliance-certified 200-hour teacher training will take your yoga
+    practice to the next level and prepare you to lead an impactful Vinyasa
+    class. Training includes an unlimited membership to Indie Yoga.  
+  datetime: 2025-09-13 12:00:00 -0700
+  image: /assets/uploads/7d187280-75e4-4c04-bc85-1d99b35682a5.jpg
+  price: $2,295
+  walla_link: https://api.hellowalla.com/previews/41983?b=34&type=enrollment
