@@ -28,15 +28,19 @@ packages:
     cost: $1,200
     description: Take as many classes as you want for an entire year.
     link: https://api.hellowalla.com/previews/816?b=34&type=package
+  - heading: 5 Class Card
+    cost: $99
+    description: 10 classes to use for anything on the schedule.
+    link: https://api.hellowalla.com/previews/938?b=34&type=package
   - heading: 10 Class Card
     cost: $195
-    description: 10 classes to use for anything on the schedule
+    description: 10 classes to use for any class on the schedule.
     link: https://api.hellowalla.com/previews/788?b=34&type=package
   - heading: 20 Class Samadhi Pack
     cost: $325
     description: >-
       This 20 class pack is for anyone who wants to take yoga classes at the
-      best rate outside our RockStar Autopay membership.
+      best rate outside our Rockstar Autopay membership.
     link: https://api.hellowalla.com/previews/789?b=34&type=package
   - heading: Indie Teen Rockstar Membership
     cost: $89
