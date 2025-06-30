@@ -1,11 +1,31 @@
 ---
 layout: default
-title: Yoga Teacher Training
+title: Yoga Teacher Training 2025
+subtitle: Transform Your Practice
+ytt-signup_link: https://api.hellowalla.com/previews/29826?b=34&type=enrollment
+ytt-signup_button: Register Now
+banner_text: Dive deep into the world of yoga. Discover, evolve, and emerge as a certified Yoga Teacher in just 13 weeks with our Yoga Alliance approved 200-hour training program. Guided by the expert duo, John Jay & Abigail McHugh, this could be the transformative journey you’ve been waiting for.
+about-tt: >-
+    Have you ever felt the pull towards teaching and sharing the magic of yoga? This program is a unique blend of time-honored traditions and modern-day practices. Here, you won’t just learn; you’ll experience. From understanding the roots of yoga, mastering meditation and breathwork, to embracing the essentials of today’s yoga classroom, every module has been curated to ensure your evolution as both a practitioner and a teacher.
+about-tt_youll-learn:
+    - How to build a strong personal practice and how to share it with authenticity.
+    - Delve into Yoga Philosophy and History, and discover how it’s more relevant today than ever.
+    - Anatomy of Asana
+    - How to design and lead intelligently sequenced classes that not only teach but inspire.
+    - Meditation and breathwork techniques.
+    - The essentials of turning your passion for yoga into a rewarding career.  
+teacher-1:
+    name: John Jay
+    image: assets/uploads/jj2.png
+    bio: John Jay discovered the benefits of a regular yoga practice while playing football at the University of San Diego. After completing trainings in both Hatha and Power Vinyasa styles, John Jay began instructing in 2010. Yoga’s vast array of traditions, schools and teachers allows each Yogi to blaze their own path organically; something that continues to excite him as both a student and teacher. As Lao Tzu said, “A good traveler has no fixed plans, and is not intent on arriving." Currently, John Jay is helping both novice and experienced Yogis evolve their practice, as both Manager of Indie Yoga and co-leader of Indie's Teacher Training Program.
+teacher-2:
+    name: Abigail McHugh
+    image: assets/uploads/abig.png
+    bio: Abigail is from New Jersey, where she grappled with anxiety and depression until yoga and meditation helped me gain control of my mind and overcome my battles. These practices empowered her to master her mind, prompting her athletic and leadership-driven spirit to share her revelations with others. Relocating to Ocean Beach (OB) in 2015, she deepened her commitment by undergoing transformative Yoga Teacher Training at Indie Yoga. Watching the transformation of the hearts, mind, and spirits while building a relationship with her students is what keeps bringing her back to teach.
+
+
 page_image: assets/uploads/tt_service.png
 about-tt_image: assets/uploads/ytt.png
-ytt-signup_link: https://api.hellowalla.com/previews/29826?b=34&type=enrollment
-teacher-1_image: assets/uploads/jj2.png
-teacher-2_image: assets/uploads/abig.png
 seo:
     description: >-
         Immersive 200-hour yoga teacher training in Ocean Beach, San Diego. Join
@@ -17,40 +37,37 @@ seo:
     social_image: /assets/uploads/indie-logo.png
     hide-from-google: false
 ---
-<div class="mt-4 text-center mx-scrn text-neutral col-span-full bg-image" style="background-image: url({{page.page_image}});">
+<div class="col-span-full mt-4 text-center mx-scrn text-neutral bg-image" style="background-image: url({{page.page_image}});">
     <div class="flex page-overlay md:h-[60vh] h-[50vh] justify-center">
         <div class="self-center p-4 my-4 animate-from-bottom">
-            <h2 class="py-4 editable">Yoga Teacher Training 2024</h2>
-            <h4 class="editable">Transform Your Practice</h4>
-            <a href="{{page.ytt-signup_link}}"><div class="btn btn-accent">Register Now</div></a>
+            <h2 class="py-4">{{ page.title }}</h2>
+            <h4>{{ page.subtitle }}</h4>
+            <a href="{{page.ytt-signup_link}}"><div class="btn btn-accent">{{ page.ytt-signup_button }}</div></a>
         </div>
     </div>
 </div>
 
 <div class="p-8 my-4 text-center bg-accent mx-scrn">
-    <h5 class="pb-0 editable text-neutral">Dive deep into the world of yoga. Discover, evolve, and emerge as a certified Yoga Teacher in just 13 weeks with our Yoga Alliance approved 200-hour training program. Guided by the expert duo, John Jay & Abigail McHugh, this could be the transformative journey you’ve been waiting for.</h5>
+    <h5 class="pb-0 text-neutral">{{ page.banner_text }}</h5>
 </div>
 
-<div class="grid items-center gap-4 md:grid-cols-8 mx-scrn">     
+<div class="grid gap-4 items-center md:grid-cols-8 mx-scrn">     
     <div class="flex h-full md:col-span-3 bg-primary text-neutral scroll-in-left">
         <div class="self-center p-5p">
-            <h3 class="editable text-aqua">About the Training</h3>
-            <p class="pb-4 editable">Have you ever felt the pull towards teaching and sharing the magic of yoga? This program is a unique blend of time-honored traditions and modern-day practices. Here, you won’t just learn; you’ll experience. From understanding the roots of yoga, mastering meditation and breathwork, to embracing the essentials of today’s yoga classroom, every module has been curated to ensure your evolution as both a practitioner and a teacher.</p>
-            <p class="font-bold editable">You'll Learn:</p>
-            <ul class="pb-4 pl-3 list-disc editable">
-                <li class="">How to build a strong personal practice and how to share it with authenticity.</li>
-                <li class="">Delve into Yoga Philosophy and History, and discover how it’s more relevant today than ever.</li>
-                <li class="">Anatomy of Asana.</li>
-                <li class="">How to design and lead intelligently sequenced classes that not only teach but inspire.</li>
-                <li class="">Meditation and breathwork techniques.</li>
-                <li class="">The essentials of turning your passion for yoga into a rewarding career.</li>
+            <h3 class="text-aqua">About the Training</h3>
+            <p class="pb-4">{{ page.about-tt }}</p>
+            <p class="font-bold">You'll Learn:</p>
+            <ul class="pb-4 pl-3 list-disc">
+                {% for item in page.about-tt_youll-learn %}
+                    <li class="">{{ item }}</li>
+                {% endfor %}
             </ul>
             
-            <a href="{{page.ytt-signup_link}}"><div class="btn btn-warning">Register Now</div></a>
+            <a href="{{page.ytt-signup_link}}"><div class="btn btn-warning">{{ page.ytt-signup_button }}</div></a>
         </div>
     </div>
 
-    <div class="h-full md:col-span-5 bg-image col-span-full scroll-in-right" style="background-image: url({{page.about-tt_image}});">
+    <div class="col-span-full h-full md:col-span-5 bg-image scroll-in-right" style="background-image: url({{page.about-tt_image}});">
     </div>
 </div>
 
@@ -61,17 +78,17 @@ seo:
     <div class="grid md:grid-cols-2">
         <div class="p-4 h-min">
             <div class="flex justify-center m-6 scroll-in-left">
-                <img class="aspect-square w-[40vh] " src="{{page.teacher-1_image}}" />
+                <img class="aspect-square w-[40vh] " src="{{page.teacher-1.image}}" />
             </div>
-            <h4 class="editable">John Jay</h4>
-            <p class="editable">John Jay discovered the benefits of a regular yoga practice while playing football at the University of San Diego. After completing trainings in both Hatha and Power Vinyasa styles, John Jay began instructing in 2010. Yoga’s vast array of traditions, schools and teachers allows each Yogi to blaze their own path organically; something that continues to excite him as both a student and teacher. As Lao Tzu said, “A good traveler has no fixed plans, and is not intent on arriving." Currently, John Jay is helping both novice and experienced Yogis evolve their practice, as both Manager of Indie Yoga and co-leader of Indie's Teacher Training Program.</p>
+            <h4 class="editable">{{ page.teacher-1.name }}</h4>
+            <p class="editable">{{ page.teacher-1.bio }}</p>
         </div>
         <div class="p-4 h-min">
             <div class="flex justify-center m-6 scroll-in-right">
-                <img class="aspect-square w-[40vh]" src="{{page.teacher-2_image}}" />
+                <img class="aspect-square w-[40vh]" src="{{page.teacher-2.image}}" />
             </div>
-            <h4 class="editable">Abigail McHugh</h4>
-            <p class="editable">Abigail is from New Jersey, where she grappled with anxiety and depression until yoga and meditation helped me gain control of my mind and overcome my battles. These practices empowered her to master her mind, prompting her athletic and leadership-driven spirit to share her revelations with others. Relocating to Ocean Beach (OB) in 2015, she deepened her commitment by undergoing transformative Yoga Teacher Training at Indie Yoga. Watching the transformation of the hearts, mind, and spirits while building a relationship with her students is what keeps bringing her back to teach.</p>
+            <h4 class="editable">{{ page.teacher-2.name }}</h4>
+            <p class="editable">{{ page.teacher-2.bio }}</p>
         </div>
     </div>
 </section>
@@ -112,7 +129,7 @@ seo:
             <p class="pb-4"><span class="font-bold">Tier 1 pricing:</span> {{site.data.teacher-training.tuition.pricing-t1}}</p>
             <p class="pb-4"><span class="font-bold">Tier 2 pricing:</span> {{site.data.teacher-training.tuition.pricing-t2}}</p>
             <p class="pb-4">{{site.data.teacher-training.tuition.help}}</p>
-            <a class="btn btn-warning" href={{page.ytt-signup_link}}>Register Now</a>
+            <a class="btn btn-warning" href={{page.ytt-signup_link}}>{{ page.ytt-signup_button }}</a>
         </div>
     </div>
 
@@ -135,10 +152,10 @@ seo:
         <div x-data="{ selected: null }">
             {% for item in site.data.teacher-training.whats-included %}
                 <div class="relative text-left scroll-in-from-left">
-                    <button type="button" class="block w-full pt-6" @click="selected !== {{ forloop.index }} ? selected = {{ forloop.index }} : selected = null">
+                    <button type="button" class="block pt-6 w-full" @click="selected !== {{ forloop.index }} ? selected = {{ forloop.index }} : selected = null">
                         <div class="flex text-left {% if item.description %}items-center justify-between{% endif %} px-4 bg-success">
                             <h5 class="py-2">{{ item.feature }}</h5>
-                            <div class="w-6 pr-8 ml-auto">
+                            <div class="pr-8 ml-auto w-6">
 
                 <!-- only create accordian IF the feature has a description -->
                 {% if item.description %}
@@ -146,7 +163,7 @@ seo:
                         </div>
                     </button>
 
-                    <div class="relative overflow-hidden transition-all duration-700 max-h-0" x-ref="container{{ forloop.index }}" x-bind:style="selected == {{ forloop.index }} ? 'max-height: ' + $refs.container{{ forloop.index }}.scrollHeight + 'px' : ''">
+                    <div class="overflow-hidden relative max-h-0 transition-all duration-700" x-ref="container{{ forloop.index }}" x-bind:style="selected == {{ forloop.index }} ? 'max-height: ' + $refs.container{{ forloop.index }}.scrollHeight + 'px' : ''">
                         <div class="bg-success text-aqua">
                             <p class="py-4">{{ item.description }}</p>
                         </div>
