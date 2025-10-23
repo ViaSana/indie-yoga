@@ -1,16 +1,3 @@
-- name: 200 Hour Teacher Training with Dani and Sara
-  description: >-
-    Whether you’re dreaming of becoming a yoga teacher or seeking to deepen your
-    practice, our 200 Hour Yoga Teacher Training is the next step in your yoga
-    journey. Over 13 weeks, you’ll gain the skills to confidently lead a Vinyasa
-    class and have the opportunity to grow your personal practice within your
-    own yoga community. This is more than just training — it’s a chance to open
-    your heart, study the self and discover a stronger connection to your
-    practice.
-  datetime: 2025-09-13 12:00:00 -0700
-  image: /assets/uploads/7d187280-75e4-4c04-bc85-1d99b35682a5.jpg
-  price: $2,295
-  walla_link: https://api.hellowalla.com/previews/41983?b=34&type=enrollment
 - name: 30 Hour Yin Yoga Training
   description: >
     Imagine yourself being so resourceful that you can nourish your body,
