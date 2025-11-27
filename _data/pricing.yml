@@ -23,6 +23,10 @@ packages:
     cost: $150
     description: Take as many classes as you want for 30 days.
     link: https://api.hellowalla.com/previews/790?b=34&type=package
+  - heading: 6 Month Membership
+    cost: $648
+    description: Take as many classes as you want for six months.
+    link: https://api.hellowalla.com/previews/86224?b=34&type=package
   - heading: 1 Year Membership
     cost: $1,200
     description: Take as many classes as you want for an entire year.
@@ -45,7 +49,3 @@ packages:
     cost: $89
     description: 'Unlimited classes for ages 12-17. Minimum commitment of 2 months. '
     link: https://api.hellowalla.com/previews/43483?b=34&type=package
-  - heading: 6 Month Membership
-    cost: $648
-    description: Take as many classes as you want for six months.
-    link: https://api.hellowalla.com/previews/86224?b=34&type=package
