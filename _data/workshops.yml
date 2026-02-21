@@ -1,16 +1,19 @@
-- name: 30 Hour Yin Yoga Training
-  description: >
-    Imagine yourself being so resourceful that you can nourish your body,
-    nervous system, mind and energy on your own through the modality of Yin
-    Yoga. Yin Yoga focuses on the often neglected parts of the body — the
-    joints, tendons and fascia. This program is an opportunity to prioritize
-    moving slowly and calming the anxious, modern mind. This Yin Yoga training
-    will provide you with the resources to understand meditation, anatomy and
-    physiology, and the nadis and meridians within the practice of Yin. Whether
-    you are hoping to teach Yin or a practitioner, this training will prepare
-    you to create a Yin Yoga sequence of your own — backed by the knowledge of
-    its history and benefits. 
-  datetime: 2026-01-29 19:00:00 -0800
-  image: /assets/uploads/1.jpeg
-  price: $750
-  walla_link: https://api.hellowalla.com/previews/71031?b=34&type=enrollment
+- name: 'MARCH MADNESS CHALLENGE '
+  description: >-
+    This March, we’re transforming madness into momentum with our March Madness
+    Challenge. Join us for a chance to win multiple prizes, including luxury
+    local cork yoga mats, sportswear gift cards and 1 month of free yoga at
+    Indie. This challenge is free for members. Not a member yet? Now is the time
+    to deepen your commitment to both your studio and your practice.
+
+
+    🔥 MARCH MADNESS MEMBERSHIP DRIVE
+
+    Become an Indie Rockstar for $89 for your first two months with code
+    COMMITMENT (3-month minimum).  New members who join during our March Madness
+    Membership Drive will be entered into a drawing for a six-month unlimited
+    membership plus receive specials discounts!
+  datetime: 2026-03-01 00:00:00 -0800
+  image: /assets/uploads/march-madness-challenge.png
+  price: 'Free for members '
+  walla_link: https://api.hellowalla.com/previews/111038?b=34&type=enrollment
