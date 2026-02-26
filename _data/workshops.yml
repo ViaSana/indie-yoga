@@ -12,3 +12,14 @@
   image: /assets/uploads/march-madness-challenge.png
   price: 'Free for members '
   walla_link: https://api.hellowalla.com/previews/111038?b=34&type=enrollment
+- name: 'Art Of Going Upside Down '
+  description: >-
+    An all-levels workshop for practitioners interested in learning the
+    mechanics of balancing.  Any able-bodied person can learn to properly stack
+    their joints to achieve these postures. We’ll focus on proper technique,
+    safe fall practices and finding our individual balance point. Come prepared
+    with poses you want to work on and be ready to have fun!
+  datetime: 2026-03-21 16:00:00 -0700
+  image: /assets/uploads/neutral-minimalist-yoga-studio-promo-instagram-post.png
+  price: '$45 members, $65 nonmembers '
+  walla_link: https://api.hellowalla.com/previews/112655?b=34&type=enrollment
