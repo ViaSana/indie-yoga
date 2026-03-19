@@ -15,10 +15,10 @@ memberships:
     price: $118
     description_html: >-
       Join the Indie community — where members get the deepest benefits and the
-      most value:<br /><p>- Unlimited classes </p>- First month just $98<br />-
-      Complimentary towels <br />- Bring a friend with a monthly guest pass<br
-      /><br />- Member only pricing on workshops and events<br />- Three-month
-      minimum commitment
+      most value:<br /><p>- Unlimited classes </p><p>- First month just $98</p>-
+      Complimentary towels - Bring a friend with a monthly guest pass<br />-
+      Member only pricing on workshops and events<br />- Three-month minimum
+      commitment
     walla_link: https://api.hellowalla.com/previews/763?b=34&type=package
   - heading: Indie Teen Rockstar Membership
     image: /assets/uploads/img-4248-2.jpg
