@@ -20,10 +20,12 @@ memberships:
       Member only pricing on workshops and events<br />- Three-month minimum
       commitment
     walla_link: https://api.hellowalla.com/previews/763?b=34&type=package
-  - heading: Indie Teen Rockstar Membership
+  - heading: Indie Student Rockstar Membership
     image: /assets/uploads/dsc07381.jpg
     price: $89
-    description_html: <p>Unlimited classes for ages 12-17. Minimum commitment of 2 months. </p>
+    description_html: >-
+      <p>Unlimited classes for students ages 12-24 with a valid student ID.
+      Minimum commitment of 2 months. </p>
     walla_link: https://api.hellowalla.com/previews/43483?b=34&type=package
 packages:
   - heading: 1 Month Unlimited
