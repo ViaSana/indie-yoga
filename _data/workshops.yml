@@ -1,17 +1,23 @@
-- name: 'MARCH MADNESS CHALLENGE '
+- name: 'MARCH MADNESS CELEBRATION '
   description: >-
-    This March, we’re transforming madness into momentum with our March Madness
-    Challenge. Join us for a chance to win multiple prizes, including luxury
-    local cork yoga mats, sportswear gift cards and 1 month of free yoga at
-    Indie. This challenge is free for members. Not a member yet? Now is the time
-    to deepen your commitment to both your studio and your practice. During our
-    March Madness Membership Drive, become an Indie Rockstar for $89 for your
-    first two months with code COMMITMENT (3-month minimum) for a chance to win
-    6 Months Unlimited and receive specials discounts!
+    We’re celebrating the transformation of madness into momentum the same way
+    we moved through it — together. Join us Friday, April 10, for our March
+    Madness Challenge & Member Drive Celebration, a community party and potluck
+    open to everyone. Bring an appetizer, connect with your Indie Yoga community
+    off the mat and help us celebrate every person who committed to their
+    practice and this space.
+
+
+    Not a member yet? We’ve extended our 🔥 March Madness Member Drive 🔥
+    through the celebration — our goal is 10 more members by April 10. Become an
+    Indie Rockstar for $69 your first month and $89 your second month with code
+    COMMITMENT (3-month minimum), enjoy full member perks, build consistency in
+    your practice and get entered to win 6 Months Unlimited. Sign up at
+    indieyogasd.com/pricing.
   datetime: 2026-03-01 00:00:00 -0800
-  image: /assets/uploads/march-madness-challenge.png
-  price: 'Free for members '
-  walla_link: https://api.hellowalla.com/previews/111038?b=34&type=enrollment
+  image: /assets/uploads/march-madness-celebration-1.png
+  price: Free
+  walla_link: https://api.hellowalla.com/previews/116186?b=34&type=enrollment
 - name: 'Art of Going Upside Down '
   description: >-
     An all-levels workshop for practitioners interested in learning the
