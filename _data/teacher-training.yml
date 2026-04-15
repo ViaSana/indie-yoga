@@ -7,8 +7,8 @@ schedule:
 tuition:
   heading: Tuition
   info: Commit with just a $500 deposit, securing your place on this journey.
-  pricing-t1: '$2,295 '
-  pricing-t2: $2,595
+  pricing-t1: $2,295 Member | $2,395 Nonmember
+  pricing-t2: '$2,595 Member | $2,695 Nonmember '
   help: >-
     Need flexibility? Ask about our payment plans. Please note, full payment is
     expected by the end of training.
