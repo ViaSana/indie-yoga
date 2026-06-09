@@ -1,12 +1,13 @@
-- name: 'Live Acoustic Flow '
-  description: >-
-    Back on Farmers Market Wednesday in OB! Don’t miss this special Vinyasa 2
-    with Chelle set to live acoustic guitar and classic rock soundscapes by
-    Indie Yogi Tim Johnson and the Sultans of Savasana.
-  datetime: 2026-06-03 19:00:00 -0700
-  image: /assets/uploads/img-7606.jpg
-  price: Free for members, $25 nonmembers
-  walla_link: https://api.hellowalla.com/previews/6449044?b=34&type=class
+- name: '15th Anniversary Party '
+  description: >+
+    Come celebrate 15 years of Indie Yoga with the community that has grown
+    alongside us. Join us for a special evening together off the mat. More
+    details to come. While not required, please sign up to help us plan.
+
+  datetime: 2026-06-20 12:30:00 -0700
+  image: /assets/uploads/indie-exterior-extended-4x6.jpg
+  price: Free
+  walla_link: https://api.hellowalla.com/previews/125954?b=34&type=enrollment
 - name: 'Fire & Form: A 26 & 2 Posture Clinic'
   description: >-
     Join this focused Hot Series (26 & 2) posture clinic designed to break down
@@ -22,13 +23,12 @@
   image: /assets/uploads/img-7100.jpg
   price: $60 members, $90 nonmembers
   walla_link: https://api.hellowalla.com/previews/125231?b=34&type=enrollment
-- name: '15th Anniversary Party '
-  description: >+
-    Come celebrate 15 years of Indie Yoga with the community that has grown
-    alongside us. Join us for a special evening together off the mat. More
-    details to come. While not required, please sign up to help us plan.
-
-  datetime: 2026-06-28 12:30:00 -0700
-  image: /assets/uploads/indie-exterior-extended-4x6.jpg
-  price: Free
-  walla_link: https://api.hellowalla.com/previews/125954?b=34&type=enrollment
+- name: 'Live Acoustic Flow '
+  description: >-
+    Back on Farmers Market Wednesday in OB! Don’t miss this special Vinyasa 2
+    with Chelle set to live acoustic guitar and classic rock soundscapes by
+    Indie Yogi Tim Johnson and the Sultans of Savasana.
+  datetime: 2026-07-01 19:00:00 -0700
+  image: /assets/uploads/img-7606.jpg
+  price: Free for members, $25 nonmembers
+  walla_link: https://api.hellowalla.com/previews/6449044?b=34&type=class
