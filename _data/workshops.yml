@@ -1,14 +1,3 @@
-- name: '15th Anniversary Party '
-  description: >
-    Let’s come together to celebrate OB’s OG Hot Yoga Studio. Join us for a
-    community-wide party and potluck open to all. Bring a favorite dish, connect
-    with your Indie Yoga fam and help us mark this milestone — 15 years of heat,
-    heart and family in Ocean Beach. Still here. Still hot. Still home. Still
-    Indie — because of you. Register to help us plan. 
-  datetime: 2026-06-20 17:00:00 -0700
-  image: /assets/uploads/15th-anniversary-instagram-post.png
-  price: Free
-  walla_link: https://api.hellowalla.com/previews/125954?b=34&type=enrollment
 - name: 'Fire & Form: A 26 & 2 Posture Clinic'
   description: >-
     Join this focused Hot Series (26 & 2) posture clinic designed to break down
@@ -21,7 +10,8 @@
     discipline — so you can move with confidence and purpose, in and out of the
     hot room.
   datetime: 2026-06-28 12:30:00 -0700
-  image: /assets/uploads/img-7100.jpg
+  image: >-
+    /assets/uploads/copy-of-neutral-minimalist-yoga-studio-promo-instagram-post.png
   price: $60 members, $90 nonmembers
   walla_link: https://api.hellowalla.com/previews/125231?b=34&type=enrollment
 - name: 'Live Acoustic Flow '
