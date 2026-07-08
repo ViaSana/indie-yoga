@@ -1,9 +1,7 @@
 schedule:
   heading: Schedule
   duration: Sept. 19-Dec. 13, 2026
-  time-table: >-
-    Saturday: Noon.-6:30 p.m. <br>Sunday: Noon-6:30 p.m. <br>Self Study Tuesday:
-    7 p.m.-9 p.m. <br>
+  time-table: 'Saturday: Noon.-6:30 p.m. <br>Sunday: Noon-6:30 p.m. '
 tuition:
   heading: Tuition
   info: Commit with just a $500 deposit, securing your place on this journey.
