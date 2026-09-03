@@ -1,25 +1,22 @@
 - name: 'Fire & Form: A 26 & 2 Posture Clinic'
-  description: >-
-    Join this focused Hot Series (26 & 2) posture clinic designed to break down
-    each posture with precision, alignment and mindful awareness within the
-    heat. Through expert guidance from Paul, Jenna and Jessa, you’ll refine
-    technique, build strength and enhance flexibility and control, while
+  description: Join this focused Hot Series (26 & 2) posture clinic designed to
+    break down each posture with precision, alignment and mindful awareness
+    within the heat. Through expert guidance from Paul, Jenna and Jessa, you’ll
+    refine technique, build strength and enhance flexibility and control, while
     learning to reduce the risk of injury. Whether you’re new to the series or
     are ready to elevate your practice, you’ll gain practical tools,
     personalized feedback and a clearer connection between breath, body and
     discipline — so you can move with confidence and purpose, in and out of the
     hot room.
-  datetime: 2026-06-28 12:30:00 -0700
-  image: >-
-    /assets/uploads/copy-of-neutral-minimalist-yoga-studio-promo-instagram-post.png
+  datetime: 2026-06-28T12:30:00-07:00
+  image: /assets/uploads/copy-of-neutral-minimalist-yoga-studio-promo-instagram-post.png
   price: $60 members, $90 nonmembers
   walla_link: https://api.hellowalla.com/previews/125231?b=34&type=enrollment
 - name: 'Live Acoustic Flow '
-  description: >-
-    Back on Farmers Market Wednesday in OB! Don’t miss this special Vinyasa 2
-    with Chelle set to live acoustic guitar and classic rock soundscapes by
-    Indie Yogi Tim Johnson and the Sultans of Savasana.
-  datetime: 2026-08-26 19:00:00 -0700
+  description: Back on Farmers Market Wednesday in OB! Don’t miss this special
+    Vinyasa 2 with Chelle set to live acoustic guitar and classic rock
+    soundscapes by Indie Yogi Tim Johnson and the Sultans of Savasana.
+  datetime: 2026-09-30T19:00:00-07:00
   image: /assets/uploads/img-7606.jpg
   price: Free for members, $25 nonmembers
-  walla_link: https://api.hellowalla.com/previews/7223331?b=34&type=class
+  walla_link: https://api.hellowalla.com/previews/7553964?b=34&type=class
